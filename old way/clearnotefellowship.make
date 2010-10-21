@@ -154,6 +154,11 @@ libraries[phpmailer][download][url] = "https://phpmailer.svn.sourceforge.net/svn
 libraries[phpmailer][directory_name] = "phpmailer"
 libraries[phpmailer][destination] = "libraries/"
 
+; getid3
+libraries[getid3][download][type] = "get"
+libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.7.9/getid3-1.7.9.zip"
+libraries[getid3][directory_name] = "getid3"
+
 ; jQuery UI
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
