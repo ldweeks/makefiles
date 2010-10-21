@@ -43,13 +43,13 @@ projects[getid3][subdir] = "contrib"
 projects[getid3][version] = "1.4"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "3.0"
+projects[google_analytics][version] = "2.3"
 
 projects[hierarchical_select][subdir] = "contrib"
 projects[hierarchical_select][version] = "3.6"
 
 projects[imageapi][subdir] = "contrib"
-projects[imageapi][version] = "1.8"
+projects[imageapi][version] = "1.9"
 
 projects[imagecache][subdir] = "contrib"
 projects[imagecache][version] = "2.0-beta10"
@@ -70,7 +70,7 @@ projects[insert][subdir] = "contrib"
 projects[insert][version] = "1.0-beta6"
 
 projects[jquery_ui][subdir] = "contrib"
-projects[jquery_ui][version] = "1.3"
+projects[jquery_ui][version] = "1.4"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
@@ -115,13 +115,13 @@ projects[views_rss][subdir] = "contrib"
 projects[views_rss][version] = "1.0-beta5"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.4"
+projects[webform][version] = "2.10"
 
 projects[workflow][subdir] = "contrib"
 projects[workflow][version] = "1.4"
 
 projects[workspace][subdir] = "contrib"
-projects[workspace][version] = "1.3"
+projects[workspace][version] = "1.4-rc1"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
