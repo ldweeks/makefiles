@@ -135,7 +135,7 @@ projects[garland_update][download][url] = http://clearnotefellowship.unfuddle.co
 
 projects[tao][location] = "http://code.developmentseed.org/fserver"
 projects[tao][subdir] = "contrib"
-projects[tao][version] = "3.1"
+projects[tao][version] = "3.2"
 
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[rubik][subdir] = "contrib"
