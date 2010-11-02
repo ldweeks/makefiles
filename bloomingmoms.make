@@ -12,6 +12,5 @@ projects[bloomingmoms][download][type] = "git"
 projects[bloomingmoms][download][url] = "git://github.com/ldweeks/Bloomingmoms-Install-Profile.git"
 ;projects[bloomingmoms][download][branch] = "build_2009101601"
 
-; The CNF platform. This makefile specifies all the code that is common to all sites on
-; this platform. 
-includes[cnf] = "cnf.make"
+; The War Horn platform. This makefile specifies all the code that is common to all sites on this platform. 
+includes[war_horn] = "war_horn.make"
