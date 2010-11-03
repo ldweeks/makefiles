@@ -1,4 +1,12 @@
-; MODULES
+; DRUPAL VERSION
+core = 6.x
+
+; CORE MODULES
+projects[pressflow][type] = "core"
+projects[pressflow][download][type] = "get"
+projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
+
+; Modules
 projects[admin_menu][subdir] = "contrib"
 projects[better_formats][subdir] = "contrib"
 ;projects[boxes][subdir] = "contrib"
@@ -32,6 +40,12 @@ projects[strongarm][subdir] = "contrib"
 projects[taxonomy_manager][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[toolbar][subdir] = "contrib"
+projects[uuid][subdir] = "contrib"
+projects[uuid_features][type] = module
+projects[uuid_features][download][type] = cvs
+projects[uuid_features][download][module] = contributions/modules/data
+projects[uuid_features][download][revision] = DRUPAL-6--1
+projects[uuid_features][subdir] = "contrib"
 projects[vertical_tabs][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
@@ -60,5 +74,5 @@ libraries[tinymce][directory_name] = "tinymce"
 
 ; getid3 Library
 libraries[getid3][download][type] = "get"
-libraries[getid3][directory_name] = "getid3
+libraries[getid3][directory_name] = "getid3"
 libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.7.9/getid3-1.7.9.zip"
