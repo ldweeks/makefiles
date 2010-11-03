@@ -9,8 +9,7 @@ api = 2
 ; specifies code specific to bloomingmoms.com
 projects[bloomingmoms][type] = "profile"
 projects[bloomingmoms][download][type] = "git"
-projects[bloomingmoms][download][url] = "git://github.com/ldweeks/Bloomingmoms-Install-Profile.git"
-;projects[bloomingmoms][download][branch] = "build_2009101601"
+projects[bloomingmoms][download][url] = "git://cnf.repositoryhosting.com/cnf/bloomingmoms-install-profile.git"
 
 ; The War Horn platform. This makefile specifies all the code that is common to all sites on this platform. 
-includes[war_horn] = "war_horn.make"
+includes[war_horn] = "../platforms/war_horn.make"
