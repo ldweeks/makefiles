@@ -70,5 +70,5 @@ libraries[tinymce][directory_name] = "tinymce"
 
 ; getid3 Library
 libraries[getid3][download][type] = "get"
-libraries[getid3][directory_name] = getid3
+libraries[getid3][directory_name] = "getid3"
 libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.7.9/getid3-1.7.9.zip"
