@@ -41,7 +41,13 @@ projects[site_verify][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 projects[taxonomy_manager][subdir] = "contrib"
 projects[token][subdir] = "contrib"
+
+; patched
 projects[toolbar][subdir] = "contrib"
+projects[toolbar][version] = "2.2"
+projects[toolbar][patch][] = "http://drupal.org/files/issues/toolbar_install_fix.patch"
+projects[toolbar][patch][] = "http://drupal.org/files/issues/toolbar_role.patch"
+
 projects[vertical_tabs][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
