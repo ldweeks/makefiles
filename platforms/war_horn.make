@@ -9,6 +9,7 @@ projects[] = drupal
 
 ; MODULES
 projects[admin_menu][subdir] = "contrib"
+projects[advanced_help][subdir] = "contrib"
 projects[better_formats][subdir] = "contrib"
 ;projects[boxes][subdir] = "contrib"
 projects[cck][subdir] = "contrib"
@@ -71,7 +72,7 @@ libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 ; TinyMCE 
 libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
+libraries[tinymce][download][url] = "http://sourceforge.net/projects/tinymce/files/TinyMCE/3.2.7/tinymce_3_2_7.zip/download"
 libraries[tinymce][directory_name] = "tinymce"
 
 ; getid3 Library
