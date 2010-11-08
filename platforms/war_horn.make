@@ -61,6 +61,8 @@ projects[xmlsitemap][subdir] = "contrib"
 projects[rubik][subdir] = "contrib"
 projects[tao][subdir] = "contrib"
 projects[zen][subdir] = "contrib"
+; patch to fix the conflict with context module
+projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
 
 ; LIBRARIES
 
