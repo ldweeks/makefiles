@@ -91,6 +91,9 @@ projects[page_title][version] = "2.4-beta1"
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.5"
 
+projects[path_redirect][subdir] = "contrib"
+projects[path_redirect][version] = "1.0-rc1"
+
 projects[role_delegation][subdir] = "contrib"
 projects[role_delegation][version] = "1.3"
 
@@ -138,7 +141,7 @@ projects[xmlsitemap][version] = "2.0-beta1"
 ; THEMES
 
 projects[rubik][subdir] = "contrib"
-projects[rubik][version] = "3.0-beta1"
+projects[rubik][version] = "3.0-beta2"
 
 projects[tao][subdir] = "contrib"
 projects[tao][version] = "3.2"
