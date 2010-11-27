@@ -170,7 +170,7 @@ libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/get
 
 ; INSTALLATION PROFILES
 
-; bloomingmoms.com
+; bloomingmoms.org
 projects[bloomingmoms][type] = "profile"
 projects[bloomingmoms][download][type] = "git"
 projects[bloomingmoms][download][url] = "git://cnf.repositoryhosting.com/cnf/bloomingmoms-install-profile.git"
@@ -179,3 +179,13 @@ projects[bloomingmoms][download][url] = "git://cnf.repositoryhosting.com/cnf/blo
 projects[josephbayly][type] = "profile"
 projects[josephbayly][download][type] = "git"
 projects[josephbayly][download][url] = "git://cnf.repositoryhosting.com/cnf/joseph-bayly.git"
+
+; lucasweeks.com
+projects[lucasweeks][type] = "profile"
+projects[lucasweeks][download][type] = "git"
+projects[lucasweeks][download][url] = "git://github.com/ldweeks/Lucas-Install-Profile.git"
+
+; jesusatiu.com
+projects[jesusatiu][type] = "profile"
+projects[jesusatiu][download][type] = "git"
+projects[jesusatiu][download][url] = "git://cnf.repositoryhosting.com/cnf/jesusatiu-install-profile.git"
