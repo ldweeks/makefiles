@@ -176,6 +176,6 @@ projects[bloomingmoms][download][type] = "git"
 projects[bloomingmoms][download][url] = "git://cnf.repositoryhosting.com/cnf/bloomingmoms-install-profile.git"
 
 ; josephbayly.com
-projects[bloomingmoms][type] = "profile"
-projects[bloomingmoms][download][type] = "git"
-projects[bloomingmoms][download][url] = "git://cnf.repositoryhosting.com/cnf/joseph-bayly.git"
+projects[josephbayly][type] = "profile"
+projects[josephbayly][download][type] = "git"
+projects[josephbayly][download][url] = "git://cnf.repositoryhosting.com/cnf/joseph-bayly.git"
