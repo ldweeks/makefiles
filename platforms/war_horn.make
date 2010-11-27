@@ -183,7 +183,7 @@ projects[josephbayly][download][url] = "git://cnf.repositoryhosting.com/cnf/jose
 ; lucasweeks.com
 projects[lucasweeks][type] = "profile"
 projects[lucasweeks][download][type] = "git"
-projects[lucasweeks][download][url] = "git://github.com/ldweeks/Lucas-Install-Profile.git"
+projects[lucasweeks][download][url] = "git://cnf.repositoryhosting.com/cnf/lucasweeks-install-profile.git"
 
 ; jesusatiu.com
 projects[jesusatiu][type] = "profile"
