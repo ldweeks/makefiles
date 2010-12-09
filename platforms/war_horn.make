@@ -106,6 +106,9 @@ projects[site_verify][version] = "1.0-rc2"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
+;projects[swflink][subdir] = "contrib"
+;projects[swflink][version] = "1.1"
+
 projects[taxonomy_manager][subdir] = "contrib"
 projects[taxonomy_manager][version] = "2.2"
 
@@ -113,9 +116,7 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.15"
 
 projects[toolbar][subdir] = "contrib"
-projects[toolbar][version] = "2.2"
-projects[toolbar][patch][] = "http://drupal.org/files/issues/toolbar_install_fix.patch"
-projects[toolbar][patch][] = "http://drupal.org/files/issues/toolbar_role.patch"
+projects[toolbar][version] = "2.3"
 
 projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
