@@ -106,8 +106,8 @@ projects[site_verify][version] = "1.0-rc2"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
-projects[swflink][subdir] = "contrib"
-projects[swflink][version] = "1.1"
+;projects[swflink][subdir] = "contrib"
+;projects[swflink][version] = "1.1"
 
 projects[taxonomy_manager][subdir] = "contrib"
 projects[taxonomy_manager][version] = "2.2"
