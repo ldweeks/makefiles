@@ -172,9 +172,9 @@ libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/get
 ; INSTALLATION PROFILES
 
 ; bloomingmoms.org
-projects[bloomingmoms][type] = "profile"
-projects[bloomingmoms][download][type] = "git"
-projects[bloomingmoms][download][url] = "git://cnf.repositoryhosting.com/cnf/bloomingmoms-install-profile.git"
+projects[bloom][type] = "profile"
+projects[bloom][download][type] = "git"
+projects[bloom][download][url] = "git://cnf.repositoryhosting.com/cnf/bloomingmoms-install-profile.git"
 
 ; josephbayly.com
 projects[josephbayly][type] = "profile"
