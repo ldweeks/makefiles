@@ -38,7 +38,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
 projects[filefield][subdir] = "contrib"
-projects[filefield][version] = "3.7"
+projects[filefield][version] = "3.9"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.2"
@@ -122,7 +122,7 @@ projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.11"
+projects[views][version] = "2.12"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.10"
@@ -134,7 +134,7 @@ projects[wp_comments][subdir] = "contrib"
 projects[wp_comments][version] = "1.0"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][version] = "2.2"
 
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.0-beta1"
