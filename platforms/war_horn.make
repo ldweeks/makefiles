@@ -103,6 +103,10 @@ projects[save_edit][version] = "1.5"
 projects[site_verify][subdir] = "contrib"
 projects[site_verify][version] = "1.0-rc2"
 
+projects[smtp][subdir] = "contrib"
+projects[smtp][version] = "6.x-1.0-beta5"
+projects[smtp][patch][] = "http://drupal.org/files/issues/smtp_libraries.diff"
+
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
@@ -168,6 +172,11 @@ libraries[tinymce][directory_name] = "tinymce"
 libraries[getid3][download][type] = "get"
 libraries[getid3][directory_name] = "getid3"
 libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.7.9/getid3-1.7.9.zip"
+
+; phpmailer
+libraries[phpmailer][download][type] = "svn"
+libraries[phpmailer][download][url] = "https://phpmailer.svn.sourceforge.net/svnroot/phpmailer/tags/phpmailer-2.2.1"
+libraries[phpmailer][directory_name] = "phpmailer"
 
 ; INSTALLATION PROFILES
 

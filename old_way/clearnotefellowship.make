@@ -148,12 +148,6 @@ projects[devel][version] = "1.21"
 
 ; LIBRARIES
 
-; phpmailer
-libraries[phpmailer][download][type] = "svn"
-libraries[phpmailer][download][url] = "https://phpmailer.svn.sourceforge.net/svnroot/phpmailer/tags/phpmailer-2.2.1"
-libraries[phpmailer][directory_name] = "phpmailer"
-libraries[phpmailer][destination] = "libraries/"
-
 ; getid3
 libraries[getid3][download][type] = "get"
 libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.7.9/getid3-1.7.9.zip"
