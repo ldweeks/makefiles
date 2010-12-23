@@ -122,6 +122,9 @@ projects[token][version] = "1.15"
 projects[toolbar][subdir] = "contrib"
 projects[toolbar][version] = "2.3"
 
+projects[upgrade_status][subdir] = "contrib"
+projects[upgrade_status][version] = "1.1"
+
 projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
 
