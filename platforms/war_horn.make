@@ -104,7 +104,7 @@ projects[site_verify][subdir] = "contrib"
 projects[site_verify][version] = "1.0-rc2"
 
 projects[smtp][subdir] = "contrib"
-projects[smtp][version] = "6.x-1.0-beta5"
+projects[smtp][version] = "1.0-beta5"
 projects[smtp][patch][] = "http://drupal.org/files/issues/smtp_libraries.diff"
 
 projects[strongarm][subdir] = "contrib"
