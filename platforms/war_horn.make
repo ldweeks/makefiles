@@ -20,7 +20,7 @@ projects[better_formats][version] = "1.2"
 ;projects[boxes][subdir] = "contrib"
 
 projects[cck][subdir] = "contrib"
-projects[cck][version] = "2.8"
+projects[cck][version] = "2.9"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0"
@@ -29,7 +29,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.6"
+projects[date][version] = "2.7"
 
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.11"
@@ -56,7 +56,7 @@ projects[ie6update][subdir] = "contrib"
 projects[ie6update][version] = "1.3"
 
 projects[image_resize_filter][subdir] = "contrib"
-projects[image_resize_filter][version] = "1.9"
+projects[image_resize_filter][version] = "1.11"
 
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.9"
@@ -65,10 +65,10 @@ projects[imagecache][subdir] = "contrib"
 projects[imagecache][version] = "2.0-beta10"
 
 projects[imagefield][subdir] = "contrib"
-projects[imagefield][version] = "3.7"
+projects[imagefield][version] = "3.9"
 
 projects[imce][subdir] = "contrib"
-projects[imce][version] = "2.0-rc2"
+projects[imce][version] = "2.1"
 
 projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.1"
@@ -92,13 +92,13 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.5"
 
 projects[path_redirect][subdir] = "contrib"
-projects[path_redirect][version] = "1.0-rc1"
+projects[path_redirect][version] = "1.0-rc2"
 
 projects[role_delegation][subdir] = "contrib"
-projects[role_delegation][version] = "1.3"
+projects[role_delegation][version] = "1.4"
 
 projects[save_edit][subdir] = "contrib"
-projects[save_edit][version] = "1.5"
+projects[save_edit][version] = "1.6"
 
 projects[site_verify][subdir] = "contrib"
 projects[site_verify][version] = "1.0-rc2"
@@ -135,7 +135,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.10"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.4"
+projects[webform][version] = "3.6"
 
 projects[wp_comments][subdir] = "contrib"
 projects[wp_comments][version] = "1.0"
