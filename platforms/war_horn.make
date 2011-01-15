@@ -161,25 +161,30 @@ projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-confl
 ; LIBRARIES
 
 ; jQuery UI
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery_ui][download][type] = "git"
+libraries[jquery_ui][download][url] = "git://cnf.repositoryhosting.com/cnf/jquery-ui.git"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 ; TinyMCE 
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://sourceforge.net/projects/tinymce/files/TinyMCE/3.2.7/tinymce_3_2_7.zip/download"
+libraries[tinymce][download][type] = "git"
+libraries[tinymce][download][url] = "git://cnf.repositoryhosting.com/cnf/tinymce.git"
 libraries[tinymce][directory_name] = "tinymce"
 
 ; getid3 Library
-libraries[getid3][download][type] = "get"
+libraries[getid3][download][type] = "git"
+libraries[getid3][download][url] = "git://cnf.repositoryhosting.com/cnf/getid3.git"
 libraries[getid3][directory_name] = "getid3"
-libraries[getid3][download][url] = "http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.7.9/getid3-1.7.9.zip"
 
 ; phpmailer
-libraries[phpmailer][download][type] = "svn"
-libraries[phpmailer][download][url] = "https://phpmailer.svn.sourceforge.net/svnroot/phpmailer/tags/phpmailer-2.2.1"
+libraries[phpmailer][download][type] = "git"
+libraries[phpmailer][download][url] = "git://cnf.repositoryhosting.com/cnf/phpmailer.git"
 libraries[phpmailer][directory_name] = "phpmailer"
+
+; swfobject
+libraries[swfobject][download][type] = "git"
+libraries[swfobject][download][url] = "git://cnf.repositoryhosting.com/cnf/swfobject.git"
+libraries[swfobject][directory_name] = "swfobject"
 
 ; INSTALLATION PROFILES
 
