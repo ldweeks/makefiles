@@ -50,7 +50,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.3-alpha1"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "3.0"
+projects[google_analytics][version] = "3.1"
 
 projects[ie6update][subdir] = "contrib"
 projects[ie6update][version] = "1.3"
