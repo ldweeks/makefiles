@@ -214,9 +214,7 @@ projects[josephbayly][download][type] = "git"
 projects[josephbayly][download][url] = "git://cnf.repositoryhosting.com/cnf/joseph-bayly.git"
 
 ; lucasweeks.com
-projects[lucasweeks][type] = "profile"
-projects[lucasweeks][download][type] = "git"
-projects[lucasweeks][download][url] = "git://cnf.repositoryhosting.com/cnf/lucasweeks-install-profile.git"
+; Removed until I can actually get it up to snuff.
 
 ; jesusatiu.com
 projects[jesusatiu][type] = "profile"
