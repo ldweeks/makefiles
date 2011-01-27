@@ -14,6 +14,9 @@ projects[admin_menu][version] = "1.6"
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.2"
 
+projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][version] = "1.2"
+
 projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = "1.2"
 
@@ -30,6 +33,9 @@ projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
+
+projects[emfield][subdir] = "contrib"
+projects[emfield][version] = "2.4"
 
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.11"
@@ -79,6 +85,12 @@ projects[jquery_ui][version] = "1.4"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
+projects[media_vimeo][subdir] = "contrib"
+projects[media_vimeo][version] = "1.1"
+
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][version] = "1.2"
+
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.15"
 
@@ -106,6 +118,9 @@ projects[site_verify][version] = "1.0-rc2"
 projects[smtp][subdir] = "contrib"
 projects[smtp][version] = "1.0-beta5"
 projects[smtp][patch][] = "http://drupal.org/files/issues/smtp_libraries.diff"
+
+projects[soundmanager2][subdir] = "contrib"
+projects[soundmanager2][version] = "2.6"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
