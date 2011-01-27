@@ -22,6 +22,9 @@ projects[better_formats][version] = "1.2"
 
 ;projects[boxes][subdir] = "contrib"
 
+projects[calendar][subdir] = "contrib"
+projects[calendar][version] = "2.4"
+
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
@@ -148,6 +151,9 @@ projects[views][version] = "2.12"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.10"
+
+projects[views_slideshow][subdir] = "contrib"
+projects[views_slideshow][version] = "2.3"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.6"
