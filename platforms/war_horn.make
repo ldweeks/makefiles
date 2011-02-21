@@ -65,13 +65,13 @@ projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.3-alpha1"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "3.1"
+projects[google_analytics][version] = "3.2"
 
 projects[ie6update][subdir] = "contrib"
 projects[ie6update][version] = "1.3"
 
 projects[image_resize_filter][subdir] = "contrib"
-projects[image_resize_filter][version] = "1.11"
+projects[image_resize_filter][version] = "1.12"
 
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.9"
@@ -98,7 +98,7 @@ projects[media_vimeo][subdir] = "contrib"
 projects[media_vimeo][version] = "1.1"
 
 projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][version] = "1.2"
+projects[media_youtube][version] = "1.3"
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.15"
@@ -122,7 +122,7 @@ projects[save_edit][subdir] = "contrib"
 projects[save_edit][version] = "1.6"
 
 projects[site_verify][subdir] = "contrib"
-projects[site_verify][version] = "1.0-rc2"
+projects[site_verify][version] = "1.0"
 
 projects[smtp][subdir] = "contrib"
 projects[smtp][version] = "1.0-beta5"
@@ -169,10 +169,10 @@ projects[wp_comments][subdir] = "contrib"
 projects[wp_comments][version] = "1.0"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][version] = "2.3"
 
 projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.0-beta1"
+projects[xmlsitemap][version] = "2.0-beta2"
 
 ; THEMES
 
