@@ -37,6 +37,12 @@ projects[ctools][version] = "1.8"
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
 
+projects[devel][subdir] = "contrib"
+projects[devel][version] = "1.23"
+
+projects[diff][subdir] = "contrib"
+projects[diff][version] = "2.1"
+
 projects[emfield][subdir] = "contrib"
 projects[emfield][version] = "2.4"
 
@@ -124,6 +130,7 @@ projects[smtp][patch][] = "http://drupal.org/files/issues/smtp_libraries.diff"
 
 projects[soundmanager2][subdir] = "contrib"
 projects[soundmanager2][version] = "2.6"
+projects[soundmanager2][patch][] = "http://drupal.org/files/issues/link_field_support.patch"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -206,6 +213,11 @@ libraries[phpmailer][directory_name] = "phpmailer"
 libraries[swfobject][download][type] = "git"
 libraries[swfobject][download][url] = "git://cnf.repositoryhosting.com/cnf/swfobject.git"
 libraries[swfobject][directory_name] = "swfobject"
+
+; SoundManager2
+libraries[soundmanager2][download][type] = "get"
+libraries[soundmanager2][download][url] = "http://www.schillmania.com/projects/soundmanager2/download/soundmanagerv297a-20101010.zip"
+libraries[soundmanager2][directory_name] = "soundmanager2"
 
 ; INSTALLATION PROFILES
 
