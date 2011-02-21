@@ -215,8 +215,8 @@ libraries[swfobject][download][url] = "git://cnf.repositoryhosting.com/cnf/swfob
 libraries[swfobject][directory_name] = "swfobject"
 
 ; SoundManager2
-libraries[soundmanager2][download][type] = "get"
-libraries[soundmanager2][download][url] = "http://www.schillmania.com/projects/soundmanager2/download/soundmanagerv297a-20101010.zip"
+libraries[soundmanager2][download][type] = "git"
+libraries[soundmanager2][download][url] = "git://cnf.repositoryhosting.com/cnf/soundmanager2.git"
 libraries[soundmanager2][directory_name] = "soundmanager2"
 
 ; INSTALLATION PROFILES
