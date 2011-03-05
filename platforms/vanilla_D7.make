@@ -1,8 +1,5 @@
-
-core = "7.x"
-api = "2"
-
-; CORE
+;***********************
+; Drupal Core
+;***********************
+core = 7.x
 projects[] = drupal
-
-; MODULES
