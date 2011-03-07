@@ -27,5 +27,5 @@ projects[admin_menu][subdir] = "contrib"
 
 ; THEMES
 projects[simplycivi][download][type] = "git"
-projects[simplycivi][download][url] = "https://github.com/kylejaster/SimplyCivi.git"
+projects[simplycivi][download][url] = "git://github.com/kylejaster/SimplyCivi.git"
 projects[simplycivi][type] = "theme"
