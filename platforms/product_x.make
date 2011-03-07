@@ -24,6 +24,6 @@ projects[references][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 
 projects[field_conditional_state][download][type] = "git"
-projects[field_conditional_state][download][url] = "git://git.drupal.org/sandbox/peem/1073388.git"
+projects[field_conditional_state][download][url] = "http://git.drupal.org/sandbox/peem/1073388.git"
 projects[field_conditional_state][directory_name] = "field_conditional_state"
 projects[field_conditional_state][destination] = "modules/contrib/field_conditional_state"
