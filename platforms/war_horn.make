@@ -163,7 +163,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "2.3"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.6"
+projects[webform][version] = "3.9"
 
 projects[wp_comments][subdir] = "contrib"
 projects[wp_comments][version] = "1.0"
