@@ -18,8 +18,11 @@ projects[features][subdir] = "contrib"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "7.x-1.0-beta1"
 
-projects[field_conditional_state][subdir] = "contrib"
 ;projects[field_group][subdir] = "contrib"
 projects[references][subdir] = "contrib"
 ;projects[rules][subdir] = "contrib"
 projects[views][subdir] = "contrib"
+
+projects[field_conditional_state][subdir] = "contrib"
+projects[field_conditional_state][download][type] = "git"
+projects[field_conditional_state][download][url] = "git://git.drupal.org/sandbox/peem/1073388.git"
