@@ -5,7 +5,7 @@ core = "6.x"
 api = "2"
 
 ; CORE
-projects[] = drupal
+projects[drupal][type] = "core"
 
 ; MODULES
 projects[admin_menu][subdir] = "contrib"
