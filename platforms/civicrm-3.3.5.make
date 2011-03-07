@@ -9,7 +9,7 @@ api = "2"
 ; Drupal Core
 ;***********************
 core = "6.x"
-projects[] = drupal
+projects[drupal][type] = "core"
 
 ;***********************
 ; CiviCRM Core
