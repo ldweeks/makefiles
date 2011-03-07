@@ -23,7 +23,8 @@ projects[references][subdir] = "contrib"
 ;projects[rules][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 
-projects[field_conditional_state][download][type] = "git"
-projects[field_conditional_state][download][url] = "http://git.drupal.org/sandbox/peem/1073388.git"
-projects[field_conditional_state][directory_name] = "field_conditional_state"
-projects[field_conditional_state][destination] = "modules/contrib/field_conditional_state"
+;field_conditional_state
+projects[1073388][download][type] = "git"
+projects[1073388][download][url] = "http://git.drupal.org/sandbox/peem/1073388.git"
+projects[1073388][directory_name] = "field_conditional_state"
+projects[1073388][destination] = "modules/contrib/field_conditional_state"
