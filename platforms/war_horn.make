@@ -218,7 +218,7 @@ libraries[swfobject][directory_name] = "swfobject"
 libraries[soundmanager2][download][type] = "git"
 libraries[soundmanager2][download][url] = "git://github.com/scottschiller/SoundManager2.git"
 libraries[soundmanager2][download][tag] = "V2.97a.20110123"
-libraries[soundmanager2][directory_name] = "soundmanager2"
+libraries[soundmanager2][directory_name] = "SoundManager2"
 
 ; INSTALLATION PROFILES
 
