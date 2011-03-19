@@ -220,6 +220,11 @@ libraries[soundmanager2][download][url] = "git://github.com/scottschiller/SoundM
 libraries[soundmanager2][download][tag] = "V2.97a.20110123"
 libraries[soundmanager2][directory_name] = "SoundManager2"
 
+; WordPress Audio Player
+libraries[wp_audio_player][download][type] = "git"
+libraries[wp_audio_player][download][url] = "git://cnf.repositoryhosting.com/cnf/wp-audio-player.git"
+libraries[wp_audio_player][directory_name] = "audio-player"
+
 ; INSTALLATION PROFILES
 
 ; bloomingmoms.org
