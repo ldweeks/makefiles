@@ -216,8 +216,14 @@ libraries[swfobject][directory_name] = "swfobject"
 
 ; SoundManager2
 libraries[soundmanager2][download][type] = "git"
-libraries[soundmanager2][download][url] = "git://cnf.repositoryhosting.com/cnf/soundmanager2.git"
-libraries[soundmanager2][directory_name] = "soundmanager2"
+libraries[soundmanager2][download][url] = "git://github.com/scottschiller/SoundManager2.git"
+libraries[soundmanager2][download][tag] = "V2.97a.20110123"
+libraries[soundmanager2][directory_name] = "SoundManager2"
+
+; WordPress Audio Player
+libraries[wp_audio_player][download][type] = "git"
+libraries[wp_audio_player][download][url] = "git://cnf.repositoryhosting.com/cnf/wp-audio-player.git"
+libraries[wp_audio_player][directory_name] = "audio-player"
 
 ; INSTALLATION PROFILES
 
