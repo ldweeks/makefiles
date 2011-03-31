@@ -65,9 +65,6 @@ projects[page_title][version] = "2.4-beta1"
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.0-beta1"
 
-projects[path_redirect][subdir] = "contrib"
-projects[path_redirect][version] = "1.0-rc2"
-
 projects[role_delegation][subdir] = "contrib"
 projects[role_delegation][version] = "1.0"
 
