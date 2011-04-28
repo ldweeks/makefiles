@@ -112,26 +112,10 @@ projects[zen][version] = 3.1
 
 ; LIBRARIES
 
-; jQuery UI
-libraries[jquery_ui][download][type] = git
-libraries[jquery_ui][download][url] = git://cnf.repositoryhosting.com/cnf/jquery-ui.git
-libraries[jquery_ui][directory_name] = jquery.ui
-libraries[jquery_ui][destination] = modules/contrib/jquery_ui
-
 ; TinyMCE 
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
-
-; getid3 Library
-libraries[getid3][download][type] = git
-libraries[getid3][download][url] = git://cnf.repositoryhosting.com/cnf/getid3.git
-libraries[getid3][directory_name] = getid3
-
-; phpmailer
-libraries[phpmailer][download][type] = git
-libraries[phpmailer][download][url] = git://cnf.repositoryhosting.com/cnf/phpmailer.git
-libraries[phpmailer][directory_name] = phpmailer
 
 ; swfobject
 libraries[swfobject][download][type] = git
@@ -151,20 +135,4 @@ libraries[wp_audio_player][directory_name] = audio-player
 
 ; INSTALLATION PROFILES
 
-; bloomingmoms.org
-projects[bloom][type] = profile
-projects[bloom][download][type] = git
-projects[bloom][download][url] = git://cnf.repositoryhosting.com/cnf/bloomingmoms-install-profile.git
-
-; josephbayly.com
-projects[josephbayly][type] = profile
-projects[josephbayly][download][type] = git
-projects[josephbayly][download][url] = git://cnf.repositoryhosting.com/cnf/joseph-bayly.git
-
-; lucasweeks.com
-; Removed until I can actually get it up to snuff.
-
-; jesusatiu.com
-projects[jesusatiu][type] = profile
-projects[jesusatiu][download][type] = git
-projects[jesusatiu][download][url] = git://cnf.repositoryhosting.com/cnf/jesusatiu-install-profile.git
+;clearnotesongbook.com
