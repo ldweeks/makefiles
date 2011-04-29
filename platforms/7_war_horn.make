@@ -107,9 +107,6 @@ projects[rubik][version] = 4.0-beta5
 projects[tao][subdir] = contrib
 projects[tao][version] = 3.0-beta3
 
-projects[zen][subdir] = contrib
-projects[zen][version] = 3.1
-
 ; LIBRARIES
 
 ; TinyMCE 
