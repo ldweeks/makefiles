@@ -12,6 +12,9 @@ projects[admin_menu][version] = 3.0-rc1
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0-beta1
 
+projects[auto_nodetitle][subdir] = contrib
+projects[auto_nodetitle][version] = 1.0-alpha1
+
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 2.0-alpha1
 
@@ -29,6 +32,9 @@ projects[devel][version] = 1.0
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0-beta2
+
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.0-beta8
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.12
@@ -74,6 +80,9 @@ projects[pathauto][version] = 1.0-beta1
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta2
+
+projects[references][subdir] = contrib
+projects[references][version] = 2.x-dev
 
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.0
