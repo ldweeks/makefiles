@@ -15,6 +15,9 @@ projects[advanced_help][version] = 1.0-beta1
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0-alpha1
 
+projects[awssdk][subdir] = contrib
+projects[awssdk][version] = 3.2
+
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 2.0-alpha1
 
@@ -63,11 +66,14 @@ projects[imce][version] = 1.3
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.x-dev
 
+projects[libraries][subdir] = contrib
+projects[libraries][version] = 2.x-dev
+
 projects[link][subdir] = contrib
 projects[link][version] = 1.0-alpha3
 
-projects[media][subdir] = contrib
-projects[media][version] = 1.0-beta4
+projects[media_amazon][subdir] = contrib
+projects[media_amazon][version] = 1.0-beta3
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 1.0
@@ -121,7 +127,7 @@ projects[tao][version] = 3.0-beta3
 
 ; LIBRARIES
 
-; TinyMCE 
+; TinyMCE
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
