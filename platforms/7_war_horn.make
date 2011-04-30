@@ -60,6 +60,9 @@ projects[imce_wysiwyg][version] = 1.x-dev
 projects[link][subdir] = contrib
 projects[link][version] = 1.0-alpha3
 
+projects[media][subdir] = contrib
+projects[media][version] = 1.0-beta4
+
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 1.0
 
