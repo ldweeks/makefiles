@@ -74,6 +74,8 @@ projects[link][version] = 1.0-alpha3
 
 projects[media_amazon][subdir] = contrib
 projects[media_amazon][version] = 1.0-beta3
+; http://drupal.org/node/1081338
+projects[media_amazon][patch][] = http://drupal.org/files/issues/1081338.patch
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 1.0
