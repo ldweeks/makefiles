@@ -3,9 +3,10 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.0
+projects[drupal][version] = 7.2
 
 ; MODULES
+
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc1
 
@@ -16,7 +17,7 @@ projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0-alpha1
 
 projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 3.2
+projects[awssdk][version] = 3.3
 ; Issue #1143424
 projects[awssdk][patch][] = http://drupal.org/files/issues/awssdk.patch
 
@@ -49,6 +50,9 @@ projects[features][version] = 1.0-beta2
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.3
+
+projects[getid3][subdir] = contrib
+projects[getid3][version] = 1.x-dev
 
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.3
@@ -92,19 +96,25 @@ projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta2
 
 projects[references][subdir] = contrib
-projects[references][version] = 2.x-dev
+projects[references][version] = 2.0-beta3
 
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.0
 
+projects[rules][subdir] = contrib
+projects[rules][version] = 2.0-beta1
+
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
+
+projects[soundmanager2][subdir] = contrib
+projects[soundmanager2][version] = 2.x-dev
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta2
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0-beta1
+projects[token][version] = 1.0-beta2
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.0-beta3
@@ -131,6 +141,11 @@ projects[tao][version] = 3.0-beta3
 
 ; LIBRARIES
 
+; getid3 Library
+libraries[getid3][download][type] = git
+libraries[getid3][download][url] = git://cnf.repositoryhosting.com/cnf/getid3.git
+libraries[getid3][directory_name] = getid3
+
 ; TinyMCE
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
@@ -144,7 +159,7 @@ libraries[swfobject][directory_name] = swfobject
 ; SoundManager2
 libraries[soundmanager2][download][type] = git
 libraries[soundmanager2][download][url] = git://github.com/scottschiller/SoundManager2.git
-libraries[soundmanager2][download][tag] = V2.97a.20110123
+libraries[soundmanager2][download][tag] = V2.97a.20110424
 libraries[soundmanager2][directory_name] = SoundManager2
 
 ; WordPress Audio Player
