@@ -16,10 +16,10 @@ projects[advanced_help][version] = 1.0-beta1
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0-alpha1
 
-projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 3.3
+;projects[awssdk][subdir] = contrib
+;projects[awssdk][version] = 3.3
 ; Issue #1143424
-projects[awssdk][patch][] = http://drupal.org/files/issues/awssdk.patch
+;projects[awssdk][patch][] = http://drupal.org/files/issues/awssdk.patch
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 2.0-alpha1
