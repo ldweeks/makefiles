@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.4
+projects[drupal][version] = 7.7
 
 ; MODULES
 
@@ -22,18 +22,16 @@ projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 3.6
-; Issue #1143424 - used for version 3.3. Delete if not needed.
-;projects[awssdk][patch][] = http://drupal.org/files/issues/awssdk.patch
+projects[awssdk][version] = 4.0
 
 projects[calendar][subdir] = contrib
-projects[calendar][version] = 2.0-alpha1
+projects[calendar][version] = 3.0-alpha1
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0-beta1
+projects[ctools][version] = 1.0-rc1
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.0-alpha3
@@ -112,12 +110,13 @@ projects[site_verify][version] = 1.0
 
 projects[soundmanager2][subdir] = contrib
 projects[soundmanager2][version] = 2.x-dev
+; Commit: 38a67e9115348c534fc4a7c621d2321df7a48056
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta2
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0-beta2
+projects[token][version] = 1.0-beta3
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.0-rc1
