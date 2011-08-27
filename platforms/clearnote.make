@@ -130,6 +130,9 @@ projects[views_slideshow][version] = 3.0-alpha1
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.11
 
+projects[workbench][subdir] = contrib
+projects[workbench][version] = 1.0
+
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 
