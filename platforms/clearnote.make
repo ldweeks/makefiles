@@ -22,7 +22,7 @@ projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 4.0
+projects[awssdk][version] = 4.1
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0-alpha1
@@ -68,7 +68,7 @@ projects[ie6update][subdir] = contrib
 projects[ie6update][version] = 1.0-beta2
 
 projects[image_resize_filter][subdir] = contrib
-projects[image_resize_filter][version] = 1.12
+projects[image_resize_filter][version] = 1.13
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.4
@@ -103,7 +103,7 @@ projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.0-beta2
+projects[rules][version] = 2.0-rc1
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
@@ -116,13 +116,13 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta2
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0-beta3
+projects[token][version] = 1.0-beta4
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.0-rc1
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-beta1
+projects[views_bulk_operations][version] = 3.0-beta2
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0-alpha1
@@ -162,10 +162,9 @@ libraries[swfobject][download][url] = git://cnf.repositoryhosting.com/cnf/swfobj
 libraries[swfobject][directory_name] = swfobject
 
 ; SoundManager2
-libraries[soundmanager2][download][type] = git
-libraries[soundmanager2][download][url] = git://github.com/scottschiller/SoundManager2.git
-libraries[soundmanager2][download][tag] = V2.97a.20110424
-libraries[soundmanager2][directory_name] = SoundManager2
+libraries[SoundManager2][download][type] = git
+libraries[SoundManager2][download][url] = git://github.com/scottschiller/SoundManager2.git
+libraries[SoundManager2][download][tag] = V2.97a.20110424
 
 ; WordPress Audio Player
 libraries[wp_audio_player][download][type] = git
