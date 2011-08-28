@@ -105,6 +105,10 @@ projects[role_delegation][version] = 1.1
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.0-rc1
 
+projects[scheduler][subdir] = contrib
+projects[scheduler][version] = 1.0
+projects[scheduler][patch][] = http://drupal.org/files/issues/_1172040_14.scheduler.node-type-vertical-tabs.patch
+
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
 
