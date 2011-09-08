@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.7
+projects[drupal][version] = 7.8
 
 ; MODULES
 
@@ -14,15 +14,13 @@ projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0-beta1
 
 projects[AmazonS3][subdir] = contrib
-projects[AmazonS3][version] = 1.0-beta4
-; http://drupal.org/node/1081338
-projects[AmazonS3][patch][] = http://drupal.org/files/issues/1081338-amazons3-speedup-4.patch
+projects[AmazonS3][version] = 1.0-beta5
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 4.1
+projects[awssdk][version] = 4.2
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0-alpha1
@@ -34,7 +32,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0-rc1
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.0-alpha3
+projects[date][version] = 2.0-alpha4
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -79,7 +77,6 @@ projects[imce_wysiwyg][version] = 1.x-dev
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.x-dev
-; Commit: e455286c008d9cc8409783f4c80164861e8182e5
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.0-alpha3
@@ -114,13 +111,12 @@ projects[site_verify][version] = 1.0
 
 projects[soundmanager2][subdir] = contrib
 projects[soundmanager2][version] = 2.x-dev
-; Commit: 38a67e9115348c534fc4a7c621d2321df7a48056
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta2
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0-beta4
+projects[token][version] = 1.0-beta5
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.0-rc1
