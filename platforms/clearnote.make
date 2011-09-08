@@ -13,8 +13,8 @@ projects[admin_menu][version] = 3.0-rc1
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0-beta1
 
-projects[AmazonS3][subdir] = contrib
-projects[AmazonS3][version] = 1.0-beta5
+projects[amazons3][subdir] = contrib
+projects[amazons3][version] = 1.0-beta5
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
