@@ -180,3 +180,8 @@ libraries[wp_audio_player][directory_name] = audio-player
 projects[cnf_cnsb][type] = profile
 projects[cnf_cnsb][download][type] = git
 projects[cnf_cnsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb.git
+
+; goodshepherdband.com
+projects[cnf_gsb][type] = profile
+projects[cnf_gsb][download][type] = git
+projects[cnf_gsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnf-gsb.git
