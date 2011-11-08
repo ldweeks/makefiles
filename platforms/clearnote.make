@@ -20,7 +20,10 @@ projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 4.5
+projects[awssdk][version] = 4.6
+
+projects[boxes][subdir] = contrib
+projects[boxes][version] = 1.0-beta6
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0-alpha1
@@ -122,7 +125,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.0-rc1
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-beta2
+projects[views_bulk_operations][version] = 3.0-beta3
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
