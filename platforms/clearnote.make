@@ -147,7 +147,7 @@ projects[xmlsitemap][version] = 2.0-beta3
 projects[rubik][subdir] = contrib
 projects[rubik][version] = 4.0-beta6
 projects[rubik][patch][] = http://drupal.org/files/issues/0001-1188846-by-ericduran-Fixed-Replacement-patterns-not-.patch
-// Patch here: http://drupal.org/node/1188846
+; Patch here: http://drupal.org/node/1188846
 
 projects[tao][subdir] = contrib
 projects[tao][version] = 3.0-beta4
