@@ -146,11 +146,18 @@ projects[xmlsitemap][version] = 2.0-beta3
 
 projects[rubik][subdir] = contrib
 projects[rubik][version] = 4.0-beta6
+projects[rubik][patch][] = http://drupal.org/files/issues/0001-1188846-by-ericduran-Fixed-Replacement-patterns-not-.patch
+// Patch here: http://drupal.org/node/1188846
 
 projects[tao][subdir] = contrib
 projects[tao][version] = 3.0-beta4
 
 ; LIBRARIES
+
+; jquery.cycle
+libraries[jquery.cycle][download][type] = git
+libraries[jquery.cycle][download][url] = git://github.com/malsup/cycle.git
+libraries[jquery.cycle][directory_name] = jquery.cycle
 
 ; getid3 Library
 libraries[getid3][download][type] = git
