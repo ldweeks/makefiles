@@ -82,7 +82,7 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0-alpha1
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.0-alpha3
+projects[link][version] = 1.0
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 1.1
