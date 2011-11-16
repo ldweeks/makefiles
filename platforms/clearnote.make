@@ -195,3 +195,8 @@ projects[cnf_cnsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb.git
 projects[cnf_gsb][type] = profile
 projects[cnf_gsb][download][type] = git
 projects[cnf_gsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnf-gsb.git
+
+; baylyblog.com
+projects[baylyblog][type] = profile
+projects[baylyblog][download][type] = git
+projects[baylyblog][download][url] = git://cnf.repositoryhosting.com/cnf/baylyblog.git
