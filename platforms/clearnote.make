@@ -20,7 +20,7 @@ projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 4.6
+projects[awssdk][version] = 4.7
 
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0-beta6
@@ -44,7 +44,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-beta11
+projects[entity][version] = 1.0-rc1
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.12
@@ -75,7 +75,7 @@ projects[imce][subdir] = contrib
 projects[imce][version] = 1.5
 
 projects[imce_wysiwyg][subdir] = contrib
-projects[imce_wysiwyg][version] = 1.x-dev
+projects[imce_wysiwyg][version] = 1.0
 ; pick a specific commit
 
 projects[libraries][subdir] = contrib
@@ -122,13 +122,14 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.0-beta7
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.0-rc1
+projects[views][version] = 3.0-rc3
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-beta3
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
+; http://drupal.org/project/jcarousel
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.13
