@@ -20,7 +20,7 @@ projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 4.7
+projects[awssdk][version] = 5.0
 
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0-beta6
@@ -50,7 +50,7 @@ projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.12
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-beta4
+projects[features][version] = 1.0-beta5
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.4
@@ -79,7 +79,7 @@ projects[imce_wysiwyg][version] = 1.0
 ; pick a specific commit
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.0-alpha1
+projects[libraries][version] = 2.0-alpha2
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
@@ -97,7 +97,7 @@ projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta3
 
 projects[references][subdir] = contrib
-projects[references][version] = 2.0-beta3
+projects[references][version] = 2.0
 
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
@@ -116,13 +116,13 @@ projects[soundmanager2][subdir] = contrib
 projects[soundmanager2][version] = 2.x-dev
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta4
+projects[strongarm][version] = 2.0-beta5
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-beta7
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.0-rc3
+projects[views][version] = 3.0
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-beta3
@@ -132,7 +132,7 @@ projects[views_slideshow][version] = 3.0
 ; http://drupal.org/project/jcarousel
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.13
+projects[webform][version] = 3.15
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.1
@@ -146,9 +146,7 @@ projects[xmlsitemap][version] = 2.0-beta3
 ; THEMES
 
 projects[rubik][subdir] = contrib
-projects[rubik][version] = 4.0-beta6
-projects[rubik][patch][] = http://drupal.org/files/issues/0001-1188846-by-ericduran-Fixed-Replacement-patterns-not-.patch
-; Patch here: http://drupal.org/node/1188846
+projects[rubik][version] = 4.0-beta7
 
 projects[tao][subdir] = contrib
 projects[tao][version] = 3.0-beta4
