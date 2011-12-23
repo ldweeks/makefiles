@@ -35,7 +35,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0-rc1
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.0-alpha4
+projects[date][version] = 2.0-rc1
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
