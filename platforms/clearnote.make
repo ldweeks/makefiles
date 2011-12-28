@@ -199,3 +199,4 @@ projects[cnf_gsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnf-gsb.g
 projects[baylyblog][type] = profile
 projects[baylyblog][download][type] = git
 projects[baylyblog][download][url] = git://cnf.repositoryhosting.com/cnf/baylyblog.git
+projects[baylyblog][download][branch] = 7.x-1.x
