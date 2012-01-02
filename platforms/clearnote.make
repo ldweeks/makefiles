@@ -186,9 +186,9 @@ libraries[wp_audio_player][directory_name] = audio-player
 ; INSTALLATION PROFILES
 
 ; clearnotesongbook.com
-projects[cnf_cnsb][type] = profile
-projects[cnf_cnsb][download][type] = git
-projects[cnf_cnsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb.git
+;projects[cnf_cnsb][type] = profile
+;projects[cnf_cnsb][download][type] = git
+;projects[cnf_cnsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb.git
 
 ; goodshepherdband.com
 projects[cnf_gsb][type] = profile
