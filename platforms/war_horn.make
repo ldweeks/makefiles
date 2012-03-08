@@ -33,13 +33,13 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.7"
+projects[date][version] = "2.8"
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.25"
 
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "2.1"
+projects[diff][version] = "2.3"
 
 projects[emfield][subdir] = "contrib"
 projects[emfield][version] = "2.5"
@@ -57,19 +57,19 @@ projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.4"
 
 projects[getid3][subdir] = "contrib"
-projects[getid3][version] = "1.4"
+projects[getid3][version] = "1.5"
 
 projects[globalredirect][subdir] = "contrib"
-projects[globalredirect][version] = "1.3-alpha1"
+projects[globalredirect][version] = "1.4"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "3.3"
 
 projects[ie6update][subdir] = "contrib"
-projects[ie6update][version] = "1.3"
+projects[ie6update][version] = "1.4"
 
 projects[image_resize_filter][subdir] = "contrib"
-projects[image_resize_filter][version] = "1.12"
+projects[image_resize_filter][version] = "1.13"
 
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.10"
@@ -81,7 +81,7 @@ projects[imagefield][subdir] = "contrib"
 projects[imagefield][version] = "3.10"
 
 projects[imce][subdir] = "contrib"
-projects[imce][version] = "2.2"
+projects[imce][version] = "2.3"
 
 projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.1"
@@ -108,7 +108,7 @@ projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.5"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.5"
+projects[pathauto][version] = "1.6"
 
 projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.0-rc2"
@@ -137,7 +137,7 @@ projects[taxonomy_manager][subdir] = "contrib"
 projects[taxonomy_manager][version] = "2.2"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.16"
+projects[token][version] = "1.18"
 
 projects[toolbar][subdir] = "contrib"
 projects[toolbar][version] = "2.4"
@@ -149,16 +149,16 @@ projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc2"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.12"
+projects[views][version] = "2.16"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.10"
+projects[views_bulk_operations][version] = "1.13"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "2.3"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.11"
+projects[webform][version] = "3.17"
 
 projects[wp_comments][subdir] = "contrib"
 projects[wp_comments][version] = "1.0"
@@ -167,15 +167,15 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.4"
 
 projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.0-beta3"
+projects[xmlsitemap][version] = "2.0-rc1"
 
 ; THEMES
 
 projects[rubik][subdir] = "contrib"
-projects[rubik][version] = "3.0-beta2"
+projects[rubik][version] = "3.0-beta3"
 
 projects[tao][subdir] = "contrib"
-projects[tao][version] = "3.2"
+projects[tao][version] = "3.3"
 
 projects[zen][subdir] = "contrib"
 projects[zen][version] = "2.1"
