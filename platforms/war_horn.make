@@ -48,7 +48,7 @@ projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.11"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.1"
+projects[features][version] = "1.2"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.10"
@@ -102,7 +102,7 @@ projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.16"
 
 projects[nodewords][subdir] = "contrib"
-projects[nodewords][version] = "1.11"
+projects[nodewords][version] = "1.13"
 
 projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.5"
@@ -131,7 +131,7 @@ projects[soundmanager2][version] = "2.6"
 projects[soundmanager2][patch][] = "http://drupal.org/files/issues/link_field_support.patch"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0"
+projects[strongarm][version] = "2.1"
 
 projects[taxonomy_manager][subdir] = "contrib"
 projects[taxonomy_manager][version] = "2.2"
