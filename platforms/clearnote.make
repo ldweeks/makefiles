@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.10
+projects[drupal][version] = 7.12
 
 ; MODULES
 
@@ -11,22 +11,25 @@ projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc1
 
 projects[advanced_help][subdir] = contrib
-projects[advanced_help][version] = 1.0-beta1
+projects[advanced_help][version] = 1.0
 
 projects[amazons3][subdir] = contrib
-projects[amazons3][version] = 1.0-beta5
+projects[amazons3][version] = 1.0-beta6
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 5.0
+projects[awssdk][version] = 5.2
+
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 2.2
 
 projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.0-beta6
+projects[boxes][version] = 1.0-beta7
 
 projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.0-alpha1
+projects[calendar][version] = 3.0
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
@@ -35,7 +38,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0-rc1
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.0-rc1
+projects[date][version] = 2.2
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -50,23 +53,19 @@ projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.12
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-beta5
+projects[features][version] = 1.0-rc1
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.4
 
 projects[getid3][subdir] = contrib
-projects[getid3][version] = 1.x-dev
-; Need to specify a commit. Here is the most recent commit: a17f7093cde35346e92b5ff2dced592453a58b9f
+projects[getid3][version] = 1.0
 
 projects[globalredirect][subdir] = contrib
-projects[globalredirect][version] = 1.3
+projects[globalredirect][version] = 1.4
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.2
-
-projects[ie6update][subdir] = contrib
-projects[ie6update][version] = 1.0-beta2
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
@@ -85,7 +84,7 @@ projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 1.1
+projects[mollom][version] = 2.0
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.5
@@ -93,8 +92,11 @@ projects[page_title][version] = 2.5
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.0
 
+projects[quickbar][subdir] = contrib
+projects[quickbar][version] = 2.0-beta1
+
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-beta3
+projects[redirect][version] = 1.0-beta4
 
 projects[references][subdir] = contrib
 projects[references][version] = 2.0
@@ -103,11 +105,13 @@ projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.0-rc1
+projects[rules][version] = 2.1
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 projects[scheduler][patch][] = http://drupal.org/files/issues/_1172040_14.scheduler.node-type-vertical-tabs.patch
+; Leave the patch in until 7.13 (or 7.14): http://drupal.org/node/1015798
+; http://drupal.org/node/1172040
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
@@ -119,20 +123,20 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta5
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0-beta7
+projects[token][version] = 1.0-rc1
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.0
+projects[views][version] = 3.3
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-beta3
+projects[views_bulk_operations][version] = 3.0-rc1
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
-; http://drupal.org/project/jcarousel
+; http://drupal.org/project/jcarousel - requires theming, but might be better
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.15
+projects[webform][version] = 3.17
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.1
@@ -141,12 +145,12 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-beta3
+projects[xmlsitemap][version] = 2.0-rc1
 
 ; THEMES
 
 projects[rubik][subdir] = contrib
-projects[rubik][version] = 4.0-beta7
+projects[rubik][version] = 4.0-beta8
 
 projects[tao][subdir] = contrib
 projects[tao][version] = 3.0-beta4
