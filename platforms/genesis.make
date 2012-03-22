@@ -28,9 +28,6 @@ projects[backup_migrate][version] = 2.2
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0-beta7
 
-projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.0
-
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
 
