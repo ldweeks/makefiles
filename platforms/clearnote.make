@@ -35,7 +35,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0-rc1
+projects[ctools][version] = 1.0-rc2
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.2
@@ -75,7 +75,6 @@ projects[imce][version] = 1.5
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
-; pick a specific commit
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0-alpha2
@@ -85,6 +84,9 @@ projects[link][version] = 1.0
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.0
+
+projects[nodequeue][subdir] = contrib
+projects[nodequeue][version] = 2.0-beta1
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.5
@@ -200,7 +202,7 @@ projects[cnf_gsb][download][type] = git
 projects[cnf_gsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnf-gsb.git
 
 ; baylyblog.com
-projects[baylyblog][type] = profile
-projects[baylyblog][download][type] = git
-projects[baylyblog][download][url] = git://cnf.repositoryhosting.com/cnf/baylyblog.git
-projects[baylyblog][download][branch] = 7.x-1.x
+;projects[baylyblog][type] = profile
+;projects[baylyblog][download][type] = git
+;projects[baylyblog][download][url] = git://cnf.repositoryhosting.com/cnf/baylyblog.git
+;projects[baylyblog][download][branch] = 7.x-1.x
