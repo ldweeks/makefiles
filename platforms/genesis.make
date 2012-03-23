@@ -92,7 +92,7 @@ projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.0
 
 projects[quickbar][subdir] = contrib
-projects[quickbar][version] = 2.0-beta1
+projects[quickbar][version] = 2.x-dev
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
