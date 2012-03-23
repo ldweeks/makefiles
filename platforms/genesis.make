@@ -186,6 +186,11 @@ libraries[wp_audio_player][download][type] = git
 libraries[wp_audio_player][download][url] = git://cnf.repositoryhosting.com/cnf/wp-audio-player.git
 libraries[wp_audio_player][directory_name] = audio-player
 
+; Superfish for Drupal
+libraries[superfish][download][type] = git
+libraries[superfish][download][url] = git://github.com/mehrpadin/Superfish-for-Drupal.git
+ibraries[superfish][directory_name] = superfish
+
 ; INSTALLATION PROFILES
 
 ; clearnotesongbook.com
