@@ -32,10 +32,10 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0-rc2
+projects[ctools][version] = 1.0
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.2
+projects[date][version] = 2.3
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -119,7 +119,7 @@ projects[soundmanager2][subdir] = contrib
 projects[soundmanager2][version] = 2.x-dev
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta5
+projects[strongarm][version] = 2.0-rc1
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-rc1
