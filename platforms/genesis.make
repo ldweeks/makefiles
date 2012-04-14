@@ -189,7 +189,7 @@ libraries[wp_audio_player][directory_name] = audio-player
 ; Superfish for Drupal
 libraries[superfish][download][type] = git
 libraries[superfish][download][url] = git://github.com/mehrpadin/Superfish-for-Drupal.git
-ibraries[superfish][directory_name] = superfish
+libraries[superfish][directory_name] = superfish
 
 ; INSTALLATION PROFILES
 
