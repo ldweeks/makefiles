@@ -50,7 +50,7 @@ projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.12
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-rc1
+projects[features][version] = 1.0-rc2
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.4
@@ -122,7 +122,7 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-rc1
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0-rc1
+projects[token][version] = 1.0
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.3
