@@ -179,7 +179,7 @@ libraries[swfobject][directory_name] = swfobject
 ; SoundManager2
 libraries[SoundManager2][download][type] = git
 libraries[SoundManager2][download][url] = git://github.com/scottschiller/SoundManager2.git
-libraries[SoundManager2][download][tag] = V2.97a.20110424
+libraries[SoundManager2][download][tag] = V2.97a.20120318
 
 ; WordPress Audio Player
 libraries[wp_audio_player][download][type] = git
