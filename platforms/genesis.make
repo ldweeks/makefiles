@@ -222,6 +222,11 @@ libraries[superfish][download][type] = git
 libraries[superfish][download][url] = git://github.com/mehrpadin/Superfish-for-Drupal.git
 libraries[superfish][directory_name] = superfish
 
+; Solr PHP Client
+libraries[SolrPhpClient][download][type] = svn
+libraries[SolrPhpClient][download][url] = http://solr-php-client.googlecode.com/svn/trunk/
+libraries[SolrPhpClient][directory_name] = SolrPhpClient
+
 ; INSTALLATION PROFILES
 
 ; clearnotesongbook.com
