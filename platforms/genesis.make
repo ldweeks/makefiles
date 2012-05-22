@@ -99,6 +99,9 @@ projects[libraries][version] = 2.0-alpha2
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
+projects[login_destination][subdir] = contrib
+projects[login_destination][version] = 1.0
+
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
 
