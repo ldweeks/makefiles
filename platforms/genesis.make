@@ -175,8 +175,11 @@ projects[views][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
 
+projects[views_slideshow][type] = module
 projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 3.0
+projects[views_slideshow][download][type] = git
+projects[views_slideshow][download][revision] = 3de5104
+; This revision includes css classes to distinguish between play/pause
 ; http://drupal.org/project/jcarousel - requires theming, but might be better
 
 projects[webform][subdir] = contrib
