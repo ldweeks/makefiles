@@ -23,6 +23,9 @@ projects[advanced_help][version] = 1.0
 projects[amazons3][subdir] = contrib
 projects[amazons3][version] = 1.0-beta7
 
+projects[antispam][subdir] = contrib
+projects[antispam][version] = 1.4
+
 projects[autocomplete_deluxe][subdir] = contrib
 projects[autocomplete_deluxe][version] = 1.0-beta5
 
@@ -37,6 +40,9 @@ projects[backup_migrate][version] = 2.3
 
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0
+
+projects[chart][subdir] = contrib
+projects[chart][version] = 1.1
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta3
