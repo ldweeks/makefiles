@@ -11,7 +11,6 @@ projects[accordion_menu][type] = module
 projects[accordion_menu][subdir] = contrib
 projects[accordion_menu][download][type] = git
 projects[accordion_menu][download][revision] = 2fe1e27
-projects[accordion_menu][download][branch] = 7.x-1.x
 ; Should change this as soon as it comes out.
 ; This particular version does *not* require menu_block (though we may install it anyway)
 
@@ -118,7 +117,6 @@ projects[quickbar][type] = module
 projects[quickbar][subdir] = contrib
 projects[quickbar][download][type] = git
 projects[quickbar][download][revision] = a77415d
-projects[quickbar][download][branch] = 7.x-2.x
 
 projects[quicktabs][subdir] = contrib
 projects[quicktabs][version] = 3.4
