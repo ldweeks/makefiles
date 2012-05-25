@@ -26,8 +26,11 @@ projects[amazons3][version] = 1.0-beta7
 projects[antispam][subdir] = contrib
 projects[antispam][version] = 1.4
 
+projects[autocomplete_deluxe][type] = module
 projects[autocomplete_deluxe][subdir] = contrib
-projects[autocomplete_deluxe][version] = 1.0-beta5
+projects[autocomplete_deluxe][download][type] = git
+projects[autocomplete_deluxe][download][tag] = 1.0-beta6
+; Issue #1601054
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
@@ -43,6 +46,9 @@ projects[boxes][version] = 1.0
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.1
+
+projects[comment_notify][subdir] = contrib
+projects[comment_notify][version] = 1.0
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta3
@@ -71,6 +77,12 @@ projects[facetapi][version] = 1.0-rc4
 projects[features][subdir] = contrib
 projects[features][version] = 1.0-rc2
 
+projects[feedburner][download][type] = git
+projects[feedburner][download][url] = git://github.com/bran/feedburner.git
+projects[feedburner][download][revision] = adb4f9c151834b909d35e002f846bf974885e35d
+projects[feedburner][directory_name] = feedburner
+; Issue #956872
+
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.4
 
@@ -86,8 +98,11 @@ projects[goaway][version] = 1.2
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.2
 
+projects[google_analytics_reports][type] = module
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 1.1
+projects[google_analytics_reports][download][type] = git
+projects[google_analytics_reports][download][revision] = f63a414
+; running the 3.x version to get views integration.
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
@@ -107,8 +122,14 @@ projects[link][version] = 1.0
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.0
 
+projects[mollom][subdir] = contrib
+projects[mollom][version] = 2.0
+
+projects[nodequeue][type] = module
 projects[nodequeue][subdir] = contrib
-projects[nodequeue][version] = 2.0-beta1
+projects[nodequeue][download][type] = git
+projects[nodequeue][download][revision] = 9572de5
+; Issue #1388796
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.0
@@ -140,7 +161,7 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.0
+projects[search_api][version] = 1.1
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
@@ -219,7 +240,7 @@ libraries[jquery.cycle][directory_name] = jquery.cycle
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][tag] = 3.5.0.1
+libraries[tinymce][tag] = 3.5.0.1.1
 
 ; swfobject
 libraries[swfobject][download][type] = git
