@@ -196,6 +196,9 @@ projects[views][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
 
+projects[views_rss][subdir] = contrib
+projects[views_rss][version] = 2.0-rc3
+
 projects[views_slideshow][type] = module
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][download][type] = git
