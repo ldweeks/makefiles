@@ -29,6 +29,7 @@ projects[antispam][version] = 1.4
 projects[autocomplete_deluxe][type] = module
 projects[autocomplete_deluxe][subdir] = contrib
 projects[autocomplete_deluxe][download][type] = git
+projects[autocomplete_deluxe][download][url] = http://git.drupal.org/project/autocomplete_deluxe.git
 projects[autocomplete_deluxe][download][tag] = 1.0-beta6
 ; Issue #1601054
 
