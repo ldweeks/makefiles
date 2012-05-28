@@ -30,8 +30,7 @@ projects[autocomplete_deluxe][type] = module
 projects[autocomplete_deluxe][subdir] = contrib
 projects[autocomplete_deluxe][download][type] = git
 projects[autocomplete_deluxe][download][url] = http://git.drupal.org/project/autocomplete_deluxe.git
-projects[autocomplete_deluxe][download][branch] = 7.x-1.x
-projects[autocomplete_deluxe][download][tag] = 1.0-beta6
+projects[autocomplete_deluxe][download][revision] = a92b71e
 ; Issue #1601054
 
 projects[auto_nodetitle][subdir] = contrib
