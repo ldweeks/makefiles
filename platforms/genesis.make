@@ -30,6 +30,7 @@ projects[autocomplete_deluxe][type] = module
 projects[autocomplete_deluxe][subdir] = contrib
 projects[autocomplete_deluxe][download][type] = git
 projects[autocomplete_deluxe][download][url] = http://git.drupal.org/project/autocomplete_deluxe.git
+projects[autocomplete_deluxe][download][branch] = 7.x-1.x
 projects[autocomplete_deluxe][download][tag] = 1.0-beta6
 ; Issue #1601054
 
@@ -78,6 +79,7 @@ projects[facetapi][version] = 1.0-rc4
 projects[features][subdir] = contrib
 projects[features][version] = 1.0-rc2
 
+projects[feedburner][type] = module
 projects[feedburner][download][type] = git
 projects[feedburner][download][url] = git://github.com/bran/feedburner.git
 projects[feedburner][download][revision] = adb4f9c151834b909d35e002f846bf974885e35d
