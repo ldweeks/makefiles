@@ -109,6 +109,9 @@ projects[google_analytics_reports][download][type] = git
 projects[google_analytics_reports][download][revision] = f63a414
 ; running the 3.x version to get views integration.
 
+projects[hacked][subdir] = contrib
+projects[hacked][version] = 2.0-beta4
+
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
