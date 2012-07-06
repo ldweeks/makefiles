@@ -40,7 +40,7 @@ projects[awssdk][subdir] = contrib
 projects[awssdk][version] = 5.3
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.3
+projects[backup_migrate][version] = 2.4
 
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0
@@ -67,16 +67,16 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc2
+projects[entity][version] = 1.0-rc3
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.12
 
 projects[facetapi][subdir] = contrib
-projects[facetapi][version] = 1.0-rc4
+projects[facetapi][version] = 1.0
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-rc2
+projects[features][version] = 1.0-rc3
 
 projects[feedburner][type] = module
 projects[feedburner][download][type] = git
@@ -89,10 +89,10 @@ projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.4
 
 projects[fontyourface][subdir] = contrib
-projects[fontyourface][version] = 2.2
+projects[fontyourface][version] = 2.3
 
 projects[globalredirect][subdir] = contrib
-projects[globalredirect][version] = 1.4
+projects[globalredirect][version] = 1.5
 
 projects[goaway][subdir] = contrib
 projects[goaway][version] = 1.2
@@ -101,7 +101,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.2
 
 projects[google_analytics_counter][subdir] = contrib
-projects[google_analytics_counter][version] = 1.1
+projects[google_analytics_counter][version] = 1.2
 
 projects[google_analytics_reports][type] = module
 projects[google_analytics_reports][subdir] = contrib
@@ -130,8 +130,12 @@ projects[link][version] = 1.0
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.0
 
+;projects[metatags_quick][subdir] = contrib
+;projects[metatags_quick][version] = 2.5
+; Must first move this to the platform
+
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.0
+projects[mollom][version] = 2.1
 
 projects[nodequeue][type] = module
 projects[nodequeue][subdir] = contrib
@@ -175,7 +179,7 @@ projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
 
 projects[search_api_solr][subdir] = contrib
-projects[search_api_solr][version] = 1.0-rc1
+projects[search_api_solr][version] = 1.0-rc2
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
@@ -184,7 +188,7 @@ projects[slidebox][subdir] = contrib
 projects[slidebox][version] = 1.5
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-rc1
+projects[strongarm][version] = 2.0
 
 projects[styleguide][subdir] = contrib
 projects[styleguide][version] = 1.0
