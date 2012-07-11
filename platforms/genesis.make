@@ -274,11 +274,6 @@ libraries[SolrPhpClient][directory_name] = SolrPhpClient
 
 ; INSTALLATION PROFILES
 
-; clearnotesongbook.com
-;projects[cnf_cnsb][type] = profile
-;projects[cnf_cnsb][download][type] = git
-;projects[cnf_cnsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb.git
-
 ; baylyblog.com
 projects[baylyblog][type] = profile
 projects[baylyblog][download][type] = git
