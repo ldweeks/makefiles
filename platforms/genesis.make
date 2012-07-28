@@ -61,7 +61,7 @@ projects[date][subdir] = contrib
 projects[date][version] = 2.5
 
 projects[devel][subdir] = contrib
-projects[devel][version] = 1.2
+projects[devel][version] = 1.3
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
@@ -173,7 +173,7 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.1
+projects[search_api][version] = 1.2
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
