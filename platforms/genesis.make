@@ -233,17 +233,6 @@ projects[wysiwyg][version] = 2.1
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-rc1
 
-; THEMES
-
-projects[rubik][subdir] = contrib
-projects[rubik][version] = 4.0-beta8
-
-projects[tao][subdir] = contrib
-projects[tao][version] = 3.0-beta4
-
-projects[zen][subdir] = contrib
-projects[zen][version] = 3.1
-
 ; LIBRARIES
 
 ; jquery.cycle
