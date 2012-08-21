@@ -262,6 +262,12 @@ libraries[SolrPhpClient][download][url] = http://solr-php-client.googlecode.com/
 libraries[SolrPhpClient][directory_name] = SolrPhpClient
 libraries[SolrPhpClient][download][sha1] = 211b6ad55eafa172778f9d9672a23ea07248fbd6
 
+; SoundManager2
+libraries[soundmanager2][download][type] = git
+libraries[soundmanager2][download][url] = git://github.com/scottschiller/SoundManager2.git
+libraries[soundmanager2][download][tag] = V2.97a.20120624
+libraries[soundmanager2][directory_name] = SoundManager2
+
 ; INSTALLATION PROFILES
 
 ; baylyblog.com
