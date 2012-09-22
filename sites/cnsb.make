@@ -40,7 +40,7 @@ projects[browscap][version] = 1.3
 projects[checklistapi][subdir] = contrib
 projects[checklistapi][version] = 1.0-beta3
 
-projects[cnsb_search][subdir] = contrib
+projects[cnsb_search][subdir] = custom
 projects[cnsb_search][directory_name] = cnsb_search
 projects[cnsb_search][type] = module
 projects[cnsb_search][download][type] = git
@@ -271,6 +271,20 @@ projects[wysiwyg][version] = 2.1
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-rc1
+
+; THEMES
+
+projects[zen][subdir] = contrib
+projects[zen][version] = 5.1
+
+projects[mobile][subdir] = contrib
+projects[mobile][version] = 2.0
+
+projects[cnsb-theme][subdir] = custom
+projects[cnsb-theme][type] = theme
+projects[cnsb-theme][download][type] = git
+projects[cnsb-theme][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-theme.git
+projects[cnsb_search][download][revision] = df599ba
 
 ; LIBRARIES
 
