@@ -284,7 +284,7 @@ projects[cnsb-theme][subdir] = custom
 projects[cnsb-theme][type] = theme
 projects[cnsb-theme][download][type] = git
 projects[cnsb-theme][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-theme.git
-projects[cnsb_search][download][revision] = df599ba
+projects[cnsb-theme][download][revision] = df599ba
 
 ; LIBRARIES
 
