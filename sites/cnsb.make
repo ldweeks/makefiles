@@ -75,13 +75,13 @@ projects[entityconnect][subdir] = contrib
 projects[entityconnect][version] = 1.0-beta1
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-rc3
+projects[entityreference][version] = 1.0-rc5
 
 projects[entityreference_prepopulate][subdir] = contrib
 projects[entityreference_prepopulate][version] = 1.1
 
 projects[facetapi][subdir] = contrib
-projects[facetapi][version] = 1.1
+projects[facetapi][version] = 1.2
 
 projects[fape][subdir] = contrib
 projects[fape][version] = 1.1
@@ -98,7 +98,7 @@ projects[field_collection][subdir] = contrib
 projects[field_collection][version] = 1.0-beta4
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.5
+projects[filefield_sources][version] = 1.6
 
 projects[flag][subdir] = contrib
 projects[flag][version] = 2.0
@@ -158,7 +158,7 @@ projects[login_destination][version] = 1.0
 ; Must first move this to the platform
 
 projects[mobile_switch][subdir] = contrib
-projects[mobile_switch][version] = 1.3
+projects[mobile_switch][version] = 1.4
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.1
@@ -236,16 +236,16 @@ projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9-beta4
 
 projects[tagclouds][subdir] = contrib
-projects[tagclouds][version] = 1.5
+projects[tagclouds][version] = 1.6
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.2
+projects[token][version] = 1.4
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.4
+projects[views][version] = 3.5
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-rc1
+projects[views_bulk_operations][version] = 3.0
 
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
