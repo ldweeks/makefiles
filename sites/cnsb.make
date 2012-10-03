@@ -97,6 +97,9 @@ projects[feedburner][subdir] = contrib
 projects[field_collection][subdir] = contrib
 projects[field_collection][version] = 1.0-beta4
 
+projects[file_entity][subdir] = contrib
+projects[file_entity][version] = 2.0-unstable6
+
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.6
 
