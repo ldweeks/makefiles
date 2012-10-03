@@ -153,6 +153,15 @@ projects[link][version] = 1.0
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.0
 
+projects[media][subdir] = contrib
+projects[media][version] = 2.0-unstable6
+
+projects[media_vimeo][subdir] = contrib
+projects[media_vimeo][version] = 1.0-beta5
+
+projects[media_youtube][subdir] = contrib
+projects[media_youtube][version] = 1.0-beta3
+
 ;projects[metatags_quick][subdir] = contrib
 ;projects[metatags_quick][version] = 2.5
 ; Must first move this to the platform
@@ -201,6 +210,9 @@ projects[role_delegation][version] = 1.1
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
+
+projects[scheduler_workbench][subdir] = contrib
+projects[scheduler_workbench][version] = 1.0-alpha3
 
 projects[search_api][subdir] = contrib
 projects[search_api][version] = 1.2
@@ -284,7 +296,7 @@ projects[cnsb-theme][subdir] = custom
 projects[cnsb-theme][type] = theme
 projects[cnsb-theme][download][type] = git
 projects[cnsb-theme][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-theme.git
-projects[cnsb-theme][download][revision] = df599ba
+projects[cnsb-theme][download][revision] = 7c31a14
 
 ; LIBRARIES
 
