@@ -52,7 +52,7 @@ projects[cnsb_search][directory_name] = cnsb_search
 projects[cnsb_search][type] = module
 projects[cnsb_search][download][type] = git
 projects[cnsb_search][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-search.git
-projects[cnsb_search][download][revision] = 7f73b30
+projects[cnsb_search][download][revision] = 364cb1e
 
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.0
