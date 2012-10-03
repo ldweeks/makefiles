@@ -40,12 +40,19 @@ projects[browscap][version] = 1.3
 projects[checklistapi][subdir] = contrib
 projects[checklistapi][version] = 1.0-beta3
 
+projects[chosen][type] = module
+projects[chosen][subdir] = contrib
+projects[chosen][download][type] = git
+projects[chosen][download][url] = http://git.drupal.org/project/chosen.git
+projects[chosen][download][revision] = 4c4b8fd
+
+
 projects[cnsb_search][subdir] = custom
 projects[cnsb_search][directory_name] = cnsb_search
 projects[cnsb_search][type] = module
 projects[cnsb_search][download][type] = git
 projects[cnsb_search][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-search.git
-projects[cnsb_search][download][revision] = fdf36ac
+projects[cnsb_search][download][revision] = 7f73b30
 
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.0
@@ -221,7 +228,7 @@ projects[search_api][subdir] = contrib
 projects[search_api][version] = 1.2
 
 projects[search_api_db][subdir] = contrib
-projects[search_api_db][version] = 1.0-beta2
+projects[search_api_db][version] = 1.0-beta3
 
 projects[search_api_solr][subdir] = contrib
 projects[search_api_solr][version] = 1.0-rc2
@@ -282,7 +289,7 @@ projects[workbench_moderation][subdir] = contrib
 projects[workbench_moderation][version] = 1.2
 
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.1
+projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-rc1
@@ -302,6 +309,17 @@ projects[cnsb-theme][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-t
 projects[cnsb-theme][download][revision] = 7c31a14
 
 ; LIBRARIES
+
+; chosen
+libraries[chosen][download][type] = git
+libraries[chosen][download][url] = git://github.com/harvesthq/chosen.git
+libraries[chosen][directory_name] = chosen
+libraries[chosen][download][tag] = v0.9.8
+
+; jplayer
+libraries[jplayer][download][type] = file
+libraries[jplayer][download][url] = http://www.jplayer.org/latest/jQuery.jPlayer.2.2.0.zip
+libraries[jplayer][directory_name] = jplayer
 
 ; jquery.cycle
 libraries[jquery.cycle][download][type] = git
