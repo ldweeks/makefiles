@@ -187,7 +187,7 @@ libraries[SoundManager2][download][tag] = V2.97a.20110424
 ; WordPress Audio Player
 libraries[wp_audio_player][download][type] = git
 libraries[wp_audio_player][download][url] = git://cnf.repositoryhosting.com/cnf/wp-audio-player.git
-libraries[wp_audio_player][directory_name] = audio-player
+libraries[wp_audio_player][directory_name] = players/audio-player
 
 ; INSTALLATION PROFILES
 
