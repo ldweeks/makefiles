@@ -273,9 +273,10 @@ libraries[superfish][download][url] = git://github.com/mehrpadin/Superfish-for-D
 libraries[superfish][directory_name] = superfish
 
 ; Solr PHP Client
-libraries[SolrPhpClient][download][type] = svn
-libraries[SolrPhpClient][download][url] = http://solr-php-client.googlecode.com/svn/trunk/
+libraries[SolrPhpClient][download][type] = file
+libraries[SolrPhpClient][download][url] = http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.tgz
 libraries[SolrPhpClient][directory_name] = SolrPhpClient
+libraries[SolrPhpClient][download][sha1] = 211b6ad55eafa172778f9d9672a23ea07248fbd6
 
 ; INSTALLATION PROFILES
 
