@@ -45,11 +45,17 @@ projects[backup_migrate][version] = 2.3
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0
 
+projects[cdn][subdir] = contrib
+projects[cdn][version] = 2.5
+
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.1
 
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.0
+
+projects[content_taxonomy][subdir] = contrib
+projects[content_taxonomy][version] = 1.0-beta1
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta3
@@ -127,6 +133,9 @@ projects[link][version] = 1.0
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.0
 
+projects[metatags_quick][subdir] = contrib
+projects[metatags_quick][version] = 2.4
+
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.0
 
@@ -158,6 +167,9 @@ projects[redirect][version] = 1.0-beta4
 
 projects[references][subdir] = contrib
 projects[references][version] = 2.0
+
+projects[reftagger][subdir] = contrib
+projects[reftagger][version] = 1.1
 
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
