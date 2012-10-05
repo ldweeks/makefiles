@@ -5,8 +5,10 @@ core = 6.x
 api = 2
 
 ; CORE
-projects[drupal][type] = core
-projects[drupal][version] = 6.25
+projects[pressflow][type] = core
+projects[pressflow][download][type] = git
+projects[pressflow][download][url] = git://github.com/pressflow/6.git
+projects[pressflow][download][tag] = pressflow-6.26.109
 
 ; MODULES
 projects[admin_menu][subdir] = contrib
@@ -31,7 +33,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.8
+projects[ctools][version] = 1.9
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.8
@@ -55,7 +57,7 @@ projects[filefield][subdir] = contrib
 projects[filefield][version] = 3.10
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.4
+projects[filefield_sources][version] = 1.6
 
 projects[getid3][subdir] = contrib
 projects[getid3][version] = 1.5
