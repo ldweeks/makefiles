@@ -83,6 +83,7 @@ projects[feedburner][download][type] = git
 projects[feedburner][download][url] = git://github.com/bran/feedburner.git
 projects[feedburner][download][revision] = adb4f9c151834b909d35e002f846bf974885e35d
 projects[feedburner][directory_name] = feedburner
+projects[feedburner][subdir] = contrib
 ; Issue #956872
 
 projects[filefield_sources][subdir] = contrib
@@ -203,7 +204,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.2
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.3
+projects[views][version] = 3.4
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
