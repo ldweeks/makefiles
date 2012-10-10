@@ -25,8 +25,9 @@ projects[autocomplete_deluxe][download][url] = http://git.drupal.org/project/aut
 projects[autocomplete_deluxe][download][revision] = a92b71e
 ; Issue #1601054
 
-projects[auto_nodetitle][subdir] = contrib
-projects[auto_nodetitle][version] = 1.0
+projects[auto_entitylabel][subdir] = contrib
+projects[auto_entitylabel][version] = 1.1
+; The replacement for auto_nodetitle
 
 projects[awssdk][subdir] = contrib
 projects[awssdk][version] = 5.4
