@@ -249,6 +249,14 @@ projects[slidebox][version] = 1.5
 projects[soundmanager2][subdir] = contrib
 projects[soundmanager2][version] = 2.0-alpha1
 
+projects[soundmanager2][type] = module
+projects[soundmanager2][subdir] = contrib
+projects[soundmanager2][download][type] = git
+projects[soundmanager2][download][url] = http://git.drupal.org/project/soundmanager2.git
+projects[soundmanager2][download][revision] = 5885c15
+projects[soundmanager2][patch][] = http://drupal.org/files/soundmanager2-1082344-3.patch
+; Issue #1082344
+
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
