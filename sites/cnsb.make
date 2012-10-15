@@ -18,13 +18,6 @@ projects[advanced_help][version] = 1.0
 projects[amazons3][subdir] = contrib
 projects[amazons3][version] = 1.0-beta7
 
-projects[autocomplete_deluxe][type] = module
-projects[autocomplete_deluxe][subdir] = contrib
-projects[autocomplete_deluxe][download][type] = git
-projects[autocomplete_deluxe][download][url] = http://git.drupal.org/project/autocomplete_deluxe.git
-projects[autocomplete_deluxe][download][revision] = a92b71e
-; Issue #1601054
-
 projects[auto_entitylabel][subdir] = contrib
 projects[auto_entitylabel][version] = 1.1
 ; The replacement for auto_nodetitle
@@ -85,9 +78,6 @@ projects[entityconnect][version] = 1.0-beta1
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0-rc5
 
-projects[entityreference_prepopulate][subdir] = contrib
-projects[entityreference_prepopulate][version] = 1.1
-
 projects[facetapi][subdir] = contrib
 projects[facetapi][version] = 1.2
 
@@ -101,9 +91,6 @@ projects[feedburner][download][revision] = adb4f9c151834b909d35e002f846bf974885e
 projects[feedburner][directory_name] = feedburner
 projects[feedburner][subdir] = contrib
 ; Issue #956872
-
-projects[field_collection][subdir] = contrib
-projects[field_collection][version] = 1.0-beta4
 
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-unstable6
@@ -138,8 +125,8 @@ projects[google_analytics_reports][download][revision] = f63a414
 projects[hacked][subdir] = contrib
 projects[hacked][version] = 2.0-beta4
 
-projects[hierarchical_select][subdir] = contrib
-projects[hierarchical_select][version] = 3.0-alpha5
+projects[hide_formats][subdir] = contrib
+projects[hide_formats][version] = 1.0
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
@@ -213,9 +200,6 @@ projects[quicktabs][version] = 3.4
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
 
-projects[references][subdir] = contrib
-projects[references][version] = 2.0
-
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
@@ -228,9 +212,6 @@ projects[scheduler_workbench][version] = 1.0-alpha3
 projects[search_api][subdir] = contrib
 projects[search_api][version] = 1.2
 
-projects[search_api_db][subdir] = contrib
-projects[search_api_db][version] = 1.0-beta3
-
 projects[search_api_solr][subdir] = contrib
 projects[search_api_solr][version] = 1.0-rc2
 
@@ -242,9 +223,6 @@ projects[seo_checklist][version] = 4.0
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
-
-projects[slidebox][subdir] = contrib
-projects[slidebox][version] = 1.5
 
 projects[soundmanager2][subdir] = contrib
 projects[soundmanager2][version] = 2.0-alpha1
