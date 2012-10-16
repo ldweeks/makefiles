@@ -69,6 +69,9 @@ projects[diff][version] = 2.0
 projects[dropdown_checkboxes][subdir] = contrib
 projects[dropdown_checkboxes][version] = 1.0-rc1
 
+projects[ds][subdir] = contrib
+projects[ds][version] = 2.0
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
@@ -202,6 +205,9 @@ projects[scheduler_workbench][version] = 1.0-alpha3
 
 projects[search_api][subdir] = contrib
 projects[search_api][version] = 1.2
+
+projects[search_api_combined][subdir] = contrib
+projects[search_api_combined][version] = 1.0-alpha1
 
 projects[search_api_solr][subdir] = contrib
 projects[search_api_solr][version] = 1.0-rc2
