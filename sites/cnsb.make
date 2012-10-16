@@ -81,9 +81,6 @@ projects[entityreference][version] = 1.0-rc5
 projects[facetapi][subdir] = contrib
 projects[facetapi][version] = 1.2
 
-projects[fape][subdir] = contrib
-projects[fape][version] = 1.1
-
 projects[feedburner][type] = module
 projects[feedburner][download][type] = git
 projects[feedburner][download][url] = git://github.com/bran/feedburner.git
@@ -102,7 +99,7 @@ projects[flag][subdir] = contrib
 projects[flag][version] = 2.0
 
 projects[fontyourface][subdir] = contrib
-projects[fontyourface][version] = 2.4
+projects[fontyourface][version] = 2.5
 
 projects[global_filter][subdir] = contrib
 projects[global_filter][version] = 1.8
