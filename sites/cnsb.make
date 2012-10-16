@@ -28,9 +28,6 @@ projects[awssdk][version] = 5.4
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 
-projects[browscap][subdir] = contrib
-projects[browscap][version] = 1.3
-
 projects[checklistapi][subdir] = contrib
 projects[checklistapi][version] = 1.0-beta3
 
@@ -59,6 +56,9 @@ projects[ctools][version] = 1.2
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.5
+
+projects[date_popup_authored][subdir] = contrib
+projects[date_popup_authored][version] = 1.1
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.3
@@ -164,9 +164,6 @@ projects[media_youtube][version] = 1.0-beta3
 ;projects[metatags_quick][version] = 2.5
 ; Must first move this to the platform
 
-projects[mobile_switch][subdir] = contrib
-projects[mobile_switch][version] = 1.4
-
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.1
 
@@ -178,9 +175,6 @@ projects[nodequeue][download][revision] = 9572de5
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.0
-
-projects[override_node_options][subdir] = contrib
-projects[override_node_options][version] = 1.12
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -235,9 +229,6 @@ projects[soundmanager2][download][revision] = 5885c15
 projects[soundmanager2][patch][] = http://drupal.org/files/soundmanager2-1082344-3.patch
 ; Issue #1082344
 
-projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0
-
 projects[styleguide][subdir] = contrib
 projects[styleguide][version] = 1.0
 
@@ -286,9 +277,6 @@ projects[xmlsitemap][version] = 2.0-rc1
 projects[zen][subdir] = contrib
 projects[zen][version] = 5.1
 
-projects[mobile][subdir] = contrib
-projects[mobile][version] = 2.0
-
 projects[cnsb-theme][subdir] = custom
 projects[cnsb-theme][type] = theme
 projects[cnsb-theme][download][type] = git
@@ -302,6 +290,11 @@ libraries[chosen][download][type] = git
 libraries[chosen][download][url] = git://github.com/harvesthq/chosen.git
 libraries[chosen][directory_name] = chosen
 libraries[chosen][download][tag] = v0.9.8
+
+; ddcl - Dropdown Check List
+libraries[ddcl][download][type] = file
+libraries[ddcl][download][url] = http://dropdown-check-list.googlecode.com/files/dropdown-check-list.1.3.zip
+libraries[ddcl][directory_name] = ddcl
 
 ; jplayer
 libraries[jplayer][download][type] = file
@@ -317,7 +310,7 @@ libraries[jquery.cycle][directory_name] = jquery.cycle
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][tag] = 3.5.0.1.1
+libraries[tinymce][tag] = 3.5.7.1
 
 ; swfobject
 libraries[swfobject][download][type] = git
@@ -340,10 +333,3 @@ libraries[soundmanager2][download][type] = git
 libraries[soundmanager2][download][url] = git://github.com/scottschiller/SoundManager2.git
 libraries[soundmanager2][download][tag] = V2.97a.20120624
 libraries[soundmanager2][directory_name] = SoundManager2
-
-; INSTALLATION PROFILES
-
-; baylyblog.com
-projects[baylyblog][type] = profile
-projects[baylyblog][download][type] = git
-projects[baylyblog][download][url] = git://cnf.repositoryhosting.com/cnf/baylyblog.git
