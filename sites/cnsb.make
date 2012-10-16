@@ -92,9 +92,6 @@ projects[feedburner][directory_name] = feedburner
 projects[feedburner][subdir] = contrib
 ; Issue #956872
 
-projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-unstable6
-
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.6
 
@@ -150,15 +147,6 @@ projects[link][version] = 1.0
 
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.0
-
-projects[media][subdir] = contrib
-projects[media][version] = 2.0-unstable6
-
-projects[media_vimeo][subdir] = contrib
-projects[media_vimeo][version] = 1.0-beta5
-
-projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 1.0-beta3
 
 ;projects[metatags_quick][subdir] = contrib
 ;projects[metatags_quick][version] = 2.5
@@ -284,7 +272,6 @@ projects[cnsb-theme][subdir] = custom
 projects[cnsb-theme][type] = theme
 projects[cnsb-theme][download][type] = git
 projects[cnsb-theme][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-theme.git
-projects[cnsb-theme][download][revision] = f3addb5
 
 ; LIBRARIES
 
