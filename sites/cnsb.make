@@ -125,6 +125,7 @@ projects[hacked][subdir] = contrib
 projects[hacked][version] = 2.0-beta4
 
 projects[hide_formats][type] = module
+projects[hide_formats][subdir] = contrib
 projects[hide_formats][download][type] = git
 projects[hide_formats][download][revision] = 0deeb01d607c75063afb116d020b5504b0a0b2e6
 ;projects[hide_formats][version] = 1.0
