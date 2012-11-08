@@ -5,7 +5,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.15
+projects[drupal][version] = 7.17
 
 ; MODULES
 
@@ -29,7 +29,8 @@ projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 
 projects[checklistapi][subdir] = contrib
-projects[checklistapi][version] = 1.0-beta3
+projects[checklistapi][version] = 1.0-beta4
+; Remove at launch
 
 projects[chosen][type] = module
 projects[chosen][subdir] = contrib
@@ -37,16 +38,17 @@ projects[chosen][download][type] = git
 projects[chosen][download][url] = http://git.drupal.org/project/chosen.git
 projects[chosen][download][revision] = 4c4b8fd
 
-
-projects[cnsb_search][subdir] = custom
-projects[cnsb_search][directory_name] = cnsb_search
-projects[cnsb_search][type] = module
-projects[cnsb_search][download][type] = git
-projects[cnsb_search][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-search.git
-projects[cnsb_search][download][revision] = 364cb1e
+projects[cnsb_custom][subdir] = custom
+projects[cnsb_custom][directory_name] = cnsb_custom
+projects[cnsb_custom][type] = module
+projects[cnsb_custom][download][type] = git
+projects[cnsb_custom][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-search.git
 
 projects[comment_notify][subdir] = contrib
-projects[comment_notify][version] = 1.0
+projects[comment_notify][version] = 1.1
+
+projects[computed_field][subdir] = contrib
+projects[computed_field][version] = 1.0-beta1
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta4
@@ -54,8 +56,11 @@ projects[context][version] = 3.0-beta4
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
+projects[custom_breadcrumbs][subdir] = contrib
+projects[custom_breadcrumbs][version] = 1.0-alpha1
+
 projects[date][subdir] = contrib
-projects[date][version] = 2.5
+projects[date][version] = 2.6
 
 projects[date_popup_authored][subdir] = contrib
 projects[date_popup_authored][version] = 1.1
@@ -68,9 +73,6 @@ projects[diff][version] = 2.0
 
 projects[dropdown_checkboxes][subdir] = contrib
 projects[dropdown_checkboxes][version] = 1.0-rc1
-
-projects[ds][subdir] = contrib
-projects[ds][version] = 2.0
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
@@ -93,7 +95,7 @@ projects[feedburner][subdir] = contrib
 ; Issue #956872
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.6
+projects[filefield_sources][version] = 1.7
 
 projects[flag][subdir] = contrib
 projects[flag][version] = 2.0
@@ -122,8 +124,11 @@ projects[google_analytics_reports][download][revision] = f63a414
 projects[hacked][subdir] = contrib
 projects[hacked][version] = 2.0-beta4
 
-projects[hide_formats][subdir] = contrib
-projects[hide_formats][version] = 1.0
+projects[hide_formats][type] = module
+projects[hide_formats][download][type] = git
+projects[hide_formats][download][revision] = 0deeb01d607c75063afb116d020b5504b0a0b2e6
+;projects[hide_formats][version] = 1.0
+; Issue #1789222
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
@@ -148,21 +153,12 @@ projects[link][version] = 1.0
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.0
 
-;projects[metatags_quick][subdir] = contrib
-;projects[metatags_quick][version] = 2.5
+projects[metatags_quick][subdir] = contrib
+projects[metatags_quick][version] = 2.5
 ; Must first move this to the platform
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.1
-
-projects[nodequeue][type] = module
-projects[nodequeue][subdir] = contrib
-projects[nodequeue][download][type] = git
-projects[nodequeue][download][revision] = 9572de5
-; Issue #1388796
-
-projects[oauth][subdir] = contrib
-projects[oauth][version] = 3.0
+projects[mollom][version] = 2.3
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -176,9 +172,6 @@ projects[profile2][version] = 1.2
 projects[qa_checklist][subdir] = contrib
 projects[qa_checklist][version] = 1.0-rc1
 
-projects[quicktabs][subdir] = contrib
-projects[quicktabs][version] = 3.4
-
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
 
@@ -188,14 +181,15 @@ projects[role_delegation][version] = 1.1
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
-projects[scheduler_workbench][subdir] = contrib
-projects[scheduler_workbench][version] = 1.0-alpha3
+projects[schema][subdir] = contrib
+projects[schema][version] = 1.0-beta4
+; Remove at launch
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.2
+projects[search_api][version] = 1.3
 
 projects[search_api_combined][subdir] = contrib
-projects[search_api_combined][version] = 1.0-alpha1
+projects[search_api_combined][version] = 1.0
 
 projects[search_api_solr][subdir] = contrib
 projects[search_api_solr][version] = 1.0-rc2
@@ -206,11 +200,11 @@ projects[security_review][version] = 1.0
 projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.0
 
+projects[shadowbox][subdir] = contrib
+projects[shadowbox][version] = 4.0-beta4
+
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
-
-projects[soundmanager2][subdir] = contrib
-projects[soundmanager2][version] = 2.0-alpha1
 
 projects[soundmanager2][type] = module
 projects[soundmanager2][subdir] = contrib
@@ -227,7 +221,7 @@ projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9-beta4
 
 projects[tagclouds][subdir] = contrib
-projects[tagclouds][version] = 1.6
+projects[tagclouds][version] = 1.7
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.4
@@ -253,9 +247,6 @@ projects[webform][version] = 3.18
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.1
-
-projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][version] = 1.2
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
