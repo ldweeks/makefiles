@@ -77,8 +77,10 @@ projects[dropdown_checkboxes][version] = 1.0-rc1
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
+projects[entityconnect][type] = module
 projects[entityconnect][subdir] = contrib
-projects[entityconnect][version] = 1.0-beta1
+projects[entityconnect][download][type] = git
+projects[entityconnect][download][revision] = b96fb7882ac459f78821fe42c8aca74a263bbbe6
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0-rc5
