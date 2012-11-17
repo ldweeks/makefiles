@@ -42,7 +42,7 @@ projects[cnsb_custom][subdir] = custom
 projects[cnsb_custom][directory_name] = cnsb_custom
 projects[cnsb_custom][type] = module
 projects[cnsb_custom][download][type] = git
-projects[cnsb_custom][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-search.git
+projects[cnsb_custom][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb_custom.git
 
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.1
