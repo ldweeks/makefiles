@@ -164,6 +164,8 @@ projects[scheduler][version] = 1.0
 
 projects[search_api][subdir] = contrib
 projects[search_api][version] = 1.3
+projects[search_api][patch][] = http://drupal.org/files/1696434-7-search-api-views-taxonomy-term-argument-handler.patch
+; Issue #1696434
 
 projects[search_api_combined][subdir] = contrib
 projects[search_api_combined][version] = 1.0
