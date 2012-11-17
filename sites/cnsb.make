@@ -75,7 +75,7 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
 projects[entityconnect][subdir] = contrib
-projects[entityconnect][version] = 7.x-1.0-beta2
+projects[entityconnect][version] = 1.0-beta2
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0-rc5
