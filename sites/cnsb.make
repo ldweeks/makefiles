@@ -162,8 +162,11 @@ projects[role_delegation][version] = 1.1
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
+projects[search_api][type] = module
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.3
+projects[search_api][download][type] = git
+projects[search_api][download][url] = http://git.drupal.org/project/search_api.git
+projects[search_api][download][revision] = d8e52e2676dfa80f199d4911b55c38988c407f5c
 projects[search_api][patch][] = http://drupal.org/files/1696434-7-search-api-views-taxonomy-term-argument-handler.patch
 ; Issue #1696434
 
