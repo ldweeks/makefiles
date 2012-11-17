@@ -15,15 +15,15 @@ projects[admin_menu][version] = 3.0-rc3
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
 
-projects[amazons3][subdir] = contrib
-projects[amazons3][version] = 1.0-beta7
+projects[autocomplete_deluxe][type] = module
+projects[autocomplete_deluxe][subdir] = contrib
+projects[autocomplete_deluxe][download][type] = git
+projects[autocomplete_deluxe][download][url] = http://git.drupal.org/project/autocomplete_deluxe.git
+projects[autocomplete_deluxe][download][revision] = f4db794ce764262b218339ec54961ba03ab44974
 
 projects[auto_entitylabel][subdir] = contrib
 projects[auto_entitylabel][version] = 1.1
 ; The replacement for auto_nodetitle
-
-projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 5.4
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
@@ -36,7 +36,7 @@ projects[chosen][type] = module
 projects[chosen][subdir] = contrib
 projects[chosen][download][type] = git
 projects[chosen][download][url] = http://git.drupal.org/project/chosen.git
-projects[chosen][download][revision] = 4c4b8fd
+projects[chosen][download][revision] = 4c4b8fd5e5b2c1912c3de1589d658049b49cdc90
 
 projects[cnsb_custom][subdir] = custom
 projects[cnsb_custom][directory_name] = cnsb_custom
@@ -56,8 +56,8 @@ projects[context][version] = 3.0-beta4
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
-projects[custom_breadcrumbs][subdir] = contrib
-projects[custom_breadcrumbs][version] = 1.0-alpha1
+projects[crumbs][subdir] = contrib
+projects[crumbs][version] = 1.6
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -65,11 +65,8 @@ projects[date][version] = 2.6
 projects[date_popup_authored][subdir] = contrib
 projects[date_popup_authored][version] = 1.1
 
-projects[devel][subdir] = contrib
-projects[devel][version] = 1.3
-
 projects[diff][subdir] = contrib
-projects[diff][version] = 2.0
+projects[diff][version] = 3.2
 
 projects[dropdown_checkboxes][subdir] = contrib
 projects[dropdown_checkboxes][version] = 1.0-rc1
@@ -77,10 +74,8 @@ projects[dropdown_checkboxes][version] = 1.0-rc1
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
-projects[entityconnect][type] = module
 projects[entityconnect][subdir] = contrib
-projects[entityconnect][download][type] = git
-projects[entityconnect][download][revision] = b96fb7882ac459f78821fe42c8aca74a263bbbe6
+projects[entityconnect][version] = 7.x-1.0-beta2
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0-rc5
@@ -103,41 +98,25 @@ projects[flag][subdir] = contrib
 projects[flag][version] = 2.0
 
 projects[fontyourface][subdir] = contrib
-projects[fontyourface][version] = 2.5
-
-projects[global_filter][subdir] = contrib
-projects[global_filter][version] = 1.8
+projects[fontyourface][version] = 2.6
 
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.2
+projects[google_analytics][version] = 1.3
 
 projects[google_analytics_counter][subdir] = contrib
 projects[google_analytics_counter][version] = 1.3
 
-projects[google_analytics_reports][type] = module
-projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][download][type] = git
-projects[google_analytics_reports][download][revision] = f63a414
-; running the 3.x version to get views integration.
-
-projects[hacked][subdir] = contrib
-projects[hacked][version] = 2.0-beta4
-
-projects[hide_formats][type] = module
 projects[hide_formats][subdir] = contrib
-projects[hide_formats][download][type] = git
-projects[hide_formats][download][revision] = 0deeb01d607c75063afb116d020b5504b0a0b2e6
-;projects[hide_formats][version] = 1.0
-; Issue #1789222
+projects[hide_formats][version] = 1.1
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.5
+projects[imce][version] = 1.6
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -156,9 +135,8 @@ projects[link][version] = 1.0
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.0
 
-projects[metatags_quick][subdir] = contrib
-projects[metatags_quick][version] = 2.5
-; Must first move this to the platform
+projects[metatag][subdir] = contrib
+projects[metatag][version] = 1.0-beta3
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.3
@@ -176,17 +154,13 @@ projects[qa_checklist][subdir] = contrib
 projects[qa_checklist][version] = 1.0-rc1
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-beta4
+projects[redirect][version] = 1.0-rc1
 
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
-
-projects[schema][subdir] = contrib
-projects[schema][version] = 1.0-beta4
-; Remove at launch
 
 projects[search_api][subdir] = contrib
 projects[search_api][version] = 1.3
@@ -196,9 +170,6 @@ projects[search_api_combined][version] = 1.0
 
 projects[search_api_solr][subdir] = contrib
 projects[search_api_solr][version] = 1.0-rc2
-
-projects[security_review][subdir] = contrib
-projects[security_review][version] = 1.0
 
 projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.0
@@ -217,9 +188,6 @@ projects[soundmanager2][download][revision] = 5885c15
 projects[soundmanager2][patch][] = http://drupal.org/files/soundmanager2-1082344-3.patch
 ; Issue #1082344
 
-projects[styleguide][subdir] = contrib
-projects[styleguide][version] = 1.0
-
 projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9-beta4
 
@@ -237,13 +205,6 @@ projects[views_bulk_operations][version] = 3.0
 
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
-
-projects[views_slideshow][type] = module
-projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][download][type] = git
-projects[views_slideshow][download][revision] = 3de5104
-; This revision includes css classes to distinguish between play/pause
-; http://drupal.org/project/jcarousel - requires theming, but might be better
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
