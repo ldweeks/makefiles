@@ -28,10 +28,6 @@ projects[auto_entitylabel][version] = 1.1
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 
-projects[checklistapi][subdir] = contrib
-projects[checklistapi][version] = 1.0-beta4
-; Remove at launch
-
 projects[chosen][type] = module
 projects[chosen][subdir] = contrib
 projects[chosen][download][type] = git
@@ -100,14 +96,17 @@ projects[flag][version] = 2.0
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.6
 
+projects[ga_stats][subdir] = contrib
+projects[ga_stats][version] = 1.0-beta2
+
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
 
-projects[google_analytics_counter][subdir] = contrib
-projects[google_analytics_counter][version] = 1.3
+projects[google_analytics_reports][subdir] = contrib
+projects[google_analytics_reports][version] = 1.3
 
 projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
@@ -141,6 +140,9 @@ projects[metatag][version] = 1.0-beta3
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.3
 
+projects[oauth][subdir] = contrib
+projects[oauth][version] = 3.0
+
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
 
@@ -167,7 +169,7 @@ projects[search_api][subdir] = contrib
 projects[search_api][download][type] = git
 projects[search_api][download][url] = http://git.drupal.org/project/search_api.git
 projects[search_api][download][revision] = d8e52e2676dfa80f199d4911b55c38988c407f5c
-projects[search_api][patch][] = http://drupal.org/files/1696434-7-search-api-views-taxonomy-term-argument-handler.patch
+projects[search_api][patch][] = http://drupal.org/files/1696434-8-search-api-views-taxonomy-term-argument-handler.patch
 ; Issue #1696434
 
 projects[search_api_combined][subdir] = contrib
