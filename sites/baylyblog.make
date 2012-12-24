@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.14
+projects[drupal][version] = 7.18
 
 ; MODULES
 
@@ -58,10 +58,10 @@ projects[content_taxonomy][subdir] = contrib
 projects[content_taxonomy][version] = 1.0-beta1
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta3
+projects[context][version] = 3.0-beta6
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0
+projects[ctools][version] = 1.2
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.5
@@ -70,7 +70,7 @@ projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 2.0
+projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc2
@@ -178,13 +178,13 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.1
+projects[search_api][version] = 1.3
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
 
 projects[search_api_solr][subdir] = contrib
-projects[search_api_solr][version] = 1.0-rc1
+projects[search_api_solr][version] = 1.0-rc2
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
@@ -205,7 +205,7 @@ projects[tagclouds][subdir] = contrib
 projects[tagclouds][version] = 1.4
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.1
+projects[token][version] = 1.4
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.3
