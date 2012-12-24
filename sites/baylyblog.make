@@ -97,6 +97,9 @@ projects[filefield_sources][version] = 1.4
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.2
 
+projects[ga_stats][subdir] = contrib
+projects[ga_stats][version] = 1.0-beta2
+
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.4
 
