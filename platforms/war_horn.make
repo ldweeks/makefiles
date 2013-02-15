@@ -8,7 +8,7 @@ api = 2
 projects[pressflow][type] = core
 projects[pressflow][download][type] = git
 projects[pressflow][download][url] = git://github.com/pressflow/6.git
-projects[pressflow][download][tag] = pressflow-6.26.109
+projects[pressflow][download][tag] = pressflow-6.28.111
 
 ; MODULES
 projects[admin_menu][subdir] = contrib
@@ -30,13 +30,13 @@ projects[cck][subdir] = contrib
 projects[cck][version] = 2.9
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0
+projects[context][version] = 3.1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.9
+projects[ctools][version] = 1.10
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.25
@@ -45,7 +45,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.3
 
 projects[emfield][subdir] = contrib
-projects[emfield][version] = 2.5
+projects[emfield][version] = 2.6
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.11
@@ -57,19 +57,19 @@ projects[filefield][subdir] = contrib
 projects[filefield][version] = 3.10
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.6
+projects[filefield_sources][version] = 1.7
 
 projects[getid3][subdir] = contrib
 projects[getid3][version] = 1.5
 
 projects[globalredirect][subdir] = contrib
-projects[globalredirect][version] = 1.4
+projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 3.3
+projects[google_analytics][version] = 3.5
 
 projects[ie6update][subdir] = contrib
-projects[ie6update][version] = 1.4
+projects[ie6update][version] = 1.5
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
@@ -78,13 +78,13 @@ projects[imageapi][subdir] = contrib
 projects[imageapi][version] = 1.10
 
 projects[imagecache][subdir] = contrib
-projects[imagecache][version] = 2.0-beta12
+projects[imagecache][version] = 2.0-rc1
 
 projects[imagefield][subdir] = contrib
 projects[imagefield][version] = 3.10
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 2.3
+projects[imce][version] = 2.5
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.1
@@ -93,7 +93,7 @@ projects[jquery_ui][subdir] = contrib
 projects[jquery_ui][version] = 1.5
 
 projects[link][subdir] = contrib
-projects[link][version] = 2.9
+projects[link][version] = 2.10
 
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][version] = 1.1
@@ -105,10 +105,10 @@ projects[mollom][subdir] = contrib
 projects[mollom][version] = 1.16
 
 projects[nodewords][subdir] = contrib
-projects[nodewords][version] = 1.13
+projects[nodewords][version] = 1.14
 
 projects[page_title][subdir] = contrib
-projects[page_title][version] = 2.5
+projects[page_title][version] = 2.7
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.6
@@ -134,13 +134,13 @@ projects[soundmanager2][version] = 2.6
 projects[soundmanager2][patch][] = http://drupal.org/files/issues/link_field_support.patch
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.1
+projects[strongarm][version] = 2.2
 
 projects[taxonomy_manager][subdir] = contrib
 projects[taxonomy_manager][version] = 2.2
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.18
+projects[token][version] = 1.19
 
 projects[toolbar][subdir] = contrib
 projects[toolbar][version] = 2.4
@@ -158,10 +158,10 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 1.13
 
 projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 2.3
+projects[views_slideshow][version] = 2.4
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.17
+projects[webform][version] = 3.18
 
 projects[wp_comments][subdir] = contrib
 projects[wp_comments][version] = 1.0
@@ -170,7 +170,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.4
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc1
+projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
