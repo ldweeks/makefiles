@@ -3,24 +3,24 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.15
+projects[drupal][version] = 7.19
 
 ; MODULES
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc1
+projects[admin_menu][version] = 3.0-rc4
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
 
 projects[amazons3][subdir] = contrib
-projects[amazons3][version] = 1.0-beta6
+projects[amazons3][version] = 1.0-beta7
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 5.2
+projects[awssdk][version] = 5.4
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
@@ -38,7 +38,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.2
+projects[date][version] = 2.6
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -47,7 +47,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc1
+projects[entity][version] = 1.0
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.12
@@ -65,25 +65,28 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.4
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.2
+projects[google_analytics][version] = 1.3
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.5
+projects[imce][version] = 1.7
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.0-alpha2
+projects[libraries][version] = 2.0
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.0
+
+projects[mandrill][subdir] = contrib
+projects[mandrill][version] = 1.2
 
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
@@ -122,13 +125,13 @@ projects[soundmanager2][subdir] = contrib
 projects[soundmanager2][version] = 2.x-dev
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta5
+projects[strongarm][version] = 2.0
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.4
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.3
+projects[views][version] = 3.5
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
@@ -141,10 +144,10 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.17
 
 projects[workbench][subdir] = contrib
-projects[workbench][version] = 1.1
+projects[workbench][version] = 1.2
 
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.1
+projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-rc1
@@ -191,18 +194,7 @@ libraries[wp_audio_player][directory_name] = players/audio-player
 
 ; INSTALLATION PROFILES
 
-; clearnotesongbook.com
-;projects[cnf_cnsb][type] = profile
-;projects[cnf_cnsb][download][type] = git
-;projects[cnf_cnsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb.git
-
 ; goodshepherdband.com
 projects[cnf_gsb][type] = profile
 projects[cnf_gsb][download][type] = git
 projects[cnf_gsb][download][url] = git://cnf.repositoryhosting.com/cnf/cnf-gsb.git
-
-; baylyblog.com
-;projects[baylyblog][type] = profile
-;projects[baylyblog][download][type] = git
-;projects[baylyblog][download][url] = git://cnf.repositoryhosting.com/cnf/baylyblog.git
-;projects[baylyblog][download][branch] = 7.x-1.x
