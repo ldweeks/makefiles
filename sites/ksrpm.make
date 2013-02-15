@@ -27,6 +27,9 @@ projects[better_formats][version] = 1.0-beta1
 projects[checklistapi][subdir] = contrib
 projects[checklistapi][version] = 1.0-beta4
 
+projects[ckeditor][subdir] = contrib
+projects[ckeditor][version] = 1.12
+
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.4
 
@@ -57,14 +60,16 @@ projects[flag][version] = 2.0
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.6
 
+projects[freehold][type] = module
+projects[freehold][subdir] = contrib
+projects[freehold][download][type] = git
+projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold.git
+
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
-
-projects[hide_formats][subdir] = contrib
-projects[hide_formats][version] = 1.1
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.6
@@ -101,12 +106,6 @@ projects[multiblock][version] = 1.1
 
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
-
-projects[freehold][type] = module
-projects[freehold][subdir] = contrib
-projects[freehold][directory_name] = nohold
-projects[freehold][download][type] = git
-projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold.git
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -158,6 +157,10 @@ projects[freehold][download][type] = git
 projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold-theme.git
 
 ; LIBRARIES
+
+;CKEditor
+libraries[ckeditor][download][type] = get
+projects[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.zip
 
 ; TinyMCE
 libraries[tinymce][download][type] = git
