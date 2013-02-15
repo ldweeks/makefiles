@@ -136,6 +136,9 @@ projects[link][version] = 1.0
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.0
 
+projects[mandrill][subdir] = contrib
+projects[mandrill][version] = 1.2
+
 projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.4
 
