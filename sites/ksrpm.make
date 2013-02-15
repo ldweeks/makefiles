@@ -102,11 +102,11 @@ projects[multiblock][version] = 1.1
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
 
-projects[nohold][type] = module
-projects[nohold][subdir] = contrib
-projects[nohold][directory_name] = nohold
-projects[nohold][download][type] = git
-projects[nohold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold.git
+projects[freehold][type] = module
+projects[freehold][subdir] = contrib
+projects[freehold][directory_name] = nohold
+projects[freehold][download][type] = git
+projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold.git
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
