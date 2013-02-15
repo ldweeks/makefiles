@@ -160,7 +160,7 @@ projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/
 
 ;CKEditor
 libraries[ckeditor][download][type] = get
-projects[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.zip
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.zip
 
 ; TinyMCE
 libraries[tinymce][download][type] = git
