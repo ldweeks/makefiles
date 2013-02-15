@@ -9,6 +9,9 @@ projects[drupal][version] = 7.19
 
 ; MODULES
 
+projects[addressfield][subdir] = contrib
+projects[addressfield][version] = 1.0-beta3
+
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc3
 
@@ -18,20 +21,41 @@ projects[advanced_help][version] = 1.0
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 
+projects[better_formats][subdir] = contrib
+projects[better_formats][version] = 1.0-beta1
+
+projects[checklistapi][subdir] = contrib
+projects[checklistapi][version] = 1.0-beta4
+
+projects[commerce][subdir] = contrib
+projects[commerce][version] = 1.4
+
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
+
+projects[date][subdir] = contrib
+projects[date][version] = 2.6
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
+projects[dwolla][subdir] = contrib
+projects[dwolla][version] = 1.0-beta2
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
+
+projects[field_group][subdir] = contrib
+projects[field_group][version] = 1.1
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.7
 
 projects[flag][subdir] = contrib
 projects[flag][version] = 2.0
+
+projects[fontyourface][subdir] = contrib
+projects[fontyourface][version] = 2.6
 
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
@@ -48,8 +72,14 @@ projects[imce][version] = 1.6
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
+projects[jquery_update][subdir] = contrib
+projects[jquery_update][version] = 2.3
+
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
+
+projects[lightbox2][subdir] = contrib
+projects[lightbox2][version] = 1.0-beta1
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
@@ -60,8 +90,22 @@ projects[login_destination][version] = 1.0
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta3
 
+projects[module_filter][subdir] = contrib
+projects[module_filter][version] = 1.7
+
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.3
+
+projects[multiblock][subdir] = contrib
+projects[multiblock][version] = 1.1
+
+projects[nodequeue][subdir] = contrib
+projects[nodequeue][version] = 2.0-beta1
+
+projects[nohold][download][type] = git
+projects[nohold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold.git
+projects[nohold][subdir] = contrib
+projects[nohold][directory_name] = nohold
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -74,6 +118,12 @@ projects[qa_checklist][version] = 1.0-rc1
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
+
+projects[references][subdir] = contrib
+projects[references][version] = 2.1
+
+projects[rules][subdir] = contrib
+projects[rules][version] = 2.2
 
 projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.0
@@ -100,6 +150,10 @@ projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-rc1
 
 ; THEMES
+
+projects[freehold][download][type] = git
+projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold-theme.git
+projects[freehold][directory_name] = freehold
 
 ; LIBRARIES
 
