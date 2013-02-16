@@ -5,12 +5,12 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.17
+projects[drupal][version] = 7.19
 
 ; MODULES
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc3
+projects[admin_menu][version] = 3.0-rc4
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
@@ -47,13 +47,13 @@ projects[computed_field][subdir] = contrib
 projects[computed_field][version] = 1.0-beta1
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta4
+projects[context][version] = 3.0-beta6
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
 projects[crumbs][subdir] = contrib
-projects[crumbs][version] = 1.6
+projects[crumbs][version] = 1.9
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -68,13 +68,13 @@ projects[dropdown_checkboxes][subdir] = contrib
 projects[dropdown_checkboxes][version] = 1.0-rc1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc3
+projects[entity][version] = 1.0
 
 projects[entityconnect][subdir] = contrib
-projects[entityconnect][version] = 1.0-beta2
+projects[entityconnect][version] = 1.0-rc1
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-rc5
+projects[entityreference][version] = 1.0
 
 projects[facetapi][subdir] = contrib
 projects[facetapi][version] = 1.2
@@ -115,7 +115,7 @@ projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.6
+projects[imce][version] = 1.7
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -129,19 +129,19 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.0
+projects[link][version] = 1.1
 
 projects[login_destination][subdir] = contrib
-projects[login_destination][version] = 1.0
+projects[login_destination][version] = 1.1
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta3
+projects[metatag][version] = 1.0-beta4
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.3
+projects[mollom][version] = 2.4
 
 projects[oauth][subdir] = contrib
-projects[oauth][version] = 3.0
+projects[oauth][version] = 3.1
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -150,13 +150,16 @@ projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
 projects[profile2][subdir] = contrib
-projects[profile2][version] = 1.2
+projects[profile2][version] = 1.3
 
 projects[qa_checklist][subdir] = contrib
 projects[qa_checklist][version] = 1.0-rc1
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
+
+projects[reftagger][subdir] = contrib
+projects[reftagger][version] = 1.1
 
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
@@ -199,7 +202,7 @@ projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9-beta4
 
 projects[tagclouds][subdir] = contrib
-projects[tagclouds][version] = 1.7
+projects[tagclouds][version] = 1.9
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.4
@@ -208,7 +211,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.5
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0
+projects[views_bulk_operations][version] = 3.1
 
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
@@ -217,13 +220,13 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
 
 projects[workbench][subdir] = contrib
-projects[workbench][version] = 1.1
+projects[workbench][version] = 1.2
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc1
+projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
@@ -236,6 +239,9 @@ projects[cnsb-theme][download][type] = git
 projects[cnsb-theme][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-theme.git
 
 ; LIBRARIES
+
+; bootstrap
+; http://twitter.github.com/bootstrap/assets/bootstrap.zip
 
 ; chosen
 libraries[chosen][download][type] = git
