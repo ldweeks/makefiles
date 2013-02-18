@@ -89,8 +89,14 @@ projects[feedburner][directory_name] = feedburner
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.4
 
+projects[flippy][subdir] = contrib
+projects[flippy][version] = 1.0
+
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.7
+
+projects[ftools][subdir] = contrib
+projects[ftools][version] = 1.6
 
 projects[ga_stats][subdir] = contrib
 projects[ga_stats][version] = 1.0-beta2
@@ -155,6 +161,15 @@ projects[page_title][version] = 2.7
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
+projects[print][subdir] = contrib
+projects[print][version] = 1.2
+
+projects[profile2][subdir] = contrib
+projects[profile2][version] = 1.3
+
+projects[publication_date][subdir] = contrib
+projects[publication_date][version] = 1.0
+
 projects[quickbar][type] = module
 projects[quickbar][subdir] = contrib
 projects[quickbar][download][type] = git
@@ -162,6 +177,9 @@ projects[quickbar][download][revision] = a77415d
 
 projects[quicktabs][subdir] = contrib
 projects[quicktabs][version] = 3.4
+
+projects[readmorecontrol][subdir] = contrib
+projects[readmorecontrol][version] = 1.0
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
@@ -254,6 +272,11 @@ projects[zen][subdir] = contrib
 projects[zen][version] = 3.1
 
 ; LIBRARIES
+
+; dompdf
+libraries[dompdf][download][type] = git
+libraries[dompdf][download][url] = git://github.com/dompdf/dompdf.git
+libraries[dompdf][directory_name] = dompdf
 
 ; jquery.cycle
 libraries[jquery.cycle][download][type] = git
