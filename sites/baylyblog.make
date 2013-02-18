@@ -43,7 +43,7 @@ projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.3
 
 projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.0
+projects[boxes][version] = 1.1
 
 projects[cdn][subdir] = contrib
 projects[cdn][version] = 2.5
@@ -92,7 +92,7 @@ projects[feedburner][directory_name] = feedburner
 ; Issue #956872
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.4
+projects[filefield_sources][version] = 1.7
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.2
@@ -180,11 +180,14 @@ projects[reftagger][version] = 1.1
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
+projects[rules][subdir] = contrib
+projects[rules][version] = 2.2
+
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.3
+projects[search_api][version] = 1.4
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
