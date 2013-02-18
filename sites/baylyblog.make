@@ -87,7 +87,7 @@ projects[feedburner][directory_name] = feedburner
 ; Issue #956872
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.4
+projects[filefield_sources][version] = 1.7
 
 projects[flippy][subdir] = contrib
 projects[flippy][version] = 1.0
