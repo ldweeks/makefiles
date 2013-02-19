@@ -167,9 +167,6 @@ projects[print][version] = 1.2
 projects[profile2][subdir] = contrib
 projects[profile2][version] = 1.3
 
-projects[publication_date][subdir] = contrib
-projects[publication_date][version] = 1.0
-
 projects[quickbar][type] = module
 projects[quickbar][subdir] = contrib
 projects[quickbar][download][type] = git
@@ -210,9 +207,6 @@ projects[search_api_solr][version] = 1.0-rc3
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
-
-projects[slidebox][subdir] = contrib
-projects[slidebox][version] = 1.5
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
