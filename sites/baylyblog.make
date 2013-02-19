@@ -15,13 +15,10 @@ projects[accordion_menu][download][revision] = 2fe1e27
 ; This particular version does *not* require menu_block (though we may install it anyway)
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc3
+projects[admin_menu][version] = 3.0-rc4
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
-
-projects[amazons3][subdir] = contrib
-projects[amazons3][version] = 1.0-beta7
 
 projects[antispam][subdir] = contrib
 projects[antispam][version] = 1.4
@@ -36,11 +33,8 @@ projects[autocomplete_deluxe][download][revision] = a92b71e
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
-projects[awssdk][subdir] = contrib
-projects[awssdk][version] = 5.3
-
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.3
+projects[backup_migrate][version] = 2.4
 
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.1
@@ -64,7 +58,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.5
+projects[date][version] = 2.6
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -73,7 +67,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc2
+projects[entity][version] = 1.0
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.12
