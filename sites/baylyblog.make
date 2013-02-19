@@ -76,9 +76,10 @@ projects[facetapi][subdir] = contrib
 projects[facetapi][version] = 1.0-rc4
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-rc2
+projects[features][version] = 1.0
 
 projects[feedburner][type] = module
+projects[feedburner][subdir] = contrib
 projects[feedburner][download][type] = git
 projects[feedburner][download][url] = git://github.com/bran/feedburner.git
 projects[feedburner][download][revision] = adb4f9c151834b909d35e002f846bf974885e35d
@@ -88,20 +89,26 @@ projects[feedburner][directory_name] = feedburner
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.7
 
+projects[flippy][subdir] = contrib
+projects[flippy][version] = 1.0
+
 projects[fontyourface][subdir] = contrib
-projects[fontyourface][version] = 2.2
+projects[fontyourface][version] = 2.7
+
+projects[ftools][subdir] = contrib
+projects[ftools][version] = 1.6
 
 projects[ga_stats][subdir] = contrib
 projects[ga_stats][version] = 1.0-beta2
 
 projects[globalredirect][subdir] = contrib
-projects[globalredirect][version] = 1.4
+projects[globalredirect][version] = 1.5
 
 projects[goaway][subdir] = contrib
 projects[goaway][version] = 1.2
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.2
+projects[google_analytics][version] = 1.3
 
 projects[google_analytics_counter][subdir] = contrib
 projects[google_analytics_counter][version] = 1.1
@@ -116,28 +123,28 @@ projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.5
+projects[imce][version] = 1.7
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.0-alpha2
+projects[libraries][version] = 2.0
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.0
+projects[link][version] = 1.1
 
 projects[login_destination][subdir] = contrib
-projects[login_destination][version] = 1.0
+projects[login_destination][version] = 1.1
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.2
 
 projects[metatags_quick][subdir] = contrib
-projects[metatags_quick][version] = 2.4
+projects[metatags_quick][version] = 2.7
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.0
+projects[mollom][version] = 2.4
 
 projects[nodequeue][type] = module
 projects[nodequeue][subdir] = contrib
