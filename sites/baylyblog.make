@@ -73,7 +73,7 @@ projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.12
 
 projects[facetapi][subdir] = contrib
-projects[facetapi][version] = 1.2
+projects[facetapi][version] = 1.0-rc4
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
@@ -203,7 +203,7 @@ projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
 
 projects[search_api_solr][subdir] = contrib
-projects[search_api_solr][version] = 1.0-rc3
+projects[search_api_solr][version] = 1.0-rc2
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
