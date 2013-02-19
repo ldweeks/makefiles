@@ -153,13 +153,19 @@ projects[nodequeue][download][revision] = 9572de5
 ; Issue #1388796
 
 projects[oauth][subdir] = contrib
-projects[oauth][version] = 3.0
+projects[oauth][version] = 3.1
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.1
+projects[pathauto][version] = 1.2
+
+projects[print][subdir] = contrib
+projects[print][version] = 1.2
+
+projects[profile2][subdir] = contrib
+projects[profile2][version] = 1.3
 
 projects[quickbar][type] = module
 projects[quickbar][subdir] = contrib
@@ -169,11 +175,14 @@ projects[quickbar][download][revision] = a77415d
 projects[quicktabs][subdir] = contrib
 projects[quicktabs][version] = 3.4
 
+projects[readmorecontrol][subdir] = contrib
+projects[readmorecontrol][version] = 1.0
+
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
 
 projects[references][subdir] = contrib
-projects[references][version] = 2.0
+projects[references][version] = 2.1
 
 projects[reftagger][subdir] = contrib
 projects[reftagger][version] = 1.1
@@ -199,11 +208,8 @@ projects[search_api_solr][version] = 1.0-rc2
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
 
-projects[slidebox][subdir] = contrib
-projects[slidebox][version] = 1.5
-
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-rc1
+projects[strongarm][version] = 2.0
 
 projects[styleguide][subdir] = contrib
 projects[styleguide][version] = 1.0
@@ -212,16 +218,16 @@ projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9-beta4
 
 projects[tagclouds][subdir] = contrib
-projects[tagclouds][version] = 1.4
+projects[tagclouds][version] = 1.9
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.4
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.3
+projects[views][version] = 3.5
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-rc1
+projects[views_bulk_operations][version] = 3.1
 
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
@@ -237,16 +243,16 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
 
 projects[workbench][subdir] = contrib
-projects[workbench][version] = 1.1
+projects[workbench][version] = 1.2
 
 projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][version] = 1.2
+projects[workbench_moderation][version] = 1.3
 
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.1
+projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc1
+projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
@@ -260,6 +266,11 @@ projects[zen][subdir] = contrib
 projects[zen][version] = 3.1
 
 ; LIBRARIES
+
+; dompdf
+libraries[dompdf][download][type] = git
+libraries[dompdf][download][url] = git://github.com/dompdf/dompdf.git
+libraries[dompdf][directory_name] = dompdf
 
 ; jquery.cycle
 libraries[jquery.cycle][download][type] = git
