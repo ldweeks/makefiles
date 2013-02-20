@@ -120,7 +120,7 @@ projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
 
 projects[references][subdir] = contrib
-projects[references][version] = 2.1
+projects[references][version] = 2.0
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.2
