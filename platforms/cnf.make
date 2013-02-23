@@ -153,8 +153,11 @@ projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
-projects[bootstrap][subdir] = contrib
 projects[bootstrap][version] = 2.0-beta2
+
+projects[cnf_bootstrap][type] = theme
+projects[cnf_bootstrap][download][type] = git
+projects[cnf_bootstrap][download][url] = git://cnf.repositoryhosting.com/cnf/cnf_bootstrap.git
 
 ; LIBRARIES
 
