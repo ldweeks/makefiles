@@ -162,7 +162,7 @@ projects[bootstrap][version] = 2.0-beta2
 libraries[bootstrap][download][type] = git
 libraries[bootstrap][download][url] = git://github.com/twitter/bootstrap.git
 libraries[bootstrap][tag] = v2.3.0
-libraries[bootstrap][destination] = "themes/contrib/bootstrap
+libraries[bootstrap][destination] = themes/contrib/bootstrap
 
 ; dompdf
 libraries[dompdf][download][type] = git
