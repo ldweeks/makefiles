@@ -165,7 +165,7 @@ projects[cnf_bootstrap][download][url] = git://cnf.repositoryhosting.com/cnf/cnf
 libraries[bootstrap][download][type] = git
 libraries[bootstrap][download][url] = git://github.com/twitter/bootstrap.git
 libraries[bootstrap][tag] = v2.3.0
-libraries[bootstrap][destination] = themes/contrib/bootstrap
+libraries[bootstrap][destination] = themes/bootstrap
 
 ; dompdf
 libraries[dompdf][download][type] = git
