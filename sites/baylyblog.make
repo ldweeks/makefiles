@@ -119,6 +119,9 @@ projects[google_analytics_reports][download][type] = git
 projects[google_analytics_reports][download][revision] = f63a414
 ; running the 3.x version to get views integration.
 
+projects[googtube][subdir] = contrib
+projects[googtube][version] = 2.1
+
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
@@ -166,6 +169,9 @@ projects[print][version] = 1.2
 
 projects[profile2][subdir] = contrib
 projects[profile2][version] = 1.3
+
+projects[publish_button][subdir] = contrib
+projects[publish_button][version] = 1.0-beta8
 
 projects[quickbar][type] = module
 projects[quickbar][subdir] = contrib
