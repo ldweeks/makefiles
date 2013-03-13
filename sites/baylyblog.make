@@ -287,7 +287,7 @@ libraries[jquery.cycle][directory_name] = jquery.cycle
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][tag] = 3.5.0.1.1
+libraries[tinymce][download][tag] = 3.5.0.1.1
 
 ; swfobject
 libraries[swfobject][download][type] = git
