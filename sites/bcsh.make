@@ -5,12 +5,12 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.18
+projects[drupal][version] = 7.21
 
 ; MODULES
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc3
+projects[admin_menu][version] = 3.0-rc4
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
@@ -30,7 +30,10 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc3
+projects[entity][version] = 1.0
+
+projects[features][subdir] = contrib
+projects[features][version] = 1.0
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.7
@@ -48,7 +51,7 @@ projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.6
+projects[imce][version] = 1.7
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -57,10 +60,13 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.0
+projects[link][version] = 1.1
 
 projects[login_destination][subdir] = contrib
-projects[login_destination][version] = 1.0
+projects[login_destination][version] = 1.1
+
+projects[mandrill][subdir] = contrib
+projects[mandrill][version] = 1.4
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta3
@@ -99,13 +105,13 @@ projects[tagclouds][subdir] = contrib
 projects[tagclouds][version] = 1.7
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.4
+projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.5
+projects[views][version] = 3.6
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0
+projects[views_bulk_operations][version] = 3.1
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
@@ -114,7 +120,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc1
+projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
@@ -130,4 +136,4 @@ projects[perspective][download][url] = git://cnf.repositoryhosting.com/cnf/persp
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][tag] = 3.5.0.1.1
+libraries[tinymce][download][tag] = 3.5.8.1
