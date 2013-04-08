@@ -122,6 +122,11 @@ projects[google_analytics_reports][download][revision] = f63a414
 projects[googtube][subdir] = contrib
 projects[googtube][version] = 2.1
 
+projects[hide_sticky_promote][type] = module
+projects[hide_sticky_promote][subdir] = contrib
+projects[hide_sticky_promote][download][type] = git
+projects[hide_sticky_promote][download][url] = git://github.com/StudioZut/hide-sticky-promote.git
+
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
