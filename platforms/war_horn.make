@@ -29,6 +29,9 @@ projects[calendar][version] = 2.4
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.9
 
+projects[comment_notify][subdir] = contrib
+projects[comment_notify][version] = 1.6
+
 projects[context][subdir] = contrib
 projects[context][version] = 3.1
 
@@ -53,11 +56,17 @@ projects[extlink][version] = 1.11
 projects[features][subdir] = contrib
 projects[features][version] = 1.2
 
+projects[ffpc][subdir] = contrib
+projects[ffpc][version] = 1.0
+
 projects[filefield][subdir] = contrib
 projects[filefield][version] = 3.10
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.7
+
+projects[footnotes][subdir] = contrib
+projects[footnotes][version] = 2.5
 
 projects[getid3][subdir] = contrib
 projects[getid3][version] = 1.5
@@ -67,6 +76,9 @@ projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 3.5
+
+projects[hierarchical_select][subdir] = contrib
+projects[hierarchical_select][version] = 3.8
 
 projects[ie6update][subdir] = contrib
 projects[ie6update][version] = 1.5
@@ -89,6 +101,9 @@ projects[imce][version] = 2.5
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.1
 
+projects[insert][subdir] = contrib
+projects[insert][version] = 1.2
+
 projects[jquery_ui][subdir] = contrib
 projects[jquery_ui][version] = 1.5
 
@@ -101,8 +116,14 @@ projects[media_vimeo][version] = 1.1
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.3
 
+projects[menu_breadcrumb][subdir] = contrib
+projects[menu_breadcrumb][version] = 1.3
+
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 1.16
+
+projects[node_clone][subdir] = contrib
+projects[node_clone][version] = 1.3
 
 projects[nodewords][subdir] = contrib
 projects[nodewords][version] = 1.14
@@ -121,6 +142,9 @@ projects[role_delegation][version] = 1.4
 
 projects[save_edit][subdir] = contrib
 projects[save_edit][version] = 1.6
+
+projects[select_or_other][subdir] = contrib
+projects[select_or_other][version] = 2.14
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
@@ -145,6 +169,27 @@ projects[token][version] = 1.19
 projects[toolbar][subdir] = contrib
 projects[toolbar][version] = 2.4
 
+projects[ubercart][subdir] = contrib
+projects[ubercart][version] = 2.11
+
+projects[uc_discounts_alt][subdir] = contrib
+projects[uc_discounts_alt][version] = 2.4
+
+projects[uc_donation][subdir] = contrib
+projects[uc_donation][version] = 2.0-beta3
+
+projects[uc_minpercentrate][subdir] = contrib
+projects[uc_minpercentrate][version] = 1.1
+
+projects[uc_multiflatrate][subdir] = contrib
+projects[uc_multiflatrate][version] = 1.0
+
+projects[uc_views][subdir] = contrib
+projects[uc_views][version] = 3.3
+
+projects[uc_webform][subdir] = contrib
+projects[uc_webform][version] = 1.5
+
 projects[upgrade_status][subdir] = contrib
 projects[upgrade_status][version] = 1.1
 
@@ -157,11 +202,20 @@ projects[views][version] = 2.16
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 1.13
 
+projects[views_rss][subdir] = contrib
+projects[views_rss][version] = 2.0-rc3
+
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 2.4
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
+
+projects[workflow][subdir] = contrib
+projects[workflow][version] = 1.5
+
+projects[workspace][subdir] = contrib
+projects[workspace][version] = 1.3
 
 projects[wp_comments][subdir] = contrib
 projects[wp_comments][version] = 1.0
