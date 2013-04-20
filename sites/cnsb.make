@@ -5,7 +5,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.19
+projects[drupal][version] = 7.22
 
 ; MODULES
 
@@ -50,7 +50,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta6
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.2
+projects[ctools][version] = 1.3
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.9
@@ -208,7 +208,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.4
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.5
+projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
