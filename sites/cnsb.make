@@ -255,8 +255,9 @@ libraries[ddcl][download][url] = http://dropdown-check-list.googlecode.com/files
 libraries[ddcl][directory_name] = ddcl
 
 ; jplayer
-libraries[jplayer][download][type] = file
-libraries[jplayer][download][url] = http://www.jplayer.org/latest/jQuery.jPlayer.2.2.0.zip
+libraries[jplayer][download][type] = git
+libraries[jplayer][download][url] = git://github.com/happyworm/jPlayer.git
+libraries[jplayer][download][tag] = 2.2.0
 libraries[jplayer][directory_name] = jplayer
 
 ; jquery.cycle
