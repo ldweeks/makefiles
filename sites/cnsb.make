@@ -106,7 +106,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 1.3
+projects[google_analytics_reports][version] = 3.x-dev
 
 projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
@@ -133,6 +133,9 @@ projects[link][version] = 1.1
 
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.1
+
+projects[mandrill][subdir] = contrib
+projects[mandrill][version] = 1.4
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta4
