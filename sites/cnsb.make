@@ -124,6 +124,7 @@ projects[jplayer][subdir] = contrib
 projects[jplayer][type] = module
 projects[jplayer][download][type] = git
 projects[jplayer][download][revision] = 4025d16
+; June 18, 2012
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
@@ -259,7 +260,7 @@ libraries[ddcl][directory_name] = ddcl
 
 ; jplayer
 libraries[jplayer][download][type] = git
-libraries[jplayer][download][url] = git://github.com/happyworm/jPlayer.git
+libraries[jplayer][download][url] = git://cnf.repositoryhosting.com/cnf/jplayer.git
 libraries[jplayer][download][tag] = 2.2.0
 libraries[jplayer][directory_name] = jplayer
 
