@@ -18,8 +18,17 @@ projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civi
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc4
 
+projects[civicrm_error][subdir] = contrib
+projects[civicrm_error][version] = 2.0-rc3
+
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
+
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.0
+
+projects[mailsystem][subdir] = contrib
+projects[mailsystem][version] = 2.34
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.4
