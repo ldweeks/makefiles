@@ -27,6 +27,9 @@ projects[ctools][version] = 1.3
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0
 
+projects[libraries][subdir] = contrib
+projects[libraries][version] = 2.1
+
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
@@ -35,3 +38,9 @@ projects[mandrill][version] = 1.4
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
+
+projects[webform][subdir] = contrib
+projects[webform][version] = 3.18
+
+projects[webform_civicrm][subdir] = contrib
+projects[webform_civicrm][version] = 3.5
