@@ -11,8 +11,7 @@ projects[drupal][version] = 7.22
 projects[civicrm][type] = module
 projects[civicrm][directory_name] = civicrm
 projects[civicrm][download][type] = get
-projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.2.8/civicrm-4.2.8-drupal.tar.gz
-; Next: http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.3.1/civicrm-4.3.1-drupal.tar.gz
+projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.3.1/civicrm-4.3.1-drupal.tar.gz
 
 ; CONTRIB
 projects[admin_menu][subdir] = contrib
@@ -44,3 +43,9 @@ projects[webform][version] = 3.18
 
 projects[webform_civicrm][subdir] = contrib
 projects[webform_civicrm][version] = 3.5
+
+; LIBRARIES
+libraries[tokeninput][download][type] = git
+libraries[tokeninput][download][url] = git://github.com/loopj/jquery-tokeninput.git
+libraries[tokeninput][directory_name] = tokeninput
+libraries[tokeninput][tag] = 3.5.7.1
