@@ -11,7 +11,7 @@ projects[drupal][version] = 7.22
 projects[civicrm][type] = module
 projects[civicrm][directory_name] = civicrm
 projects[civicrm][download][type] = get
-projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.3.1/civicrm-4.3.1-drupal.tar.gz
+projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.2.8/civicrm-4.2.8-drupal.tar.gz
 
 ; CONTRIB
 projects[admin_menu][subdir] = contrib
