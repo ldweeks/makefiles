@@ -111,7 +111,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
 
 projects[google_analytics_counter][subdir] = contrib
-projects[google_analytics_counter][version] = 1.1
+projects[google_analytics_counter][version] = 2.1
 
 projects[google_analytics_reports][type] = module
 projects[google_analytics_reports][subdir] = contrib
