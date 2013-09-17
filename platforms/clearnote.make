@@ -85,6 +85,9 @@ projects[link][version] = 1.1
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.7
 
+projects[mailsystem][subdir] = contrib
+projects[mailsystem][version] = 2.34
+
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.4
 
