@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.19
+projects[drupal][version] = 7.23
 
 ; MODULES
 
@@ -35,7 +35,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta2
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.2
+projects[ctools][version] = 1.3
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -47,10 +47,10 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0
+projects[entity][version] = 1.2
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.12
+projects[extlink][version] = 1.13
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0-rc1
@@ -77,7 +77,7 @@ projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.0
+projects[libraries][version] = 2.1
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
@@ -86,7 +86,7 @@ projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.0
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.2
+projects[mandrill][version] = 1.4
 
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
@@ -95,7 +95,7 @@ projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.5
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.0
+projects[pathauto][version] = 1.2
 
 projects[quickbar][subdir] = contrib
 projects[quickbar][version] = 2.0-beta1
@@ -128,10 +128,10 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.4
+projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.5
+projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.0-rc1
@@ -155,7 +155,7 @@ projects[xmlsitemap][version] = 2.0-rc1
 ; THEMES
 
 projects[rubik][subdir] = contrib
-projects[rubik][version] = 4.0-beta8
+projects[rubik][version] = 4.0-beta9
 
 projects[tao][subdir] = contrib
 projects[tao][version] = 3.0-beta4
