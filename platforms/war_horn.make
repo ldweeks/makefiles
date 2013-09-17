@@ -51,7 +51,7 @@ projects[emfield][subdir] = contrib
 projects[emfield][version] = 2.6
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.11
+projects[extlink][version] = 1.15
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.2
@@ -60,10 +60,10 @@ projects[ffpc][subdir] = contrib
 projects[ffpc][version] = 1.0
 
 projects[filefield][subdir] = contrib
-projects[filefield][version] = 3.10
+projects[filefield][version] = 3.11
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.7
+projects[filefield_sources][version] = 1.8
 
 projects[footnotes][subdir] = contrib
 projects[footnotes][version] = 2.5
@@ -93,7 +93,7 @@ projects[imagecache][subdir] = contrib
 projects[imagecache][version] = 2.0-rc1
 
 projects[imagefield][subdir] = contrib
-projects[imagefield][version] = 3.10
+projects[imagefield][version] = 3.11
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 2.5
@@ -117,10 +117,10 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.3
 
 projects[menu_breadcrumb][subdir] = contrib
-projects[menu_breadcrumb][version] = 1.3
+projects[menu_breadcrumb][version] = 1.4
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 1.16
+projects[mollom][version] = 2.5
 
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.3
@@ -161,7 +161,7 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.2
 
 projects[taxonomy_manager][subdir] = contrib
-projects[taxonomy_manager][version] = 2.2
+projects[taxonomy_manager][version] = 2.3
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.19
@@ -170,7 +170,7 @@ projects[toolbar][subdir] = contrib
 projects[toolbar][version] = 2.4
 
 projects[ubercart][subdir] = contrib
-projects[ubercart][version] = 2.11
+projects[ubercart][version] = 2.12
 
 projects[uc_discounts_alt][subdir] = contrib
 projects[uc_discounts_alt][version] = 2.4
@@ -188,7 +188,7 @@ projects[uc_views][subdir] = contrib
 projects[uc_views][version] = 3.3
 
 projects[uc_webform][subdir] = contrib
-projects[uc_webform][version] = 1.5
+projects[uc_webform][version] = 1.6
 
 projects[upgrade_status][subdir] = contrib
 projects[upgrade_status][version] = 1.1
@@ -200,7 +200,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 2.16
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 1.13
+projects[views_bulk_operations][version] = 1.16
 
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
@@ -209,7 +209,7 @@ projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 2.4
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.18
+projects[webform][version] = 3.19
 
 projects[workflow][subdir] = contrib
 projects[workflow][version] = 1.5
@@ -229,7 +229,7 @@ projects[xmlsitemap][version] = 2.0-rc2
 ; THEMES
 
 projects[rubik][subdir] = contrib
-projects[rubik][version] = 3.0-beta3
+projects[rubik][version] = 3.0-beta5
 
 projects[tao][subdir] = contrib
 projects[tao][version] = 3.3
