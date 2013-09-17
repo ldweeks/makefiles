@@ -26,13 +26,13 @@ projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
 
 projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.0-beta7
+projects[boxes][version] = 1.1
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta2
+projects[context][version] = 3.0-beta7
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
@@ -44,7 +44,7 @@ projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 2.0
+projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.2
@@ -53,16 +53,16 @@ projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.13
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-rc1
+projects[features][version] = 1.0
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.6
+projects[filefield_sources][version] = 1.8
 
 projects[getid3][subdir] = contrib
 projects[getid3][version] = 1.0
 
 projects[globalredirect][subdir] = contrib
-projects[globalredirect][version] = 1.4
+projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
@@ -80,10 +80,10 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.0
+projects[link][version] = 1.1
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.0
+projects[mollom][version] = 2.7
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.4
@@ -92,7 +92,7 @@ projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
 
 projects[page_title][subdir] = contrib
-projects[page_title][version] = 2.5
+projects[page_title][version] = 2.7
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
@@ -104,7 +104,7 @@ projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
 
 projects[references][subdir] = contrib
-projects[references][version] = 2.0
+projects[references][version] = 2.1
 
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
@@ -134,14 +134,14 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.0-rc1
+projects[views_bulk_operations][version] = 3.1
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
 ; http://drupal.org/project/jcarousel - requires theming, but might be better
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.17
+projects[webform][version] = 3.19
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -150,7 +150,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc1
+projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
