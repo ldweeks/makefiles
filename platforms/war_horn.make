@@ -163,6 +163,9 @@ projects[strongarm][version] = 2.2
 projects[taxonomy_manager][subdir] = contrib
 projects[taxonomy_manager][version] = 2.3
 
+projects[taxonomy_menu][subdir] = contrib
+projects[taxonomy_menu][version] = 2.9
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.19
 
