@@ -21,7 +21,7 @@ projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
 projects[awssdk][version] = 5.4
-; projects[awssdk][patch][] = https://drupal.org/files/remove_make_file-1673888-8-2.patch
+projects[awssdk][patch][] = https://drupal.org/files/remove_make_file-1673888-8-2.patch
 ; The above patch is unnecessary. This make file overrides the one in the awssdk module.
 
 projects[backup_migrate][subdir] = contrib
