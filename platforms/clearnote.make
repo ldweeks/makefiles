@@ -22,7 +22,7 @@ projects[auto_nodetitle][version] = 1.0
 projects[awssdk][subdir] = contrib
 projects[awssdk][version] = 5.4
 projects[awssdk][patch][] = https://drupal.org/files/remove_make_file-1673888-8-2.patch
-; The above patch is unnecessary. This make file overrides the one in the awssdk module.
+; Overrides are dependent on the version of drush you're using. So just take the stupid make file out.
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
