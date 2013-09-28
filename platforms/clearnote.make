@@ -197,12 +197,12 @@ libraries[wp_audio_player][download][url] = git://cnf.repositoryhosting.com/cnf/
 libraries[wp_audio_player][directory_name] = players/audio-player
 
 ; Amazon Web Services SDK
-projects[awssdk][type] = library
-projects[awssdk][download][type] = git
-projects[awssdk][download][url] = https://github.com/amazonwebservices/aws-sdk-for-php.git
-projects[awssdk][download][tag] = 1.5.10
-projects[awssdk][patch][] = https://drupal.org/files/buckets_with_dots-1673888-8-1.patch
-
+projects[awssdk-for-php][type] = library
+projects[awssdk-for-php][directory_name] = awssdk
+projects[awssdk-for-php][download][type] = git
+projects[awssdk-for-php][download][url] = https://github.com/amazonwebservices/aws-sdk-for-php.git
+projects[awssdk-for-php][download][tag] = 1.5.10
+projects[awssdk-for-php][patch][] = https://drupal.org/files/buckets_with_dots-1673888-8-1.patch
 
 ; INSTALLATION PROFILES
 
