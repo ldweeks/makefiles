@@ -21,6 +21,7 @@ projects[auto_nodetitle][version] = 1.0
 
 projects[awssdk][subdir] = contrib
 projects[awssdk][version] = 5.4
+projects[awssdk][patch][] = https://drupal.org/files/remove_make_file-1673888-8-2.patch
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
@@ -194,6 +195,14 @@ libraries[SoundManager2][download][tag] = V2.97a.20110424
 libraries[wp_audio_player][download][type] = git
 libraries[wp_audio_player][download][url] = git://cnf.repositoryhosting.com/cnf/wp-audio-player.git
 libraries[wp_audio_player][directory_name] = players/audio-player
+
+; Amazon Web Services SDK
+projects[awssdk][type] = library
+projects[awssdk][download][type] = git
+projects[awssdk][download][url] = https://github.com/amazonwebservices/aws-sdk-for-php.git
+projects[awssdk][download][tag] = 1.5.10
+projects[awssdk][patch][] = https://drupal.org/files/buckets_with_dots-1673888-8-1.patch
+
 
 ; INSTALLATION PROFILES
 
