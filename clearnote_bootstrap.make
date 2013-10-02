@@ -84,7 +84,6 @@ projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
 projects[navbar][subdir] = contrib
-projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][download][revision] = 455f81d4d17051851fb5f425c653201c901a0338
 
 projects[page_title][subdir] = contrib
