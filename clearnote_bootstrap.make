@@ -128,7 +128,7 @@ projects[bootstrap][version] = 3.0-rc1
 
 ; Bootstrap sub-theme
 projects[clearnote_bootstrap][type] = theme
-projects[clearnote_bootstrap][subdir] = contrib
+projects[clearnote_bootstrap][subdir] = custom
 projects[clearnote_bootstrap][download][type] = git
 projects[clearnote_bootstrap][download][url] = git://cnf.repositoryhosting.com/cnf/clearnote_bootstrap.git
 
