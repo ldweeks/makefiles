@@ -10,6 +10,9 @@ projects[drupal][version] = 7.23
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc4
 
+projects[breakpoints][subdir] = contrib
+projects[breakpoints][version] = 1.1
+
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta7
 
@@ -56,6 +59,9 @@ projects[imce][version] = 1.7
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
+projects[jquery_update][subdir] = contrib
+projects[jquery_update][version] = 2.3
+
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
 
@@ -74,8 +80,12 @@ projects[mandrill][version] = 1.4
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
+projects[module_filter][subdir] = contrib
+projects[module_filter][version] = 1.8
+
 projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.0-alpha10
+projects[navbar][download][branch] = 7.x-1.x
+projects[navbar][download][revision] = 455f81d4d17051851fb5f425c653201c901a0338
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -112,14 +122,19 @@ projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
+; Drupal Bootstrap theme
 projects[bootstrap][subdir] = contrib
 projects[bootstrap][version] = 3.0-rc1
 
+; Bootstrap sub-theme
+projects[clearnote_bootstrap][type] = theme
+projects[clearnote_bootstrap][subdir] = contrib
+projects[clearnote_bootstrap][download][type] = git
+projects[clearnote_bootstrap][download][url] = git://cnf.repositoryhosting.com/cnf/clearnote_bootstrap.git
+
 ; Ember - A responsive admin theme
-projects[ember][type] = theme
+projects[ember][subdir] = contrib
 projects[ember][version] = 2.0-alpha1
-;projects[ember][download][type] = git
-;projects[ember][download][branch] = 7.x-1.x
 
 ; LIBRARIES
 
@@ -128,7 +143,7 @@ libraries[bootstrap][download][type] = git
 libraries[bootstrap][download][url] = https://github.com/twbs/bootstrap.git
 libraries[bootstrap][tag] = v3.0.0
 libraries[bootstrap][directory_name] = bootstrap
-libraries[bootstrap][destination] = themes/bootstrap
+libraries[bootstrap][destination] = themes/contrib/bootstrap
 libraries[bootstrap][overwrite] = TRUE
 
 ; Backbone
@@ -137,11 +152,13 @@ libraries[backbone][download][url] = https://github.com/jashkenas/backbone.git
 libraries[backbone][download][tag] = 1.0.0
 libraries[backbone][directory_name] = backbone
 
-; ckeditor
-libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.1/ckeditor_4.2.1_standard.zip
+; Underscore
+libraries[underscore][download][type] = git
+libraries[underscore][download][url] = https://github.com/jashkenas/underscore.git
+libraries[underscore][download][tag] = 1.5.2
+libraries[underscore][directory_name] = underscore
 
 ; TinyMCE
-; libraries[tinymce][download][type] = git
-; libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
-; libraries[tinymce][directory_name] = tinymce
+libraries[tinymce][download][type] = git
+libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
+libraries[tinymce][directory_name] = tinymce
