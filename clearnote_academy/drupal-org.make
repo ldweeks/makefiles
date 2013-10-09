@@ -23,35 +23,23 @@ projects[unary][download][revision] = c3c4e32
 ;
 ; Open Academy default apps (for use with local apps server)
 
-projects[openacademy_core][download][type] = git
 projects[openacademy_core][subdir] = openacademy
-projects[openacademy_core][download][url] = http://git.drupal.org/project/openacademy_core.git
-projects[openacademy_core][download][branch] = 7.x-1.x
+projects[openacademy_core][version] = 1.0-rc3
 
-projects[openacademy_courses][download][type] = git
 projects[openacademy_courses][subdir] = openacademy
-projects[openacademy_courses][download][url] = http://git.drupal.org/project/openacademy_courses.git
-projects[openacademy_courses][download][branch] = 7.x-1.x
+projects[openacademy_courses][version] = 1.0-rc3
 
-projects[openacademy_people][download][type] = git
 projects[openacademy_people][subdir] = openacademy
-projects[openacademy_people][download][url] = http://git.drupal.org/project/openacademy_people.git
-projects[openacademy_people][download][branch] = 7.x-1.x
+projects[openacademy_people][version] = 1.0-rc3
 
-projects[openacademy_events][download][type] = git
 projects[openacademy_events][subdir] = openacademy
-projects[openacademy_events][download][url] = http://git.drupal.org/project/openacademy_events.git
-projects[openacademy_events][download][branch] = 7.x-1.x
+projects[openacademy_events][version] = 1.0-rc3
 
-projects[openacademy_news][download][type] = git
 projects[openacademy_news][subdir] = openacademy
-projects[openacademy_news][download][url] = http://git.drupal.org/project/openacademy_news.git
-projects[openacademy_news][download][branch] = 7.x-1.x
+projects[openacademy_news][version] = 1.0-rc3
 
-projects[openacademy_publications][download][type] = git
 projects[openacademy_publications][subdir] = openacademy
-projects[openacademy_publications][download][url] = http://git.drupal.org/project/openacademy_publications.git
-projects[openacademy_publications][download][branch] = 7.x-1.x
+projects[openacademy_publications][version] = 1.0-rc3
 
 
 ; ----------------------------------------------------------------------------
@@ -114,7 +102,7 @@ projects[panopoly_core][patch][2095735] = http://drupal.org/files/2095735.2opena
 projects[panopoly_core][version] = 1.0-rc5
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][patch][1837312] = http://drupal.org/files/panopoly_core-panelizer_default_permissions-1837312-26.patch
-projects[panopoly_core][patch][2101013] = http://drupal.org/files/2101013-panopoly-defaultconfig.patch
+projects[panopoly_core][patch][2101013] = http://drupal.org/files/2101013.3-panopoly-defaultconfig-defaultcontent.patch
 
 projects[panopoly_images][version] = 1.0-rc5
 projects[panopoly_images][subdir] = panopoly

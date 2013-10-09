@@ -26,6 +26,12 @@ projects[drupal][patch][1697570] = http://drupal.org/files/drupal-menu_always_lo
 ; Fix for Undefined index: default_image in image_field_update_instance() - during reconfigure
 projects[drupal][patch][1559696] = http://drupal.org/files/default_image_index-1559696-27.patch
 
+; Allow install profiles to change the system requirements
+projects[drupal][patch][1772316] = http://drupal.org/files/drupal-7.x-allow_profile_change_sys_req-1772316-21.patch
+
+; Registry rebuild should not parse the same file twice in the same request
+projects[drupal][patch][1470656] = http://drupal.org/files/drupal-1470656-14.patch
+
 
 ; ----------------------------------------------------------------------------
 ; OLD PATCHES
