@@ -5,13 +5,13 @@ core = 7.x
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.22
+projects[drupal][version] = 7.23
 
 ; CIVICRM
 projects[civicrm][type] = module
 projects[civicrm][directory_name] = civicrm
 projects[civicrm][download][type] = get
-projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.3.3/civicrm-4.3.3-drupal.tar.gz
+projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.3.7/civicrm-4.3.7-drupal.tar.gz
 
 ; CONTRIB
 projects[admin_menu][subdir] = contrib
@@ -24,7 +24,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0
+projects[entity][version] = 1.2
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
@@ -39,10 +39,10 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.18
+projects[webform][version] = 3.19
 
 projects[webform_civicrm][subdir] = contrib
-projects[webform_civicrm][version] = 3.5
+projects[webform_civicrm][version] = 3.6
 
 ; LIBRARIES
 libraries[tokeninput][download][type] = git
