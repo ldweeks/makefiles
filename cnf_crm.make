@@ -38,6 +38,9 @@ projects[mandrill][version] = 1.4
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta6
+
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.19
 
