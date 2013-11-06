@@ -94,7 +94,7 @@ projects[xmlsitemap][version] = 2.0-rc2
 
 ; Drupal Bootstrap theme
 projects[bootstrap][subdir] = contrib
-projects[bootstrap][version] = 3.0-rc1
+projects[bootstrap][version] = 3.0-rc2
 
 ; Bootstrap sub-theme
 projects[clearnote_bootstrap][type] = theme
