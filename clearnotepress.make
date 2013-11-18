@@ -10,9 +10,6 @@ projects[drupal][version] = 7.23
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc4
 
-projects[breakpoints][subdir] = contrib
-projects[breakpoints][version] = 1.1
-
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
 
@@ -122,3 +119,13 @@ projects[rubix-responsive-theme][version] = 1.2
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
+
+; Nivo Slider
+libraries[nivo-slider][download][type] = git
+libraries[nivo-slider][download][url] = git://cnf.repositoryhosting.com/cnf/nivo-slider.git
+libraries[nivo-slider][directory_name] = nivo-slider
+
+; Superfish
+libraries[superfish][download][type] = git
+libraries[superfish][download][url] = https://github.com/mehrpadin/Superfish-for-Drupal.git
+libraries[superfish][directory_name] = superfish
