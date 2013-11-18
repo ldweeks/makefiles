@@ -22,12 +22,18 @@ projects[devel][version] = 1.2
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
+projects[ds][subdir] = contrib
+projects[ds][version] = 2.6
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.2
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0
 ; I used the reference module before, but this one is in D8 core.
+
+projects[exclude_node_title][subdir] = contrib
+projects[exclude_node_title][version] = 1.6
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.13
@@ -74,6 +80,9 @@ projects[mandrill][version] = 1.5
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
+projects[nivo_slider][subdir] = contrib
+projects[nivo_slider][version] = 1.10
+
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
 
@@ -88,6 +97,12 @@ projects[role_delegation][version] = 1.1
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
+
+projects[special_menu_items][subdir] = contrib
+projects[special_menu_items][version] = 2.0
+
+projects[superfish][subdir] = contrib
+projects[superfish][version] = 1.9
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
