@@ -124,9 +124,10 @@ projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
-; Omega Kickstart
-projects[rubix-responsive-theme][subdir] = contrib
-projects[rubix-responsive-theme][version] = 1.2
+; Rubix Responsive Theme (with some customizations)
+projects[rubix-responsive-theme][type] = theme
+projects[rubix-responsive-theme][download][type] = git
+projects[rubix-responsive-theme][download][url] = git://cnf.repositoryhosting.com/cnf/rubix-responsive-theme.git
 
 ; LIBRARIES
 
