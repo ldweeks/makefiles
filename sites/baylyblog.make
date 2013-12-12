@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.19
+projects[drupal][version] = 7.24
 
 ; MODULES
 
@@ -34,28 +34,28 @@ projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.4
+projects[backup_migrate][version] = 2.8
 
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.1
 
 projects[cdn][subdir] = contrib
-projects[cdn][version] = 2.5
+projects[cdn][version] = 2.6
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.1
 
 projects[comment_notify][subdir] = contrib
-projects[comment_notify][version] = 1.0
+projects[comment_notify][version] = 1.2
 
 projects[content_taxonomy][subdir] = contrib
 projects[content_taxonomy][version] = 1.0-beta1
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta6
+projects[context][version] = 3.1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.2
+projects[ctools][version] = 1.3
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -67,10 +67,10 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0
+projects[entity][version] = 1.2
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.12
+projects[extlink][version] = 1.13
 
 projects[facetapi][subdir] = contrib
 projects[facetapi][version] = 1.0-rc4
@@ -87,13 +87,13 @@ projects[feedburner][directory_name] = feedburner
 ; Issue #956872
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.7
+projects[filefield_sources][version] = 1.9
 
 projects[flippy][subdir] = contrib
 projects[flippy][version] = 1.0
 
 projects[fontyourface][subdir] = contrib
-projects[fontyourface][version] = 2.7
+projects[fontyourface][version] = 2.8
 
 projects[ftools][subdir] = contrib
 projects[ftools][version] = 1.6
@@ -108,7 +108,7 @@ projects[goaway][subdir] = contrib
 projects[goaway][version] = 1.2
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.3
+projects[google_analytics][version] = 1.4
 
 projects[google_analytics_counter][subdir] = contrib
 projects[google_analytics_counter][version] = 2.1
@@ -121,6 +121,9 @@ projects[google_analytics_reports][download][revision] = f63a414
 
 projects[googtube][subdir] = contrib
 projects[googtube][version] = 2.1
+
+projects[honeypot][subdir] = contrib
+projects[honeypot][version] = 1.15
 
 projects[hide_sticky_promote][type] = module
 projects[hide_sticky_promote][subdir] = contrib
@@ -137,22 +140,22 @@ projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.0
+projects[libraries][version] = 2.1
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.1
+projects[link][version] = 1.2
 
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.1
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.2
+projects[mandrill][version] = 1.5
 
 projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.7
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.4
+projects[mollom][version] = 2.8
 
 projects[nodequeue][type] = module
 projects[nodequeue][subdir] = contrib
@@ -184,13 +187,13 @@ projects[quickbar][download][type] = git
 projects[quickbar][download][revision] = a77415d
 
 projects[quicktabs][subdir] = contrib
-projects[quicktabs][version] = 3.4
+projects[quicktabs][version] = 3.6
 
 projects[readmorecontrol][subdir] = contrib
 projects[readmorecontrol][version] = 1.0
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-beta4
+projects[redirect][version] = 1.0-rc1
 
 projects[references][subdir] = contrib
 projects[references][version] = 2.1
@@ -202,19 +205,19 @@ projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.2
+projects[rules][version] = 2.6
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.0
+projects[scheduler][version] = 1.1
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.4
+projects[search_api][version] = 1.10
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
 
 projects[search_api_solr][subdir] = contrib
-projects[search_api_solr][version] = 1.0-rc2
+projects[search_api_solr][version] = 1.3
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
@@ -226,16 +229,16 @@ projects[styleguide][subdir] = contrib
 projects[styleguide][version] = 1.0
 
 projects[superfish][subdir] = contrib
-projects[superfish][version] = 1.9-beta4
+projects[superfish][version] = 1.9
 
 projects[tagclouds][subdir] = contrib
 projects[tagclouds][version] = 1.9
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.4
+projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.5
+projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
@@ -251,7 +254,7 @@ projects[views_slideshow][download][revision] = 3de5104
 ; http://drupal.org/project/jcarousel - requires theming, but might be better
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.18
+projects[webform][version] = 3.19
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -268,13 +271,13 @@ projects[xmlsitemap][version] = 2.0-rc2
 ; THEMES
 
 projects[rubik][subdir] = contrib
-projects[rubik][version] = 4.0-beta8
+projects[rubik][version] = 4.0-rc1
 
 projects[tao][subdir] = contrib
 projects[tao][version] = 3.0-beta4
 
 projects[zen][subdir] = contrib
-projects[zen][version] = 3.1
+projects[zen][version] = 3.2
 
 ; LIBRARIES
 
