@@ -13,6 +13,9 @@ projects[admin_menu][version] = 3.0-rc4
 projects[admin_views][subdir] = contrib
 projects[admin_views][version] = 1.2
 
+projects[ckeditor][subdir] = contrib
+projects[ckeditor][version] = 1.13
+
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
 
@@ -127,22 +130,20 @@ projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
-; Rubix Responsive Theme (with some customizations)
-projects[rubix-responsive-theme][type] = theme
-projects[rubix-responsive-theme][download][type] = git
-projects[rubix-responsive-theme][download][url] = git://cnf.repositoryhosting.com/cnf/rubix-responsive-theme.git
+; Jackson Theme
+projects[jackson][subdir] = contrib
+projects[jackson][version] = 1.1
 
 ; LIBRARIES
+
+; CKEditor
+libraries[ckeditor][download][type] = file
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.1/ckeditor_4.3.1_standard.zip
 
 ; TinyMCE
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
-
-; Nivo Slider
-libraries[nivo-slider][download][type] = git
-libraries[nivo-slider][download][url] = git://cnf.repositoryhosting.com/cnf/nivo-slider.git
-libraries[nivo-slider][directory_name] = nivo-slider
 
 ; Superfish
 libraries[superfish][download][type] = git
