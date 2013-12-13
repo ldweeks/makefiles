@@ -35,6 +35,9 @@ projects[backup_migrate][version] = 2.8
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.1
 
+projects[breakpoints][subdir] = contrib
+projects[breakpoints][version] = 1.1
+
 projects[cdn][subdir] = contrib
 projects[cdn][version] = 2.6
 
@@ -69,7 +72,7 @@ projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.13
 
 projects[facetapi][subdir] = contrib
-projects[facetapi][version] = 1.0-rc4
+projects[facetapi][version] = 1.3
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
@@ -251,12 +254,8 @@ projects[views_bulk_operations][version] = 3.1
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
 
-projects[views_slideshow][type] = module
 projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][download][type] = git
-projects[views_slideshow][download][revision] = 3de5104
-; This revision includes css classes to distinguish between play/pause
-; http://drupal.org/project/jcarousel - requires theming, but might be better
+projects[views_slideshow][version] = 3.1
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.19
@@ -288,6 +287,13 @@ projects[zen][subdir] = contrib
 projects[zen][version] = 3.2
 
 ; LIBRARIES
+
+; Backbone
+libraries[backbone][download][type] = git
+libraries[backbone][download][url] = git://cnf.repositoryhosting.com/cnf/backbone.git
+libraries[backbone][directory_name] = backbone
+libraries[backbone][download][tag] = 1.1.0-cnf
+; to get the stupid toolbar to work, I'll need to add modernizr and some other library.
 
 ; dompdf
 libraries[dompdf][download][type] = git
