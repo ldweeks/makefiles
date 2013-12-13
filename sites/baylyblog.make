@@ -157,6 +157,9 @@ projects[metatags_quick][version] = 2.7
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.8
 
+projects[module_filter][subdir] = contrib
+projects[module_filter][version] = 2.0-alpha2
+
 projects[nodequeue][type] = module
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][download][type] = git
