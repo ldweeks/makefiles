@@ -23,12 +23,8 @@ projects[advanced_help][version] = 1.0
 projects[antispam][subdir] = contrib
 projects[antispam][version] = 1.4
 
-projects[autocomplete_deluxe][type] = module
 projects[autocomplete_deluxe][subdir] = contrib
-projects[autocomplete_deluxe][download][type] = git
-projects[autocomplete_deluxe][download][url] = http://git.drupal.org/project/autocomplete_deluxe.git
-projects[autocomplete_deluxe][download][revision] = a92b71e
-; Issue #1601054
+projects[autocomplete_deluxe][version] = 2.0-beta3
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
