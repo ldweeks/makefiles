@@ -160,6 +160,9 @@ projects[mollom][version] = 2.8
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0-alpha2
 
+projects[navbar][subdir] = contrib
+projects[navbar][version] = 1.0-beta1
+
 projects[nodequeue][type] = module
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][download][type] = git
@@ -272,6 +275,9 @@ projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
+
+projects[ember][subdir] = contrib
+projects[ember][version] = 2.0-alpha1
 
 projects[rubik][subdir] = contrib
 projects[rubik][version] = 4.0-rc1
