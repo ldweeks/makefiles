@@ -44,6 +44,9 @@ projects[cdn][version] = 2.6
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.1
 
+projects[ckeditor][subdir] = contrib
+projects[ckeditor][version] = 1.13
+
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
 
@@ -91,6 +94,9 @@ projects[filefield_sources][version] = 1.9
 projects[flippy][subdir] = contrib
 projects[flippy][version] = 1.0
 
+projects[footnotes][subdir] = contrib
+projects[footnotes][version] = 2.5
+
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
 
@@ -122,7 +128,7 @@ projects[googtube][subdir] = contrib
 projects[googtube][version] = 2.1
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.15
+projects[honeypot][version] = 1.16
 
 projects[hide_sticky_promote][type] = module
 projects[hide_sticky_promote][subdir] = contrib
@@ -133,7 +139,7 @@ projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.7
+projects[imce][version] = 1.8
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -245,6 +251,9 @@ projects[tagclouds][version] = 1.9
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
+projects[video_filter][subdir] = contrib
+projects[video_filter][version] = 3.1
+
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
@@ -292,8 +301,11 @@ projects[zen][version] = 3.2
 libraries[backbone][download][type] = git
 libraries[backbone][download][url] = git://cnf.repositoryhosting.com/cnf/backbone.git
 libraries[backbone][directory_name] = backbone
-libraries[backbone][download][tag] = 1.1.0-cnf
-; to get the stupid toolbar to work, I'll need to add modernizr and some other library.
+
+; CKEditor
+libraries[ckeditor][download][type] = git
+libraries[ckeditor][download][url] = git://cnf.repositoryhosting.com/cnf/ckeditor.git
+libraries[ckeditor][directory_name] = ckeditor
 
 ; dompdf
 libraries[dompdf][download][type] = git
@@ -305,16 +317,21 @@ libraries[jquery.cycle][download][type] = git
 libraries[jquery.cycle][download][url] = git://github.com/malsup/cycle.git
 libraries[jquery.cycle][directory_name] = jquery.cycle
 
+; Modernizr
+libraries[modernizr][download][type] = git
+libraries[modernizr][download][url] = git://cnf.repositoryhosting.com/cnf/modernizr.git
+libraries[modernizr][directory_name] = modernizr
+
 ; TinyMCE
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
 libraries[tinymce][download][tag] = 3.5.8.1
 
-; swfobject
-libraries[swfobject][download][type] = git
-libraries[swfobject][download][url] = git://cnf.repositoryhosting.com/cnf/swfobject.git
-libraries[swfobject][directory_name] = swfobject
+; Underscore
+libraries[underscore][download][type] = git
+libraries[underscore][download][url] = git://cnf.repositoryhosting.com/cnf/underscore.git
+libraries[underscore][directory_name] = underscore
 
 ; Superfish for Drupal
 libraries[superfish][download][type] = git
