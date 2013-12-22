@@ -60,7 +60,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.6
+projects[date][version] = 2.7
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -143,6 +143,12 @@ projects[imce][version] = 1.8
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
+
+projects[jquery_ui_multiselect_widget][subdir] = contrib
+projects[jquery_ui_multiselect_widget][version] = 1.7
+
+projects[jquery_update][subdir] = contrib
+projects[jquery_update][version] = 2.3
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
@@ -316,6 +322,11 @@ libraries[dompdf][directory_name] = dompdf
 libraries[jquery.cycle][download][type] = git
 libraries[jquery.cycle][download][url] = git://github.com/malsup/cycle.git
 libraries[jquery.cycle][directory_name] = jquery.cycle
+
+; jquery UI Multiselect Widget
+libraries[jquery-ui-multiselect-widget][download][type] = git
+libraries[jquery-ui-multiselect-widget][download][url] = git://cnf.repositoryhosting.com/cnf/jquery-ui-multiselect-widget.git
+libraries[jquery-ui-multiselect-widget][directory_name] = jquery-ui-multiselect-widget
 
 ; Modernizr
 libraries[modernizr][download][type] = git
