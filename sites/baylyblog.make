@@ -70,6 +70,8 @@ projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.2
+projects[entity][patch][] = https://drupal.org/files/entity-add-comments-property-1414688-9.patch
+; Issue #1414688
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.13
@@ -288,9 +290,6 @@ projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
-
-projects[ember][subdir] = contrib
-projects[ember][version] = 2.0-alpha1
 
 projects[rubik][subdir] = contrib
 projects[rubik][version] = 4.0-rc1
