@@ -216,6 +216,8 @@ projects[readmorecontrol][version] = 1.0
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
+projects[redirect][patch][] = https://drupal.org/files/issues/redirect.circular-loops.1796596-124.patch
+; Issue #1796596
 
 projects[references][subdir] = contrib
 projects[references][version] = 2.1
@@ -266,7 +268,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.2
 
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
