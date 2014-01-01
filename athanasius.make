@@ -4,6 +4,8 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][version] = 7.24
+projects[drupal][patch][] = http://cnf.repositoryhosting.com/git_public/cnf/patches.git/blob_plain/e568173604ca6f46ec9996703b0cf1cf73c781f7:/custom_text_summary-221257-141.patch
+; Issue #221257
 
 ; MODULES
 
@@ -13,23 +15,23 @@ projects[admin_menu][version] = 3.0-rc4
 projects[admin_views][subdir] = contrib
 projects[admin_views][version] = 1.2
 
+projects[breakpoints][subdir] = contrib
+projects[breakpoints][version] = 1.1
+
 projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.13
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
 
-projects[date][subdir] = contrib
-projects[date][version] = 2.6
-
-projects[devel][subdir] = contrib
-projects[devel][version] = 1.2
-
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[ds][subdir] = contrib
 projects[ds][version] = 2.6
+
+projects[email][subdir] = contrib
+projects[email][version] = 1.2
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.2
@@ -60,10 +62,10 @@ projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.7
+projects[imce][version] = 1.8
 
-projects[imce_wysiwyg][subdir] = contrib
-projects[imce_wysiwyg][version] = 1.0
+projects[invisimail][subdir] = contrib
+projects[invisimail][version] = 1.1
 
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.3
@@ -85,6 +87,9 @@ projects[module_filter][version] = 1.8
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.8
+
+projects[navbar][subdir] = contrib
+projects[navbar][version] = 1.1
 
 projects[nivo_slider][subdir] = contrib
 projects[nivo_slider][version] = 1.10
@@ -117,7 +122,10 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.2
+
+projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][version] = 3.1
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.19
@@ -131,21 +139,34 @@ projects[xmlsitemap][version] = 2.0-rc2
 ; THEMES
 
 ; Jackson Theme
-projects[jackson][subdir] = contrib
-projects[jackson][version] = 1.1
+projects[jackson][type] = theme
+projects[jackson][download][type] = git
+projects[jackson][download][url] = git://cnf.repositoryhosting.com/cnf/jackson.git
+; Customized theme based on https://drupal.org/project/jackson
 
 ; LIBRARIES
 
+; Backbone
+libraries[backbone][download][type] = git
+libraries[backbone][download][url] = git://cnf.repositoryhosting.com/cnf/backbone.git
+libraries[backbone][directory_name] = backbone
+
 ; CKEditor
-libraries[ckeditor][download][type] = file
-libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.1/ckeditor_4.3.1_standard.zip
+libraries[ckeditor][download][type] = git
+libraries[ckeditor][download][url] = git://cnf.repositoryhosting.com/cnf/ckeditor.git
+libraries[ckeditor][directory_name] = ckeditor
 
-; TinyMCE
-libraries[tinymce][download][type] = git
-libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
-libraries[tinymce][directory_name] = tinymce
+; Modernizr
+libraries[modernizr][download][type] = git
+libraries[modernizr][download][url] = git://cnf.repositoryhosting.com/cnf/modernizr.git
+libraries[modernizr][directory_name] = modernizr
 
-; Superfish
+; Superfish for Drupal
 libraries[superfish][download][type] = git
 libraries[superfish][download][url] = https://github.com/mehrpadin/Superfish-for-Drupal.git
 libraries[superfish][directory_name] = superfish
+
+; Underscore
+libraries[underscore][download][type] = git
+libraries[underscore][download][url] = git://cnf.repositoryhosting.com/cnf/underscore.git
+libraries[underscore][directory_name] = underscore
