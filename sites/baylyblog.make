@@ -237,13 +237,13 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.10
+projects[search_api][version] = 1.11
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
 
 projects[search_api_solr][subdir] = contrib
-projects[search_api_solr][version] = 1.3
+projects[search_api_solr][version] = 1.4
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
