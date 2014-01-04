@@ -89,7 +89,7 @@ projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.8
 
 projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.1
+projects[navbar][version] = 1.0-beta2
 
 projects[nivo_slider][subdir] = contrib
 projects[nivo_slider][version] = 1.10
@@ -102,6 +102,8 @@ projects[pathauto][version] = 1.2
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
+projects[redirect][patch][] = https://drupal.org/files/issues/redirect.circular-loops.1796596-124.patch
+; Issue #1796596
 
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
