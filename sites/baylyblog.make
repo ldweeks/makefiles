@@ -163,6 +163,9 @@ projects[link][version] = 1.2
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.1
 
+projects[markdown][subdir] = contrib
+projects[markdown][version] = 1.2
+
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
