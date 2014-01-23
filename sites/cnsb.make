@@ -111,6 +111,9 @@ projects[google_analytics_reports][version] = 3.x-dev
 projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
 
+projects[honeypot][subdir] = contrib
+projects[honeypot][version] = 1.16
+
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
