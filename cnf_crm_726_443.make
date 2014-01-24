@@ -5,7 +5,7 @@ core = 7.x
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.24
+projects[drupal][version] = 7.26
 
 ; CIVICRM
 projects[civicrm][type] = module
@@ -24,7 +24,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.2
+projects[entity][version] = 1.3
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
@@ -39,13 +39,13 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
 projects[views_data_export][subdir] = contrib
-projects[views_data_export][version] = 3.0-beta6
+projects[views_data_export][version] = 3.0-beta7
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 4.0-beta1
 
 projects[webform_civicrm][subdir] = contrib
-projects[webform_civicrm][version] = 4.3
+projects[webform_civicrm][version] = 4.4
 
 ; LIBRARIES
 libraries[tokeninput][download][type] = git
