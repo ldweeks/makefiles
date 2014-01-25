@@ -47,6 +47,9 @@ projects[webform][version] = 4.0-beta1
 projects[webform_civicrm][subdir] = contrib
 projects[webform_civicrm][version] = 4.4
 
+projects[options_element][subdir] = contrib
+projects[options_element][version] = 1.10
+
 ; LIBRARIES
 libraries[tokeninput][download][type] = git
 libraries[tokeninput][download][url] = git://github.com/loopj/jquery-tokeninput.git
