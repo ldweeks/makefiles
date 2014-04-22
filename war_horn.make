@@ -8,7 +8,7 @@ api = 2
 projects[pressflow][type] = core
 projects[pressflow][download][type] = git
 projects[pressflow][download][url] = git://github.com/pressflow/6.git
-projects[pressflow][download][tag] = pressflow-6.28.111
+projects[pressflow][download][tag] = pressflow-6.31.114
 
 ; MODULES
 projects[admin_menu][subdir] = contrib
@@ -33,13 +33,13 @@ projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.6
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.1
+projects[context][version] = 3.3
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.10
+projects[ctools][version] = 1.11
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.9
+projects[date][version] = 2.10
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.25
@@ -51,7 +51,7 @@ projects[emfield][subdir] = contrib
 projects[emfield][version] = 2.6
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.15
+projects[extlink][version] = 1.16
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.2
@@ -60,10 +60,10 @@ projects[ffpc][subdir] = contrib
 projects[ffpc][version] = 1.0
 
 projects[filefield][subdir] = contrib
-projects[filefield][version] = 3.11
+projects[filefield][version] = 3.12
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.8
+projects[filefield_sources][version] = 1.10
 
 projects[footnotes][subdir] = contrib
 projects[footnotes][version] = 2.5
@@ -75,7 +75,7 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 3.5
+projects[google_analytics][version] = 3.6
 
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][version] = 3.8
@@ -84,7 +84,7 @@ projects[ie6update][subdir] = contrib
 projects[ie6update][version] = 1.5
 
 projects[image_resize_filter][subdir] = contrib
-projects[image_resize_filter][version] = 1.13
+projects[image_resize_filter][version] = 1.14
 
 projects[imageapi][subdir] = contrib
 projects[imageapi][version] = 1.10
@@ -96,7 +96,7 @@ projects[imagefield][subdir] = contrib
 projects[imagefield][version] = 3.11
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 2.5
+projects[imce][version] = 2.6
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.1
@@ -108,7 +108,7 @@ projects[jquery_ui][subdir] = contrib
 projects[jquery_ui][version] = 1.5
 
 projects[link][subdir] = contrib
-projects[link][version] = 2.10
+projects[link][version] = 2.11
 
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][version] = 1.1
@@ -120,7 +120,7 @@ projects[menu_breadcrumb][subdir] = contrib
 projects[menu_breadcrumb][version] = 1.4
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.5
+projects[mollom][version] = 2.8
 
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.3
@@ -212,7 +212,7 @@ projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 2.4
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.20
 
 projects[workflow][subdir] = contrib
 projects[workflow][version] = 1.5
@@ -227,7 +227,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.4
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc2
+projects[xmlsitemap][version] = 2.0
 
 ; THEMES
 
