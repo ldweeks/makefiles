@@ -5,7 +5,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.26
+projects[drupal][version] = 7.27
 
 ; MODULES
 
@@ -24,13 +24,13 @@ projects[bcsh_custom][download][type] = git
 projects[bcsh_custom][download][url] = git://cnf.repositoryhosting.com/cnf/bcsh_custom.git
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.3
+projects[entity][version] = 1.5
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
@@ -123,7 +123,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.20
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
