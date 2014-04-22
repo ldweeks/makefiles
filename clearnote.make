@@ -40,7 +40,7 @@ projects[content_access][subdir] = contrib
 projects[content_access][version] = 1.2-beta2
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-beta7
+projects[context][version] = 3.2
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.4
@@ -64,7 +64,7 @@ projects[features][subdir] = contrib
 projects[features][version] = 1.0
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.8
+projects[filefield_sources][version] = 1.9
 
 projects[getid3][subdir] = contrib
 projects[getid3][version] = 1.0
@@ -76,7 +76,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
 
 projects[image_resize_filter][subdir] = contrib
-projects[image_resize_filter][version] = 1.13
+projects[image_resize_filter][version] = 1.14
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.8
@@ -88,10 +88,10 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.1
+projects[link][version] = 1.2
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.7
+projects[mollom][version] = 2.9
 
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
@@ -148,14 +148,14 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.2
 
 projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 3.0
+projects[views_slideshow][version] = 3.1
 ; http://drupal.org/project/jcarousel - requires theming, but might be better
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.20
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -164,7 +164,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc2
+projects[xmlsitemap][version] = 2.0
 
 ; THEMES
 
