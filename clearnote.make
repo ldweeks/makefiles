@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.23
+projects[drupal][version] = 7.27
 
 ; MODULES
 
@@ -14,7 +14,10 @@ projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
 
 projects[amazons3][subdir] = contrib
-projects[amazons3][version] = 1.0-beta7
+projects[amazons3][version] = 1.0
+
+projects[audiofield][subdir] = contrib
+projects[audiofield][version] = 1.0-beta8
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
@@ -33,14 +36,17 @@ projects[boxes][version] = 1.1
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0
 
+projects[content_access][subdir] = contrib
+projects[content_access][version] = 1.2-beta2
+
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta7
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.6
+projects[date][version] = 2.7
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -49,10 +55,10 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.2
+projects[entity][version] = 1.5
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.13
+projects[extlink][version] = 1.16
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
@@ -67,19 +73,19 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.3
+projects[google_analytics][version] = 1.4
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.7
+projects[imce][version] = 1.8
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.1
@@ -91,7 +97,10 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.4
+projects[mandrill][version] = 1.5
+
+projects[module_filter][subdir] = contrib
+projects[module_filter][version] = 2.0-alpha2
 
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
@@ -159,11 +168,14 @@ projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
+projects[arthemia][subdir] = contrib
+projects[arthemia][version] = 1.x-dev
+
 projects[rubik][subdir] = contrib
-projects[rubik][version] = 4.0-beta9
+projects[rubik][version] = 4.0
 
 projects[tao][subdir] = contrib
-projects[tao][version] = 3.0-beta4
+projects[tao][version] = 3.1
 
 ; LIBRARIES
 
