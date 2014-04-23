@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.26
+projects[drupal][version] = 7.27
 
 ; MODULES
 
@@ -29,7 +29,7 @@ projects[ds][subdir] = contrib
 projects[ds][version] = 2.6
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.3
+projects[entity][version] = 1.5
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
@@ -39,13 +39,13 @@ projects[exclude_node_title][subdir] = contrib
 projects[exclude_node_title][version] = 1.7
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.13
+projects[extlink][version] = 1.16
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.9
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 3.3
+projects[flag][version] = 3.4
 
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
@@ -63,7 +63,7 @@ projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.3
+projects[jquery_update][version] = 2.4
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
@@ -84,7 +84,7 @@ projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.9
 
 projects[nivo_slider][subdir] = contrib
-projects[nivo_slider][version] = 1.10
+projects[nivo_slider][version] = 1.11
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -99,7 +99,7 @@ projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.0
+projects[site_verify][version] = 1.1
 
 projects[special_menu_items][subdir] = contrib
 projects[special_menu_items][version] = 2.0
@@ -123,7 +123,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc2
+projects[xmlsitemap][version] = 2.0
 
 ; THEMES
 
