@@ -243,10 +243,9 @@ projects[cnsb-theme][download][url] = git://cnf.repositoryhosting.com/cnf/cnsb-t
 ; http://twitter.github.com/bootstrap/assets/bootstrap.zip
 
 ; chosen
-libraries[chosen][download][type] = git
-libraries[chosen][download][url] = git://github.com/harvesthq/chosen.git
+libraries[chosen][download][type] = file
+libraries[chosen][download][url] = https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip
 libraries[chosen][directory_name] = chosen
-libraries[chosen][download][tag] = v0.9.8
 
 ; ddcl - Dropdown Check List
 libraries[ddcl][download][type] = file
