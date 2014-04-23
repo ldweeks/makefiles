@@ -5,7 +5,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.26
+projects[drupal][version] = 7.27
 
 ; MODULES
 
@@ -15,11 +15,8 @@ projects[admin_menu][version] = 3.0-rc4
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.1
 
-projects[autocomplete_deluxe][type] = module
 projects[autocomplete_deluxe][subdir] = contrib
-projects[autocomplete_deluxe][download][type] = git
-projects[autocomplete_deluxe][download][url] = http://git.drupal.org/project/autocomplete_deluxe.git
-projects[autocomplete_deluxe][download][revision] = f4db794ce764262b218339ec54961ba03ab44974
+projects[autocomplete_deluxe][version] = 2.x-dev
 
 projects[auto_entitylabel][subdir] = contrib
 projects[auto_entitylabel][version] = 1.2
@@ -28,11 +25,8 @@ projects[auto_entitylabel][version] = 1.2
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.8
 
-projects[chosen][type] = module
 projects[chosen][subdir] = contrib
-projects[chosen][download][type] = git
-projects[chosen][download][url] = http://git.drupal.org/project/chosen.git
-projects[chosen][download][revision] = 4c4b8fd5e5b2c1912c3de1589d658049b49cdc90
+projects[chosen][version] = 2.0-beta4
 
 projects[cnsb_custom][subdir] = custom
 projects[cnsb_custom][directory_name] = cnsb_custom
@@ -47,10 +41,10 @@ projects[computed_field][subdir] = contrib
 projects[computed_field][version] = 1.0
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.1
+projects[context][version] = 3.2
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.10
@@ -68,7 +62,7 @@ projects[dropdown_checkboxes][subdir] = contrib
 projects[dropdown_checkboxes][version] = 1.0-rc1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.3
+projects[entity][version] = 1.5
 
 projects[entityconnect][subdir] = contrib
 projects[entityconnect][version] = 1.0-rc1
@@ -91,7 +85,7 @@ projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.9
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 2.1
+projects[flag][version] = 2.2
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
@@ -115,7 +109,7 @@ projects[honeypot][subdir] = contrib
 projects[honeypot][version] = 1.16
 
 projects[image_resize_filter][subdir] = contrib
-projects[image_resize_filter][version] = 1.13
+projects[image_resize_filter][version] = 1.14
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.8
@@ -130,7 +124,7 @@ projects[jplayer][download][revision] = 4025d16
 ; June 18, 2012
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.2
@@ -148,10 +142,10 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta9
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.8
+projects[mollom][version] = 2.9
 
 projects[oauth][subdir] = contrib
-projects[oauth][version] = 3.1
+projects[oauth][version] = 3.2
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -177,13 +171,8 @@ projects[role_delegation][version] = 1.1
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
-projects[search_api][type] = module
 projects[search_api][subdir] = contrib
-projects[search_api][download][type] = git
-projects[search_api][download][url] = http://git.drupal.org/project/search_api.git
-projects[search_api][download][revision] = d8e52e2676dfa80f199d4911b55c38988c407f5c
-projects[search_api][patch][] = http://drupal.org/files/1696434-8-search-api-views-taxonomy-term-argument-handler.patch
-; Issue #1696434
+projects[search_api][version] = 1.11
 
 projects[search_api_combined][subdir] = contrib
 projects[search_api_combined][version] = 1.2
@@ -198,7 +187,7 @@ projects[shadowbox][subdir] = contrib
 projects[shadowbox][version] = 4.0-rc1
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.0
+projects[site_verify][version] = 1.1
 
 projects[soundmanager2][type] = module
 projects[soundmanager2][subdir] = contrib
@@ -227,7 +216,7 @@ projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.20
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -236,7 +225,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc2
+projects[xmlsitemap][version] = 2.0
 
 ; THEMES
 
