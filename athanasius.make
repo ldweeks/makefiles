@@ -92,7 +92,7 @@ projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.9
 
 projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.0-beta2
+projects[navbar][version] = 1.4
 
 projects[nivo_slider][subdir] = contrib
 projects[nivo_slider][version] = 1.11
