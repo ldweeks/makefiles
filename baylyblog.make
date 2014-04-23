@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.24
+projects[drupal][version] = 7.27
 projects[drupal][patch][] = http://cnf.repositoryhosting.com/git_public/cnf/patches.git/blob_plain/e568173604ca6f46ec9996703b0cf1cf73c781f7:/custom_text_summary-221257-141.patch
 ; Issue #221257
 
@@ -56,10 +56,10 @@ projects[content_taxonomy][subdir] = contrib
 projects[content_taxonomy][version] = 1.0-beta1
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.1
+projects[context][version] = 3.2
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.7
@@ -71,12 +71,10 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.2
-projects[entity][patch][] = https://drupal.org/files/entity-add-comments-property-1414688-9.patch
-; Issue #1414688
+projects[entity][version] = 1.5
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.13
+projects[extlink][version] = 1.16
 
 projects[facetapi][subdir] = contrib
 projects[facetapi][version] = 1.3
@@ -96,7 +94,7 @@ projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.9
 
 projects[flippy][subdir] = contrib
-projects[flippy][version] = 1.0
+projects[flippy][version] = 1.3
 
 projects[footnotes][subdir] = contrib
 projects[footnotes][version] = 2.5
@@ -122,11 +120,8 @@ projects[google_analytics][version] = 1.4
 projects[google_analytics_counter][subdir] = contrib
 projects[google_analytics_counter][version] = 2.1
 
-projects[google_analytics_reports][type] = module
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][download][type] = git
-projects[google_analytics_reports][download][revision] = f63a414
-; running the 3.x version to get views integration.
+projects[google_analytics_reports][version] = 3.x-dev
 
 projects[googtube][subdir] = contrib
 projects[googtube][version] = 2.1
@@ -140,7 +135,7 @@ projects[hide_sticky_promote][download][type] = git
 projects[hide_sticky_promote][download][url] = git://github.com/StudioZut/hide-sticky-promote.git
 
 projects[image_resize_filter][subdir] = contrib
-projects[image_resize_filter][version] = 1.13
+projects[image_resize_filter][version] = 1.14
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.8
@@ -149,13 +144,13 @@ projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
 projects[jquery_ui_multiselect_widget][subdir] = contrib
-projects[jquery_ui_multiselect_widget][version] = 1.7
+projects[jquery_ui_multiselect_widget][version] = 1.8
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.3
+projects[jquery_update][version] = 2.4
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.2
@@ -176,22 +171,19 @@ projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.7
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.8
+projects[mollom][version] = 2.9
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0-alpha2
 
 projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.0-beta1
+projects[navbar][version] = 1.4
 
-projects[nodequeue][type] = module
 projects[nodequeue][subdir] = contrib
-projects[nodequeue][download][type] = git
-projects[nodequeue][download][revision] = 9572de5
-; Issue #1388796
+projects[nodequeue][version] = 2.x-dev
 
 projects[oauth][subdir] = contrib
-projects[oauth][version] = 3.1
+projects[oauth][version] = 3.2
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -206,7 +198,7 @@ projects[profile2][subdir] = contrib
 projects[profile2][version] = 1.3
 
 projects[publish_button][subdir] = contrib
-projects[publish_button][version] = 1.0-beta8
+projects[publish_button][version] = 1.0
 
 projects[quickbar][type] = module
 projects[quickbar][subdir] = contrib
@@ -217,7 +209,7 @@ projects[quicktabs][subdir] = contrib
 projects[quicktabs][version] = 3.6
 
 projects[readmorecontrol][subdir] = contrib
-projects[readmorecontrol][version] = 1.0
+projects[readmorecontrol][version] = 1.2
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
@@ -249,7 +241,7 @@ projects[search_api_solr][subdir] = contrib
 projects[search_api_solr][version] = 1.4
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.0
+projects[site_verify][version] = 1.1
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
@@ -282,7 +274,7 @@ projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.20
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -294,15 +286,9 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc2
+projects[xmlsitemap][version] = 2.0
 
 ; THEMES
-
-projects[rubik][subdir] = contrib
-projects[rubik][version] = 4.0-rc1
-
-projects[tao][subdir] = contrib
-projects[tao][version] = 3.0-beta4
 
 projects[zen][subdir] = contrib
 projects[zen][version] = 3.2
