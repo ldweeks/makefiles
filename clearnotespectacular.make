@@ -5,7 +5,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.23
+projects[drupal][version] = 7.27
 
 ; MODULES
 
@@ -31,16 +31,16 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.3
+projects[google_analytics][version] = 1.4
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.7
+projects[imce][version] = 1.8
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.3
+projects[jquery_update][version] = 2.4
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
@@ -88,13 +88,13 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc2
+projects[xmlsitemap][version] = 2.0
 
 ; THEMES
 
 ; Drupal Bootstrap theme
 projects[bootstrap][subdir] = contrib
-projects[bootstrap][version] = 3.0-rc2
+projects[bootstrap][version] = 3.0
 
 ; Bootstrap sub-theme
 projects[clearnote_bootstrap][type] = theme
