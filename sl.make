@@ -18,9 +18,6 @@ projects[backup_migrate][version] = 2.8
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 
-projects[ckeditor][subdir] = contrib
-projects[ckeditor][version] = 1.13
-
 projects[ckeditor_swf][subdir] = contrib
 projects[ckeditor_swf][version] = 1.0-beta1
 
@@ -70,17 +67,9 @@ projects[SocialLegends][directory_name] = SocialLegends
 ; LIBRARIES
 
 ; CKEditor
-libraries[ckeditor][download][type] = git
-libraries[ckeditor][download][url] = git://cnf.repositoryhosting.com/cnf/ckeditor.git
-libraries[ckeditor][directory_name] = ckeditor
+; An old version of CKEditor is in the sites directory, and so I'm not going to update it. It might break something.
+; libraries[ckeditor][download][type] = git
+; libraries[ckeditor][download][url] = git://cnf.repositoryhosting.com/cnf/ckeditor.git
+; libraries[ckeditor][directory_name] = ckeditor
 
-; TinyMCE
-libraries[tinymce][download][type] = git
-libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
-libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][download][tag] = 3.5.8.1
-
-; Superfish for Drupal
-libraries[superfish][download][type] = git
-libraries[superfish][download][url] = git://github.com/mehrpadin/Superfish-for-Drupal.git
-libraries[superfish][directory_name] = superfish
+; SWF Object is located in the sites directory
