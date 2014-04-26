@@ -19,7 +19,7 @@ projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.13
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
@@ -100,10 +100,10 @@ projects[video_filter][subdir] = contrib
 projects[video_filter][version] = 3.1
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.6
+projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.2
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.20
