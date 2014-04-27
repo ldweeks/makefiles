@@ -116,8 +116,10 @@ projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
-projects[business][subdir] = contrib
-projects[business][version] = 1.11
+projects[business][type] = theme
+projects[business][download][type] = git
+projects[business][download][url] = https://cnf.repositoryhosting.com/git/cnf/business.git
+projects[business][download][branch] = 7.x-1.x
 
 ; LIBRARIES
 
