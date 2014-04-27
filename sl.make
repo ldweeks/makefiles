@@ -59,10 +59,12 @@ projects[xmlsitemap][version] = 2.0-rc2
 
 ; THEMES
 
-projects[SocialLegends][type] = theme
-projects[SocialLegends][download][type] = git
-projects[SocialLegends][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/sociallegends.git
-projects[SocialLegends][directory_name] = SocialLegends
+; I am leaving the Social Legends theme in the particular sites directory. Moving it to all breaks everything
+
+;projects[SocialLegends][type] = theme
+;projects[SocialLegends][download][type] = git
+;projects[SocialLegends][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/sociallegends.git
+;projects[SocialLegends][directory_name] = SocialLegends
 
 ; LIBRARIES
 
