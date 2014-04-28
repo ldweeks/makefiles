@@ -125,6 +125,6 @@ projects[business][download][branch] = 7.x-1.x
 
 ; TinyMCE
 libraries[tinymce][download][type] = git
-libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
+libraries[tinymce][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
 libraries[tinymce][download][tag] = 3.5.8.1
