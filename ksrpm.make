@@ -121,10 +121,10 @@ projects[xmlsitemap][version] = 2.0
 
 ; THEMES
 
-projects[freehold][type] = theme
-projects[freehold][directory_name] = freehold
-projects[freehold][download][type] = git
-projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold-theme.git
+projects[freehold-theme][type] = theme
+projects[freehold-theme][directory_name] = freehold-theme
+projects[freehold-theme][download][type] = git
+projects[freehold-theme][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold-theme.git
 
 ; LIBRARIES
 
