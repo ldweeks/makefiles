@@ -124,7 +124,7 @@ projects[xmlsitemap][version] = 2.0
 projects[freeholdtheme][type] = theme
 projects[freeholdtheme][directory_name] = freeholdtheme
 projects[freeholdtheme][download][type] = git
-projects[freeholdtheme][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold-theme.git
+projects[freeholdtheme][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/freeholdtheme.git
 
 ; LIBRARIES
 
