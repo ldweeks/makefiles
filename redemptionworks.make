@@ -123,35 +123,8 @@ projects[business][download][branch] = 7.x-1.x
 
 ; LIBRARIES
 
-; LIBRARIES
-
-; Backbone
-libraries[backbone][download][type] = git
-libraries[backbone][download][url] = git://cnf.repositoryhosting.com/cnf/backbone.git
-libraries[backbone][directory_name] = backbone
-
-; CKEditor
-libraries[ckeditor][download][type] = git
-libraries[ckeditor][download][url] = git://cnf.repositoryhosting.com/cnf/ckeditor.git
-libraries[ckeditor][directory_name] = ckeditor
-
-; Modernizr
-libraries[modernizr][download][type] = git
-libraries[modernizr][download][url] = git://cnf.repositoryhosting.com/cnf/modernizr.git
-libraries[modernizr][directory_name] = modernizr
-
 ; TinyMCE
 libraries[tinymce][download][type] = git
 libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
 libraries[tinymce][download][tag] = 3.5.8.1
-
-; Underscore
-libraries[underscore][download][type] = git
-libraries[underscore][download][url] = git://cnf.repositoryhosting.com/cnf/underscore.git
-libraries[underscore][directory_name] = underscore
-
-; Superfish for Drupal
-libraries[superfish][download][type] = git
-libraries[superfish][download][url] = git://github.com/mehrpadin/Superfish-for-Drupal.git
-libraries[superfish][directory_name] = superfish
