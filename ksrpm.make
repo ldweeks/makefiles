@@ -131,9 +131,3 @@ projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/
 ;CKEditor
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.zip
-
-; TinyMCE
-libraries[tinymce][download][type] = git
-libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
-libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][tag] = 3.5.0.1.1
