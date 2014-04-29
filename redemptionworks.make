@@ -27,6 +27,9 @@ projects[ctools][version] = 1.4
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
+projects[elements][subdir] = contrib
+projects[elements][version] = 1.4
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.5
 
@@ -34,7 +37,7 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.3
+projects[google_analytics][version] = 1.4
 
 projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
@@ -61,10 +64,13 @@ projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.4
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta3
+projects[metatag][version] = 1.0-beta9
+
+projects[metatags_quick][subdir] = contrib
+projects[metatags_quick][version] = 2.7
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.8
+projects[mollom][version] = 2.9
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0-alpha2
@@ -82,7 +88,7 @@ projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
 projects[qa_checklist][subdir] = contrib
-projects[qa_checklist][version] = 1.0-rc1
+projects[qa_checklist][version] = 1.0
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
@@ -91,10 +97,10 @@ projects[reftagger][subdir] = contrib
 projects[reftagger][version] = 1.1
 
 projects[seo_checklist][subdir] = contrib
-projects[seo_checklist][version] = 4.0
+projects[seo_checklist][version] = 4.1
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.0
+projects[site_verify][version] = 1.1
 
 projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9-beta4
@@ -118,7 +124,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc2
+projects[xmlsitemap][version] = 2.0
 
 ; THEMES
 
