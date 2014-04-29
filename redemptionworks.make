@@ -15,6 +15,9 @@ projects[admin_menu][version] = 3.0-rc4
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.8
 
+projects[checklistapi][subdir] = contrib
+projects[checklistapi][version] = 1.1
+
 projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.13
 
@@ -71,6 +74,9 @@ projects[navbar][version] = 1.0-beta1
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
+
+projects[pasc][subdir] = contrib
+projects[pasc][version] = 1.0-beta1
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
