@@ -45,13 +45,16 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 4.0-beta1
 
 projects[webform_civicrm][subdir] = contrib
-projects[webform_civicrm][version] = 4.4
+projects[webform_civicrm][version] = 4.7
 
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.10
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
+
+projects[node_clone][subdir] = contrib
+projects[node_clone][version] = 7.x-1.0-rc2
 
 ; LIBRARIES
 libraries[tokeninput][download][type] = git
