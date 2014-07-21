@@ -8,7 +8,7 @@ api = 2
 projects[pressflow][type] = core
 projects[pressflow][download][type] = git
 projects[pressflow][download][url] = git://github.com/pressflow/6.git
-projects[pressflow][download][tag] = pressflow-6.31.114
+projects[pressflow][download][tag] = pressflow-6.32.115
 
 ; MODULES
 projects[admin_menu][subdir] = contrib
@@ -51,7 +51,7 @@ projects[emfield][subdir] = contrib
 projects[emfield][version] = 2.6
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.16
+projects[extlink][version] = 1.17
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.2
@@ -60,7 +60,7 @@ projects[ffpc][subdir] = contrib
 projects[ffpc][version] = 1.0
 
 projects[filefield][subdir] = contrib
-projects[filefield][version] = 3.12
+projects[filefield][version] = 3.13
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.10
@@ -96,7 +96,7 @@ projects[imagefield][subdir] = contrib
 projects[imagefield][version] = 3.11
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 2.6
+projects[imce][version] = 2.7
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.1
@@ -120,7 +120,7 @@ projects[menu_breadcrumb][subdir] = contrib
 projects[menu_breadcrumb][version] = 1.4
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.8
+projects[mollom][version] = 2.10
 
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.3
