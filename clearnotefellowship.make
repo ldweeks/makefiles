@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
+projects[drupal][version] = 7.29
 
 ; MODULES
 
@@ -11,7 +11,7 @@ projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc4
 
 projects[admin_views][subdir] = contrib
-projects[admin_views][version] = 1.2
+projects[admin_views][version] = 1.3
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.4
@@ -39,25 +39,25 @@ projects[exclude_node_title][subdir] = contrib
 projects[exclude_node_title][version] = 1.7
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.16
+projects[extlink][version] = 1.17
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.9
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 3.4
+projects[flag][version] = 3.5
 
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.4
+projects[google_analytics][version] = 2.0
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.14
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.8
+projects[imce][version] = 1.9
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -75,13 +75,13 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.5
+projects[mandrill][version] = 1.6
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.9
+projects[mollom][version] = 2.10
 
 projects[nivo_slider][subdir] = contrib
 projects[nivo_slider][version] = 1.11
@@ -111,7 +111,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
