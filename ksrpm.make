@@ -5,7 +5,7 @@ api = 2
 ; CORE
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
+projects[drupal][version] = 7.31
 
 ; MODULES
 
@@ -76,7 +76,7 @@ projects[site_verify][version] = 1.1
 
 projects[token][version] = 1.5
 
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[webform][version] = 3.20
 
