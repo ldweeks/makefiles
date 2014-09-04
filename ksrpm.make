@@ -91,6 +91,8 @@ projects[freeholdtheme][directory_name] = freeholdtheme
 projects[freeholdtheme][download][type] = git
 projects[freeholdtheme][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/freeholdtheme.git
 
+projects[bootstrap][version] = 3.0
+
 ; LIBRARIES
 
 ;CKEditor
