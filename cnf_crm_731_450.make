@@ -54,10 +54,10 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[node_clone][subdir] = contrib
-projects[node_clone][version] = 7.x-1.0-rc2
+projects[node_clone][version] = 1.0-rc2
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 7.x-2.4
+projects[jquery_update][version] = 2.4
 
 ; LIBRARIES
 libraries[tokeninput][download][type] = git
