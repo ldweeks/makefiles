@@ -297,12 +297,12 @@ projects[zen][version] = 3.3
 
 ; Backbone
 libraries[backbone][download][type] = git
-libraries[backbone][download][url] = git://cnf.repositoryhosting.com/cnf/backbone.git
+libraries[backbone][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/backbone.git
 libraries[backbone][directory_name] = backbone
 
 ; CKEditor
 libraries[ckeditor][download][type] = git
-libraries[ckeditor][download][url] = git://cnf.repositoryhosting.com/cnf/ckeditor.git
+libraries[ckeditor][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/ckeditor.git
 libraries[ckeditor][directory_name] = ckeditor
 
 ; dompdf
@@ -317,23 +317,23 @@ libraries[jquery.cycle][directory_name] = jquery.cycle
 
 ; jquery UI Multiselect Widget
 libraries[jquery-ui-multiselect-widget][download][type] = git
-libraries[jquery-ui-multiselect-widget][download][url] = git://cnf.repositoryhosting.com/cnf/jquery-ui-multiselect-widget.git
+libraries[jquery-ui-multiselect-widget][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/jquery-ui-multiselect-widget.git
 libraries[jquery-ui-multiselect-widget][directory_name] = jquery-ui-multiselect-widget
 
 ; Modernizr
 libraries[modernizr][download][type] = git
-libraries[modernizr][download][url] = git://cnf.repositoryhosting.com/cnf/modernizr.git
+libraries[modernizr][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/modernizr.git
 libraries[modernizr][directory_name] = modernizr
 
 ; TinyMCE
 libraries[tinymce][download][type] = git
-libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
+libraries[tinymce][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
 libraries[tinymce][download][tag] = 3.5.8.1
 
 ; Underscore
 libraries[underscore][download][type] = git
-libraries[underscore][download][url] = git://cnf.repositoryhosting.com/cnf/underscore.git
+libraries[underscore][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/underscore.git
 libraries[underscore][directory_name] = underscore
 
 ; Superfish for Drupal
@@ -352,4 +352,4 @@ libraries[SolrPhpClient][download][sha1] = 211b6ad55eafa172778f9d9672a23ea07248f
 ; baylyblog.com
 projects[baylyblog][type] = profile
 projects[baylyblog][download][type] = git
-projects[baylyblog][download][url] = git://cnf.repositoryhosting.com/cnf/baylyblog.git
+projects[baylyblog][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/baylyblog.git
