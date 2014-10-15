@@ -105,9 +105,8 @@ projects[clearnote_bootstrap][download][url] = ssh://git@cnf.repositoryhosting.c
 ; LIBRARIES
 
 ; Bootstrap
-libraries[bootstrap][download][type] = git
-libraries[bootstrap][download][url] = https://github.com/twbs/bootstrap.git
-libraries[bootstrap][tag] = v3.0.0
+libraries[bootstrap][download][type] = get
+libraries[bootstrap][download][url] = https://github.com/twbs/bootstrap/archive/v3.0.2.zip
 libraries[bootstrap][directory_name] = bootstrap
 libraries[bootstrap][destination] = themes/contrib/bootstrap
 libraries[bootstrap][overwrite] = TRUE
