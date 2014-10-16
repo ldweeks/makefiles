@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.31
+projects[drupal][version] = 7.32
 projects[drupal][patch][] = http://cnf.repositoryhosting.com/git_public/cnf/patches.git/blob_plain/e568173604ca6f46ec9996703b0cf1cf73c781f7:/custom_text_summary-221257-141.patch
 ; Issue #221257
 
