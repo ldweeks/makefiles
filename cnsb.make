@@ -5,7 +5,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
+projects[drupal][version] = 7.32
 
 ; MODULES
 
@@ -41,7 +41,7 @@ projects[computed_field][subdir] = contrib
 projects[computed_field][version] = 1.0
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.2
+projects[context][version] = 3.3
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.4
@@ -50,7 +50,7 @@ projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.10
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 
 projects[date_popup_authored][subdir] = contrib
 projects[date_popup_authored][version] = 1.1
@@ -71,7 +71,7 @@ projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
 
 projects[facetapi][subdir] = contrib
-projects[facetapi][version] = 1.3
+projects[facetapi][version] = 1.5
 
 projects[feedburner][type] = module
 projects[feedburner][download][type] = git
@@ -106,13 +106,13 @@ projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.16
+projects[honeypot][version] = 1.17
 
 projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.14
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.8
+projects[imce][version] = 1.9
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -136,13 +136,13 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.5
+projects[mandrill][version] = 1.6
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta9
+projects[metatag][version] = 1.4
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.9
+projects[mollom][version] = 2.12
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
@@ -172,13 +172,13 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.11
+projects[search_api][version] = 1.13
 
 projects[search_api_combined][subdir] = contrib
 projects[search_api_combined][version] = 1.2
 
 projects[search_api_solr][subdir] = contrib
-projects[search_api_solr][version] = 1.4
+projects[search_api_solr][version] = 1.6
 
 projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.0
@@ -201,13 +201,13 @@ projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9
 
 projects[tagclouds][subdir] = contrib
-projects[tagclouds][version] = 1.9
+projects[tagclouds][version] = 1.10
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
@@ -216,7 +216,7 @@ projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.20
+projects[webform][version] = 3.21
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -230,7 +230,7 @@ projects[xmlsitemap][version] = 2.0
 ; THEMES
 
 projects[zen][subdir] = contrib
-projects[zen][version] = 5.4
+projects[zen][version] = 5.5
 
 projects[cnsb-theme][subdir] = custom
 projects[cnsb-theme][type] = theme
