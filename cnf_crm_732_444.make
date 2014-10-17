@@ -13,9 +13,18 @@ projects[civicrm][directory_name] = civicrm
 projects[civicrm][download][type] = get
 projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.4.4/civicrm-4.4.4-drupal.tar.gz
 
+; CUSTOM
+
+projects[cnf_civicrm][subdir] = custom
+projects[cnf_civicrm][download][type] = git
+projects[cnf_civicrm][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/cnf_civicrm.git
+
 ; CONTRIB
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc4
+
+projects[advanced_help][subdir] = contrib
+projects[advanced_help][version] = 1.1
 
 projects[civicrm_error][subdir] = contrib
 projects[civicrm_error][version] = 2.0-rc3
