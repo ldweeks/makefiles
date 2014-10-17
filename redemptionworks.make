@@ -5,7 +5,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
+projects[drupal][version] = 7.32
 
 ; MODULES
 
@@ -43,7 +43,7 @@ projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.8
+projects[imce][version] = 1.9
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -64,13 +64,13 @@ projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.4
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta9
+projects[metatag][version] = 1.4
 
 projects[metatags_quick][subdir] = contrib
-projects[metatags_quick][version] = 2.7
+projects[metatags_quick][version] = 2.9
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.9
+projects[mollom][version] = 2.12
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0-alpha2
@@ -112,13 +112,13 @@ projects[video_filter][subdir] = contrib
 projects[video_filter][version] = 3.1
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.20
+projects[webform][version] = 3.21
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2

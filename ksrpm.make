@@ -5,7 +5,7 @@ api = 2
 ; CORE
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.31
+projects[drupal][version] = 7.32
 
 ; MODULES
 
@@ -19,7 +19,7 @@ projects[better_formats][version] = 1.0-beta1
 
 projects[checklistapi][version] = 1.1
 
-projects[ckeditor][version] = 1.13
+projects[ckeditor][version] = 1.16
 
 projects[ctools][version] = 1.4
 
