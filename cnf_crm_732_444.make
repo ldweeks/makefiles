@@ -54,7 +54,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[node_clone][subdir] = contrib
-projects[node_clone][version] = 7.x-1.0-rc2
+projects[node_clone][version] = 1.0-rc2
 
 ; LIBRARIES
 libraries[tokeninput][download][type] = git
