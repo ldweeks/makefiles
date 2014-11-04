@@ -48,6 +48,8 @@ projects[freehold][subdir] = custom
 projects[freehold][download][type] = git
 projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold.git
 
+projects[front][version] = 2.4
+
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][version] = 1.4
