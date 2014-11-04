@@ -4,8 +4,14 @@ core = 7.x
 api = 2
 
 ; CORE
+
 projects[drupal][type] = core
-projects[drupal][version] = 7.32
+projects[drupal][download][type] = get
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.32.1.tar.gz
+
+; DEV MODULES
+
+projects[hacked][version] = 2.0-beta5
 
 ; MODULES
 
