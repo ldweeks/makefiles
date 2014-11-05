@@ -56,6 +56,9 @@ projects[date][version] = 2.7
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.5
+
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.13
 
