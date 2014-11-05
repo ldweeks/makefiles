@@ -56,7 +56,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.4
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
@@ -65,7 +65,7 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.5
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.13
+projects[extlink][version] = 1.18
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
@@ -77,10 +77,10 @@ projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.4
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.1
+projects[link][version] = 1.3
 
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
@@ -107,13 +107,13 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.2
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.21
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0
@@ -129,7 +129,6 @@ projects[cnb_bootstrap][type] = theme
 projects[cnb_bootstrap][subdir] = custom
 projects[cnb_bootstrap][download][type] = git
 projects[cnb_bootstrap][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/cnb_bootstrap.git
-projects[cnb_bootstrap][download][working-copy] = true
 
 ; LIBRARIES
 
@@ -139,11 +138,11 @@ libraries[backbone][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/bac
 libraries[backbone][directory_name] = backbone
 
 ; Bootstrap
+; I'm getting conflicting reports about whether or not I need this library locally.
+; I'm installing it just in case.
 libraries[bootstrap][download][type] = get
 libraries[bootstrap][download][url] = https://github.com/twbs/bootstrap/archive/v3.0.2.zip
-libraries[bootstrap][directory_name] = bootstrap
-libraries[bootstrap][destination] = themes/contrib/bootstrap
-libraries[bootstrap][overwrite] = TRUE
+;libraries[bootstrap][directory_name] = bootstrap
 
 ; CKEditor
 libraries[ckeditor][download][type] = git
