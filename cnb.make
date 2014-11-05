@@ -38,8 +38,13 @@ projects[qa_checklist][version] = 1.1
 
 ; MODULES FOR PRODUCTION
 
+; This is just the latest revision as of Nov. 4, 2014. It has a bug fix that I need, but
+; I don't want to simply mark the dev version, cuz then who knows what I'll download.
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][type] = module
+projects[admin_menu][download][type] = git
+projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.git
+projects[admin_menu][download][revision] = b07d37b857f48e8e38ca8c31fbb8153184c46932
 
 projects[bootstrap_carousel][subdir] = contrib
 projects[bootstrap_carousel][version] = 1.0
