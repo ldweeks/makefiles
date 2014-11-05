@@ -51,6 +51,8 @@ projects[bootstrap_carousel][version] = 1.0
 
 projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.16
+; Issue #2324383: You must use jQuery 1.7 on the administrative pages for CKEditor
+; configuration to work.
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.4
