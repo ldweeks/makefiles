@@ -16,9 +16,10 @@ projects[calendar][version] = 3.5
 projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 3.3
 
-libraries[iCalcreator][download][type] = git
-libraries[iCalcreator][download][url] = https://github.com/iCalcreator/iCalcreator.git
-libraries[iCalcreator][directory_name] = iCalcreator
+; This library is, apparently, downloaded automatically by a make file in date_ical.
+;libraries[iCalcreator][download][type] = git
+;libraries[iCalcreator][download][url] = https://github.com/iCalcreator/iCalcreator.git
+;libraries[iCalcreator][directory_name] = iCalcreator
 
 projects[checklistapi][subdir] = contrib
 projects[checklistapi][version] = 1.2
@@ -120,6 +121,7 @@ projects[cnb_bootstrap][type] = theme
 projects[cnb_bootstrap][subdir] = custom
 projects[cnb_bootstrap][download][type] = git
 projects[cnb_bootstrap][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/cnb_bootstrap.git
+projects[cnb_bootstrap][download][working-copy] = true
 
 ; LIBRARIES
 
