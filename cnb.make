@@ -13,6 +13,9 @@ projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.32.1.tar.g
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
 
+projects[delete_all][subdir] = contrib
+projects[delete_all][version] = 1.1
+
 projects[date_ical][subdir] = contrib
 projects[date_ical][version] = 3.3
 
@@ -21,11 +24,22 @@ projects[date_ical][version] = 3.3
 ;libraries[iCalcreator][download][url] = https://github.com/iCalcreator/iCalcreator.git
 ;libraries[iCalcreator][directory_name] = iCalcreator
 
+projects[feeds][subdir] = contrib
+projects[feeds][version] = 2.0-alpha8
+; This patch must be applied, and it is specific to 2.0-alpha8
+projects[feeds][patch][] = https://www.drupal.org/files/issues/feeds-date_import_fix.patch
+
+projects[flag][subdir] = contrib
+projects[flag][version] = 3.5
+
 projects[checklistapi][subdir] = contrib
 projects[checklistapi][version] = 1.2
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.5
+
+projects[Job_scheduler][subdir] = contrib
+projects[Job_scheduler][version] = 2.0-alpha3
 
 projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.1
@@ -35,6 +49,40 @@ projects[pasc][version] = 1.0-beta1
 
 projects[qa_checklist][subdir] = contrib
 projects[qa_checklist][version] = 1.1
+
+projects[path_breadcrumbs][subdir] = contrib
+projects[path_breadcrumbs][version] = 3.0
+
+; AUDIO
+
+projects[mediaelement][subdir] = contrib
+projects[mediaelement][version] = 1.2
+
+; projects[npr_player_pack][subdir] = contrib
+; projects[npr_player_pack][version] = 1.2
+
+; projects[jplayer][subdir] = contrib
+; projects[jplayer][version] = 2.0-beta1
+
+projects[views_rss][subdir] = contrib
+projects[views_rss][version] = 2.0-rc3
+
+projects[views_rss_itunes][subdir] = contrib
+projects[views_rss_itunes][version] = 1.0-rc2
+
+; Not sure I'll need getid3 or even be able to use it.
+; projects[getid3][subdir] = contrib
+; projects[getid3][version] = 1.0
+; lates stable version of: http://www.getid3.org
+
+; SEARCH AND SERMON BROWSING
+
+; search_api
+; 1.13
+; search_api_db
+; 1.4
+; facetapi
+; 1.5
 
 ; MODULES FOR PRODUCTION
 
@@ -63,11 +111,20 @@ projects[date][version] = 2.8
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
+projects[email][subdir] = contrib
+projects[email][version] = 1.3
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.5
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
+
+projects[fontyourface][subdir] = contrib
+projects[fontyourface][version] = 2.8
+
+projects[gmap][subdir] = contrib
+projects[gmap][version] = 2.9
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
@@ -84,11 +141,17 @@ projects[libraries][version] = 2.2
 projects[link][subdir] = contrib
 projects[link][version] = 1.3
 
+projects[location][subdir] = contrib
+projects[location][version] = 3.4
+
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.4
+
+projects[metatag][subdir] = contrib
+projects[metatag][version] = 1.4
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
@@ -140,11 +203,10 @@ libraries[backbone][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/bac
 libraries[backbone][directory_name] = backbone
 
 ; Bootstrap
-; I'm getting conflicting reports about whether or not I need this library locally.
-; I'm installing it just in case.
-libraries[bootstrap][download][type] = get
-libraries[bootstrap][download][url] = https://github.com/twbs/bootstrap/archive/v3.0.2.zip
-;libraries[bootstrap][directory_name] = bootstrap
+; I'm getting conflicting reports about whether or not I need this library locally for
+; the purposes of the theme. However, I do need it for the carousel. So it goes in.
+libraries[bootstrap][download][type] = git
+libraries[bootstrap][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/bootstrap.git
 
 ; CKEditor
 libraries[ckeditor][download][type] = git
