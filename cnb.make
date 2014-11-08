@@ -58,6 +58,12 @@ projects[path_breadcrumbs][version] = 3.0
 projects[mediaelement][subdir] = contrib
 projects[mediaelement][version] = 1.2
 
+
+libraries[mediaelement][download][type] = git
+libraries[mediaelement][download][url] = git@github.com:johndyer/mediaelement.git
+libraries[mediaelement][download][tag] = 2.16.1
+libraries[mediaelement][directory_name] = mediaelement
+
 ; projects[npr_player_pack][subdir] = contrib
 ; projects[npr_player_pack][version] = 1.2
 
