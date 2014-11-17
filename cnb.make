@@ -6,7 +6,7 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.32.1.tar.gz
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.33.1.tar.gz
 
 ; MODULES FOR DEVELOPMENT & TESTING
 
@@ -35,6 +35,13 @@ projects[flag][version] = 3.5
 projects[checklistapi][subdir] = contrib
 projects[checklistapi][version] = 1.2
 
+projects[colorbox][subdir] = contrib
+projects[colorbox][version] = 2.8
+
+libraries[colorbox][download][type] = git
+libraries[colorbox][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/colorbox.git
+libraries[colorbox][directory_name] = colorbox
+
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.5
 
@@ -53,6 +60,9 @@ projects[qa_checklist][version] = 1.1
 projects[path_breadcrumbs][subdir] = contrib
 projects[path_breadcrumbs][version] = 3.0
 
+projects[filefield_sources][subdir] = contrib
+projects[filefield_sources][version] = 1.9
+
 ; AUDIO
 
 projects[mediaelement][subdir] = contrib
@@ -67,6 +77,9 @@ libraries[mediaelement][directory_name] = mediaelement
 
 ; projects[jplayer][subdir] = contrib
 ; projects[jplayer][version] = 2.0-beta1
+
+projects[tvi][subdir] = contrib
+projects[tvi][version] = 1.0-beta4
 
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
@@ -216,6 +229,8 @@ libraries[bootstrap][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/bo
 libraries[ckeditor][download][type] = git
 libraries[ckeditor][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/ckeditor.git
 libraries[ckeditor][directory_name] = ckeditor
+; I thought that the latest version of CKEditor I have is buggy. Not sure that's true.
+; libraries[ckeditor][download][revision] = d3688f078f098daf2ecaed07511f5753d6a3e976
 
 ; Modernizr
 libraries[modernizr][download][type] = git
