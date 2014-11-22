@@ -16,9 +16,6 @@ projects[checklistapi][version] = 1.2
 projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.1
 
-projects[pasc][subdir] = contrib
-projects[pasc][version] = 1.0-beta1
-
 projects[qa_checklist][subdir] = contrib
 projects[qa_checklist][version] = 1.1
 
@@ -125,6 +122,9 @@ projects[mediaelement][version] = 1.2
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.4
 
+projects[metatags_quick][subdir] = contrib
+projects[metatags_quick][version] = 2.9
+
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
@@ -133,6 +133,9 @@ projects[navbar][version] = 1.4
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
+
+projects[site_map][subdir] = contrib
+projects[site_map][version] = 1.2
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
