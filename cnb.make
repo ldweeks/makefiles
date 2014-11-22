@@ -6,47 +6,12 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.33.1.tar.gz
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.34.1.tar.gz
 
 ; MODULES FOR DEVELOPMENT & TESTING
 
-projects[calendar][subdir] = contrib
-projects[calendar][version] = 3.5
-
-projects[delete_all][subdir] = contrib
-projects[delete_all][version] = 1.1
-
-projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 3.3
-
-; This library is, apparently, downloaded automatically by a make file in date_ical.
-;libraries[iCalcreator][download][type] = git
-;libraries[iCalcreator][download][url] = https://github.com/iCalcreator/iCalcreator.git
-;libraries[iCalcreator][directory_name] = iCalcreator
-
-projects[feeds][subdir] = contrib
-projects[feeds][version] = 2.0-alpha8
-; This patch must be applied, and it is specific to 2.0-alpha8
-projects[feeds][patch][] = https://www.drupal.org/files/issues/feeds-date_import_fix.patch
-
-projects[flag][subdir] = contrib
-projects[flag][version] = 3.5
-
 projects[checklistapi][subdir] = contrib
 projects[checklistapi][version] = 1.2
-
-projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.8
-
-libraries[colorbox][download][type] = git
-libraries[colorbox][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/colorbox.git
-libraries[colorbox][directory_name] = colorbox
-
-projects[devel][subdir] = contrib
-projects[devel][version] = 1.5
-
-projects[job_scheduler][subdir] = contrib
-projects[job_scheduler][version] = 2.0-alpha3
 
 projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.1
@@ -57,49 +22,19 @@ projects[pasc][version] = 1.0-beta1
 projects[qa_checklist][subdir] = contrib
 projects[qa_checklist][version] = 1.1
 
-projects[path_breadcrumbs][subdir] = contrib
-projects[path_breadcrumbs][version] = 3.0
-
-projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.9
-
 ; AUDIO
 
-projects[mediaelement][subdir] = contrib
-projects[mediaelement][version] = 1.2
-
-libraries[mediaelement][download][type] = file
-libraries[mediaelement][download][url] = https://github.com/johndyer/mediaelement/archive/2.16.1.zip
-libraries[mediaelement][directory_name] = mediaelement
-
-; projects[npr_player_pack][subdir] = contrib
-; projects[npr_player_pack][version] = 1.2
-
-; projects[jplayer][subdir] = contrib
-; projects[jplayer][version] = 2.0-beta1
-
-projects[tvi][subdir] = contrib
-projects[tvi][version] = 1.0-beta4
-
+; This will be installed and configured post-launch
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
 
 projects[views_rss_itunes][subdir] = contrib
 projects[views_rss_itunes][version] = 1.0-rc2
 
-; Not sure I'll need getid3 or even be able to use it.
+; Gedid3 library is needed for views_rss_itunes
 ; projects[getid3][subdir] = contrib
 ; projects[getid3][version] = 1.0
 ; lates stable version of: http://www.getid3.org
-
-; SEARCH AND SERMON BROWSING
-
-; search_api
-; 1.13
-; search_api_db
-; 1.4
-; facetapi
-; 1.5
 
 ; MODULES FOR PRODUCTION
 
@@ -114,16 +49,33 @@ projects[admin_menu][download][revision] = b07d37b857f48e8e38ca8c31fbb8153184c46
 projects[bootstrap_carousel][subdir] = contrib
 projects[bootstrap_carousel][version] = 1.0
 
+projects[calendar][subdir] = contrib
+projects[calendar][version] = 3.5
+
 projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.16
 ; Issue #2324383: You must use jQuery 1.7 on the administrative pages for CKEditor
 ; configuration to work.
 
+projects[colorbox][subdir] = contrib
+projects[colorbox][version] = 2.8
+
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.5
+
+projects[custom_breadcrumbs][subdir] = contrib
+projects[custom_breadcrumbs][version] = 2.0-beta1
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.8
+
+projects[date_ical][subdir] = contrib
+projects[date_ical][version] = 3.3
+
+; This library is, apparently, downloaded automatically by a make file in date_ical.
+;libraries[iCalcreator][download][type] = git
+;libraries[iCalcreator][download][url] = https://github.com/iCalcreator/iCalcreator.git
+;libraries[iCalcreator][directory_name] = iCalcreator
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
@@ -136,6 +88,12 @@ projects[entity][version] = 1.5
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
+
+projects[filefield_sources][subdir] = contrib
+projects[filefield_sources][version] = 1.9
+
+projects[flag][subdir] = contrib
+projects[flag][version] = 3.5
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
@@ -159,13 +117,10 @@ projects[link][subdir] = contrib
 projects[link][version] = 1.3
 
 projects[location][subdir] = contrib
-projects[location][version] = 3.4
+projects[location][version] = 3.5
 
-projects[mailsystem][subdir] = contrib
-projects[mailsystem][version] = 2.34
-
-projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.4
+projects[mediaelement][subdir] = contrib
+projects[mediaelement][version] = 1.2
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.4
@@ -179,23 +134,17 @@ projects[navbar][version] = 1.4
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
-projects[role_delegation][subdir] = contrib
-projects[role_delegation][version] = 1.1
-
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
+projects[tvi][subdir] = contrib
+projects[tvi][version] = 1.0-beta5
+
 projects[views][subdir] = contrib
 projects[views][version] = 3.8
-
-projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.2
-
-projects[webform][subdir] = contrib
-projects[webform][version] = 3.21
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0
@@ -231,6 +180,16 @@ libraries[ckeditor][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/cke
 libraries[ckeditor][directory_name] = ckeditor
 ; I thought that the latest version of CKEditor I have is buggy. Not sure that's true.
 ; libraries[ckeditor][download][revision] = d3688f078f098daf2ecaed07511f5753d6a3e976
+
+; Colorbox
+libraries[colorbox][download][type] = git
+libraries[colorbox][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/colorbox.git
+libraries[colorbox][directory_name] = colorbox
+
+; MediaElement
+libraries[mediaelement][download][type] = file
+libraries[mediaelement][download][url] = https://github.com/johndyer/mediaelement/archive/2.16.1.zip
+libraries[mediaelement][directory_name] = mediaelement
 
 ; Modernizr
 libraries[modernizr][download][type] = git
