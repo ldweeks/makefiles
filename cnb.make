@@ -16,9 +16,6 @@ projects[checklistapi][version] = 1.2
 projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.1
 
-projects[qa_checklist][subdir] = contrib
-projects[qa_checklist][version] = 1.1
-
 ; AUDIO
 
 ; This will be installed and configured post-launch
@@ -95,6 +92,9 @@ projects[flag][version] = 3.5
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
 
+projects[globalredirect][subdir] = contrib
+projects[globalredirect][version] = 1.5
+
 projects[gmap][subdir] = contrib
 projects[gmap][version] = 2.9
 
@@ -133,6 +133,9 @@ projects[navbar][version] = 1.4
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
+
+projects[redirect][subdir] = contrib
+projects[redirect][version] = 1.0-rc1
 
 projects[site_map][subdir] = contrib
 projects[site_map][version] = 1.2
