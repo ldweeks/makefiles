@@ -8,14 +8,6 @@ projects[drupal][type] = core
 projects[drupal][download][type] = get
 projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.34.1.tar.gz
 
-; MODULES FOR DEVELOPMENT & TESTING
-
-projects[checklistapi][subdir] = contrib
-projects[checklistapi][version] = 1.2
-
-projects[seo_checklist][subdir] = contrib
-projects[seo_checklist][version] = 4.1
-
 ; AUDIO
 
 ; This will be installed and configured post-launch
