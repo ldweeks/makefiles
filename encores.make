@@ -6,9 +6,9 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.32.1.tar.gz
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.34.1.tar.gz
 
-; MODULES FOR DEVELOPMENT & TESTING
+; MODULES FOR DEVELOPMENT
 
 projects[checklistapi][subdir] = contrib
 projects[checklistapi][version] = 1.2
@@ -32,18 +32,37 @@ projects[admin_menu][version] = 3.0-rc4
 
 projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.16
+; Issue #2324383: You must use jQuery 1.7 on the administrative pages for CKEditor configuration to work.
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.5
+
+projects[custom_breadcrumbs][subdir] = contrib
+projects[custom_breadcrumbs][version] = 2.0-beta1
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
+projects[email][subdir] = contrib
+projects[email][version] = 1.3
+
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.5
+
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.13
+projects[extlink][version] = 1.18
+
+projects[filefield_sources][subdir] = contrib
+projects[filefield_sources][version] = 1.9
+
+projects[flag][subdir] = contrib
+projects[flag][version] = 3.5
+
+projects[globalredirect][subdir] = contrib
+projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
@@ -55,16 +74,16 @@ projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.4
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.1
+projects[link][version] = 1.3
 
-projects[mailsystem][subdir] = contrib
-projects[mailsystem][version] = 2.34
+projects[metatag][subdir] = contrib
+projects[metatag][version] = 1.4
 
-projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.4
+projects[metatags_quick][subdir] = contrib
+projects[metatags_quick][version] = 2.9
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
@@ -75,8 +94,11 @@ projects[navbar][version] = 1.4
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
-projects[role_delegation][subdir] = contrib
-projects[role_delegation][version] = 1.1
+projects[redirect][subdir] = contrib
+projects[redirect][version] = 1.0-rc1
+
+projects[site_map][subdir] = contrib
+projects[site_map][version] = 1.2
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
@@ -85,19 +107,14 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
-
-projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
-
-projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[views][version] = 3.8
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0
 
 ; THEMES
 
+; SimpleCorp theme
 projects[simplecorp][subdir] = contrib
 projects[simplecorp][version] = 1.1
 
@@ -112,6 +129,8 @@ libraries[backbone][directory_name] = backbone
 libraries[ckeditor][download][type] = git
 libraries[ckeditor][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/ckeditor.git
 libraries[ckeditor][directory_name] = ckeditor
+; I thought that the latest version of CKEditor I have is buggy. Not sure that's true.
+; libraries[ckeditor][download][revision] = d3688f078f098daf2ecaed07511f5753d6a3e976
 
 ; Modernizr
 libraries[modernizr][download][type] = git
