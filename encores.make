@@ -118,6 +118,12 @@ projects[xmlsitemap][version] = 2.0
 projects[simplecorp][subdir] = contrib
 projects[simplecorp][version] = 1.1
 
+; CNB SimpleCorp
+projects[cnb_simplecorp][type] = theme
+projects[cnb_simplecorp][subdir] = custom
+projects[cnb_simplecorp][download][type] = git
+projects[cnb_simplecorp][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/cnb_simplecorp.git
+
 ; LIBRARIES
 
 ; Backbone
