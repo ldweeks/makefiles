@@ -3,7 +3,8 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.32
+projects[drupal][download][type] = get
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.34.1.tar.gz
 projects[drupal][patch][] = http://cnf.repositoryhosting.com/git_public/cnf/patches.git/blob_plain/e568173604ca6f46ec9996703b0cf1cf73c781f7:/custom_text_summary-221257-141.patch
 ; Issue #221257
 
@@ -47,7 +48,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.1
 
 projects[ckeditor][subdir] = contrib
-projects[ckeditor][version] = 1.15
+projects[ckeditor][version] = 1.16
 
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
@@ -59,7 +60,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.3
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.5
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.8
@@ -153,7 +154,7 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.2
+projects[link][version] = 1.3
 
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.1
