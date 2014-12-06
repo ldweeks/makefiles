@@ -58,9 +58,6 @@ projects[entity][version] = 1.5
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
 
-projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.9
-
 projects[flag][subdir] = contrib
 projects[flag][version] = 3.5
 
@@ -72,6 +69,12 @@ projects[google_analytics][version] = 1.4
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
+
+projects[imce_filefield][subdir] = contrib
+projects[imce_filefield][version] = 1.0
+
+projects[imce_plupload][subdir] = contrib
+projects[imce_plupload][version] = 1.2
 
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.4
@@ -97,6 +100,9 @@ projects[navbar][version] = 1.4
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
+projects[plupload][subdir] = contrib
+projects[plupload][version] = 1.7
+
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
 
@@ -113,7 +119,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.8
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0
+projects[xmlsitemap][version] = 2.1
 
 ; THEMES
 
@@ -150,6 +156,11 @@ libraries[colorbox][directory_name] = colorbox
 libraries[modernizr][download][type] = git
 libraries[modernizr][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/modernizr.git
 libraries[modernizr][directory_name] = modernizr
+
+; Plupload
+libraries[plupload][download][type] = get
+libraries[plupload][download][url] = https://github.com/moxiecode/plupload/archive/v1.5.8.zip
+libraries[plupload][directory_name] = plupload
 
 ; Underscore
 libraries[underscore][download][type] = git
