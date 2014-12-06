@@ -34,6 +34,9 @@ projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.16
 ; Issue #2324383: You must use jQuery 1.7 on the administrative pages for CKEditor configuration to work.
 
+projects[colorbox][subdir] = contrib
+projects[colorbox][version] = 2.8
+
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.5
 
@@ -137,6 +140,11 @@ libraries[ckeditor][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/cke
 libraries[ckeditor][directory_name] = ckeditor
 ; I thought that the latest version of CKEditor I have is buggy. Not sure that's true.
 ; libraries[ckeditor][download][revision] = d3688f078f098daf2ecaed07511f5753d6a3e976
+
+; Colorbox
+libraries[colorbox][download][type] = git
+libraries[colorbox][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/colorbox.git
+libraries[colorbox][directory_name] = colorbox
 
 ; Modernizr
 libraries[modernizr][download][type] = git
