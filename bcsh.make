@@ -5,7 +5,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
+projects[drupal][version] = 7.32
 
 ; MODULES
 
@@ -16,7 +16,7 @@ projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.4
+projects[backup_migrate][version] = 2.8
 
 projects[bcsh_custom][subdir] = custom
 projects[bcsh_custom][type] = module
@@ -54,7 +54,7 @@ projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.8
+projects[imce][version] = 1.9
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -72,7 +72,7 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.5
+projects[mandrill][version] = 1.6
 
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta3
@@ -117,19 +117,19 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.20
+projects[webform][version] = 3.21
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-rc2
+projects[xmlsitemap][version] = 2.0
 
 ; THEMES
 

@@ -1,11 +1,17 @@
 ; Keystone RPM
+
 core = 7.x
 api = 2
 
 ; CORE
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.31
+projects[drupal][download][type] = get
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.32.1.tar.gz
+
+; DEV MODULES
+
+projects[hacked][version] = 2.0-beta5
 
 ; MODULES
 
@@ -19,7 +25,7 @@ projects[better_formats][version] = 1.0-beta1
 
 projects[checklistapi][version] = 1.1
 
-projects[ckeditor][version] = 1.13
+projects[ckeditor][version] = 1.16
 
 projects[ctools][version] = 1.4
 
@@ -41,6 +47,8 @@ projects[freehold][type] = module
 projects[freehold][subdir] = custom
 projects[freehold][download][type] = git
 projects[freehold][download][url] = http://cnf.repositoryhosting.com/git_public/cnf/freehold.git
+
+projects[front][version] = 2.4
 
 projects[globalredirect][version] = 1.5
 

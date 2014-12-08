@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.29
+projects[drupal][version] = 7.32
 
 ; MODULES
 
@@ -17,7 +17,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.4
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -39,7 +39,7 @@ projects[exclude_node_title][subdir] = contrib
 projects[exclude_node_title][version] = 1.7
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.17
+projects[extlink][version] = 1.18
 
 projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.9
@@ -81,7 +81,7 @@ projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.10
+projects[mollom][version] = 2.12
 
 projects[nivo_slider][subdir] = contrib
 projects[nivo_slider][version] = 1.11
@@ -117,7 +117,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.20
+projects[webform][version] = 3.21
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2

@@ -3,7 +3,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
+projects[drupal][version] = 7.32
 
 ; MODULES
 
@@ -31,7 +31,7 @@ projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
 
 projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.1
+projects[boxes][version] = 1.2
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.0
@@ -40,13 +40,13 @@ projects[content_access][subdir] = contrib
 projects[content_access][version] = 1.2-beta2
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.2
+projects[context][version] = 3.3
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.4
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -58,7 +58,7 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.5
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.16
+projects[extlink][version] = 1.18
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
@@ -79,7 +79,7 @@ projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.14
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.8
+projects[imce][version] = 1.9
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -91,13 +91,13 @@ projects[link][subdir] = contrib
 projects[link][version] = 1.2
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.9
+projects[mollom][version] = 2.12
 
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.5
+projects[mandrill][version] = 1.6
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0-alpha2
@@ -145,7 +145,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
@@ -155,7 +155,7 @@ projects[views_slideshow][version] = 3.1
 ; http://drupal.org/project/jcarousel - requires theming, but might be better
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.20
+projects[webform][version] = 3.21
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -172,7 +172,7 @@ projects[arthemia][subdir] = contrib
 projects[arthemia][version] = 1.x-dev
 
 projects[rubik][subdir] = contrib
-projects[rubik][version] = 4.0
+projects[rubik][version] = 4.1
 
 projects[tao][subdir] = contrib
 projects[tao][version] = 3.1

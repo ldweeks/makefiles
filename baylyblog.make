@@ -3,7 +3,8 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
+projects[drupal][download][type] = get
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.34.1.tar.gz
 projects[drupal][patch][] = http://cnf.repositoryhosting.com/git_public/cnf/patches.git/blob_plain/e568173604ca6f46ec9996703b0cf1cf73c781f7:/custom_text_summary-221257-141.patch
 ; Issue #221257
 
@@ -35,10 +36,10 @@ projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.8
 
 projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.1
+projects[boxes][version] = 1.2
 
 projects[breakpoints][subdir] = contrib
-projects[breakpoints][version] = 1.1
+projects[breakpoints][version] = 1.3
 
 projects[cdn][subdir] = contrib
 projects[cdn][version] = 2.6
@@ -47,7 +48,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.1
 
 projects[ckeditor][subdir] = contrib
-projects[ckeditor][version] = 1.13
+projects[ckeditor][version] = 1.16
 
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
@@ -56,13 +57,13 @@ projects[content_taxonomy][subdir] = contrib
 projects[content_taxonomy][version] = 1.0-beta1
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.2
+projects[context][version] = 3.3
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.5
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -74,10 +75,10 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.5
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.16
+projects[extlink][version] = 1.18
 
 projects[facetapi][subdir] = contrib
-projects[facetapi][version] = 1.3
+projects[facetapi][version] = 1.5
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
@@ -127,7 +128,7 @@ projects[googtube][subdir] = contrib
 projects[googtube][version] = 2.1
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.16
+projects[honeypot][version] = 1.17
 
 projects[hide_sticky_promote][type] = module
 projects[hide_sticky_promote][subdir] = contrib
@@ -138,13 +139,13 @@ projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.14
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.8
+projects[imce][version] = 1.9
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
 
 projects[jquery_ui_multiselect_widget][subdir] = contrib
-projects[jquery_ui_multiselect_widget][version] = 1.8
+projects[jquery_ui_multiselect_widget][version] = 1.11
 
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.4
@@ -153,7 +154,7 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.2
+projects[link][version] = 1.3
 
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.1
@@ -165,13 +166,16 @@ projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
 
 projects[mandrill][subdir] = contrib
-projects[mandrill][version] = 1.5
+projects[mandrill][version] = 1.6
+
+projects[mediaelement][subdir] = contrib
+projects[mediaelement][version] = 1.2
 
 projects[metatags_quick][subdir] = contrib
-projects[metatags_quick][version] = 2.7
+projects[metatags_quick][version] = 2.9
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.9
+projects[mollom][version] = 2.12
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0-alpha2
@@ -200,11 +204,6 @@ projects[profile2][version] = 1.3
 projects[publish_button][subdir] = contrib
 projects[publish_button][version] = 1.0
 
-projects[quickbar][type] = module
-projects[quickbar][subdir] = contrib
-projects[quickbar][download][type] = git
-projects[quickbar][download][revision] = a77415d
-
 projects[quicktabs][subdir] = contrib
 projects[quicktabs][version] = 3.6
 
@@ -226,19 +225,19 @@ projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.6
+projects[rules][version] = 2.7
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.11
+projects[search_api][version] = 1.13
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
 
 projects[search_api_solr][subdir] = contrib
-projects[search_api_solr][version] = 1.4
+projects[search_api_solr][version] = 1.6
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
@@ -253,7 +252,7 @@ projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9
 
 projects[tagclouds][subdir] = contrib
-projects[tagclouds][version] = 1.9
+projects[tagclouds][version] = 1.10
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
@@ -262,7 +261,7 @@ projects[video_filter][subdir] = contrib
 projects[video_filter][version] = 3.1
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
@@ -274,7 +273,7 @@ projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.20
+projects[webform][version] = 3.21
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -291,18 +290,18 @@ projects[xmlsitemap][version] = 2.0
 ; THEMES
 
 projects[zen][subdir] = contrib
-projects[zen][version] = 3.2
+projects[zen][version] = 3.3
 
 ; LIBRARIES
 
 ; Backbone
 libraries[backbone][download][type] = git
-libraries[backbone][download][url] = git://cnf.repositoryhosting.com/cnf/backbone.git
+libraries[backbone][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/backbone.git
 libraries[backbone][directory_name] = backbone
 
 ; CKEditor
 libraries[ckeditor][download][type] = git
-libraries[ckeditor][download][url] = git://cnf.repositoryhosting.com/cnf/ckeditor.git
+libraries[ckeditor][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/ckeditor.git
 libraries[ckeditor][directory_name] = ckeditor
 
 ; dompdf
@@ -317,23 +316,28 @@ libraries[jquery.cycle][directory_name] = jquery.cycle
 
 ; jquery UI Multiselect Widget
 libraries[jquery-ui-multiselect-widget][download][type] = git
-libraries[jquery-ui-multiselect-widget][download][url] = git://cnf.repositoryhosting.com/cnf/jquery-ui-multiselect-widget.git
+libraries[jquery-ui-multiselect-widget][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/jquery-ui-multiselect-widget.git
 libraries[jquery-ui-multiselect-widget][directory_name] = jquery-ui-multiselect-widget
+
+; MediaElement
+libraries[mediaelement][download][type] = file
+libraries[mediaelement][download][url] = https://github.com/johndyer/mediaelement/archive/2.16.1.zip
+libraries[mediaelement][directory_name] = mediaelement
 
 ; Modernizr
 libraries[modernizr][download][type] = git
-libraries[modernizr][download][url] = git://cnf.repositoryhosting.com/cnf/modernizr.git
+libraries[modernizr][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/modernizr.git
 libraries[modernizr][directory_name] = modernizr
 
 ; TinyMCE
 libraries[tinymce][download][type] = git
-libraries[tinymce][download][url] = git://cnf.repositoryhosting.com/cnf/tinymce.git
+libraries[tinymce][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/tinymce.git
 libraries[tinymce][directory_name] = tinymce
 libraries[tinymce][download][tag] = 3.5.8.1
 
 ; Underscore
 libraries[underscore][download][type] = git
-libraries[underscore][download][url] = git://cnf.repositoryhosting.com/cnf/underscore.git
+libraries[underscore][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/underscore.git
 libraries[underscore][directory_name] = underscore
 
 ; Superfish for Drupal
@@ -352,4 +356,4 @@ libraries[SolrPhpClient][download][sha1] = 211b6ad55eafa172778f9d9672a23ea07248f
 ; baylyblog.com
 projects[baylyblog][type] = profile
 projects[baylyblog][download][type] = git
-projects[baylyblog][download][url] = git://cnf.repositoryhosting.com/cnf/baylyblog.git
+projects[baylyblog][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/baylyblog.git

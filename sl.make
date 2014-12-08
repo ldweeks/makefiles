@@ -4,8 +4,14 @@ core = 7.x
 api = 2
 
 ; CORE
+
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
+projects[drupal][download][type] = get
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.32.1.tar.gz
+
+; DEV MODULES
+
+projects[hacked][version] = 2.0-beta5
 
 ; MODULES
 
@@ -25,7 +31,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.4
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.5
@@ -34,7 +40,7 @@ projects[entity][version] = 1.5
 ;projects[entitycache][version] = 1.2
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.8
+projects[imce][version] = 1.9
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -49,7 +55,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2

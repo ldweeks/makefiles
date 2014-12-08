@@ -5,7 +5,7 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
+projects[drupal][version] = 7.32
 
 ; MODULES
 
@@ -34,7 +34,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.8
+projects[imce][version] = 1.9
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
