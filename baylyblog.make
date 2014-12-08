@@ -168,6 +168,9 @@ projects[mailsystem][version] = 2.34
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.6
 
+projects[mediaelement][subdir] = contrib
+projects[mediaelement][version] = 1.2
+
 projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.9
 
@@ -200,11 +203,6 @@ projects[profile2][version] = 1.3
 
 projects[publish_button][subdir] = contrib
 projects[publish_button][version] = 1.0
-
-projects[quickbar][type] = module
-projects[quickbar][subdir] = contrib
-projects[quickbar][download][type] = git
-projects[quickbar][download][revision] = a77415d
 
 projects[quicktabs][subdir] = contrib
 projects[quicktabs][version] = 3.6
@@ -320,6 +318,11 @@ libraries[jquery.cycle][directory_name] = jquery.cycle
 libraries[jquery-ui-multiselect-widget][download][type] = git
 libraries[jquery-ui-multiselect-widget][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/jquery-ui-multiselect-widget.git
 libraries[jquery-ui-multiselect-widget][directory_name] = jquery-ui-multiselect-widget
+
+; MediaElement
+libraries[mediaelement][download][type] = file
+libraries[mediaelement][download][url] = https://github.com/johndyer/mediaelement/archive/2.16.1.zip
+libraries[mediaelement][directory_name] = mediaelement
 
 ; Modernizr
 libraries[modernizr][download][type] = git
