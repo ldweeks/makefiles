@@ -7,11 +7,21 @@ core = 7.x
 projects[drupal][type] = core
 projects[drupal][version] = 7.34
 
+
 ; CIVICRM
 projects[civicrm][type] = module
 projects[civicrm][directory_name] = civicrm
 projects[civicrm][download][type] = get
 projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.5.4/civicrm-4.5.4-drupal.tar.gz
+
+
+; CUSTOM
+projects[cnf_civicrm][subdir] = custom
+projects[cnf_civicrm][directory_name] = cnf_civicrm
+projects[cnf_civicrm][type] = module
+projects[cnf_civicrm][download][type] = git
+projects[cnf_civicrm][download][url] = git://cnf.repositoryhosting.com/cnf/cnf_civicrm.git
+
 
 ; CONTRIB
 projects[admin_menu][subdir] = contrib
@@ -47,6 +57,7 @@ projects[webform][version] = 4.2
 projects[webform_civicrm][subdir] = contrib
 projects[webform_civicrm][version] = 4.9
 
+; options_element is required by webform_civicrm
 projects[options_element][subdir] = contrib
 projects[options_element][version] = 1.12
 
@@ -58,6 +69,7 @@ projects[node_clone][version] = 1.0-rc2
 
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.4
+
 
 ; LIBRARIES
 libraries[tokeninput][download][type] = git
