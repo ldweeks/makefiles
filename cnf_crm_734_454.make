@@ -16,6 +16,7 @@ projects[civicrm][download][url] = http://downloads.sourceforge.net/project/civi
 
 
 ; CUSTOM
+; Our custom module for generating giving reports.
 projects[cnf_civicrm][subdir] = custom
 projects[cnf_civicrm][directory_name] = cnf_civicrm
 projects[cnf_civicrm][type] = module
@@ -67,11 +68,17 @@ projects[token][version] = 1.5
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc2
 
+; not currently in use on our civi sites. Remove?
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.4
 
 
 ; LIBRARIES
+; tokeninput used to be required for webform_civicrm 
+;     (see here: https://www.drupal.org/node/1615380 ) 
+;     However, now it isn't needed. 
+;     (see here: https://www.drupal.org/node/2293451 )
+;     Should remove it during the next migration/updgrade.
 libraries[tokeninput][download][type] = git
 libraries[tokeninput][download][url] = git://github.com/loopj/jquery-tokeninput.git
 libraries[tokeninput][directory_name] = tokeninput
