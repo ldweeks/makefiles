@@ -18,9 +18,9 @@ projects[views_rss_itunes][subdir] = contrib
 projects[views_rss_itunes][version] = 1.0-rc2
 
 ; Gedid3 library is needed for views_rss_itunes
-; projects[getid3][subdir] = contrib
-; projects[getid3][version] = 1.0
-; lates stable version of: http://www.getid3.org
+ projects[getid3][subdir] = contrib
+ projects[getid3][version] = 1.0
+; latest stable version of: http://www.getid3.org
 
 ; MODULES FOR PRODUCTION
 
@@ -106,7 +106,7 @@ projects[link][subdir] = contrib
 projects[link][version] = 1.3
 
 projects[location][subdir] = contrib
-projects[location][version] = 3.5
+projects[location][version] = 3.6
 
 projects[mediaelement][subdir] = contrib
 projects[mediaelement][version] = 1.2
@@ -121,7 +121,7 @@ projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
 projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.4
+projects[navbar][version] = 1.5
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
@@ -145,7 +145,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.8
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0
+projects[xmlsitemap][version] = 2.1
 
 ; THEMES
 
@@ -183,6 +183,11 @@ libraries[ckeditor][directory_name] = ckeditor
 libraries[colorbox][download][type] = git
 libraries[colorbox][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/colorbox.git
 libraries[colorbox][directory_name] = colorbox
+
+; getID3
+libraries[getid3][download][type] = file
+libraries[getid3][download][url] = http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.8.2/getid3-1.8.2-20101206.zip
+libraries[getid3][directory_name] = getid3
 
 ; MediaElement
 libraries[mediaelement][download][type] = file
