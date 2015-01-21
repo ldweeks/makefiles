@@ -45,9 +45,6 @@ projects[module_filter][version] = 1.8
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
-projects[print][subdir] = contrib
-projects[print][version] = 2.0
-
 projects[site_map][subdir] = contrib
 projects[site_map][version] = 1.2
 
