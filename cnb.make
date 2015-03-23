@@ -6,13 +6,13 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.34.1.tar.gz
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.35.1.tar.gz
 
 ; AUDIO
 
 ; This will be installed and configured post-launch
 projects[views_rss][subdir] = contrib
-projects[views_rss][version] = 2.0-rc3
+projects[views_rss][version] = 2.0-rc4
 
 projects[views_rss_itunes][subdir] = contrib
 projects[views_rss_itunes][version] = 1.0-rc2
@@ -24,13 +24,8 @@ projects[views_rss_itunes][version] = 1.0-rc2
 
 ; MODULES FOR PRODUCTION
 
-; This is just the latest revision as of Nov. 4, 2014. It has a bug fix that I need, but
-; I don't want to simply mark the dev version, cuz then who knows what I'll download.
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][type] = module
-projects[admin_menu][download][type] = git
-projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.git
-projects[admin_menu][download][revision] = b07d37b857f48e8e38ca8c31fbb8153184c46932
+projects[admin_menu][version] = 3.0-rc5
 
 projects[bootstrap_carousel][subdir] = contrib
 projects[bootstrap_carousel][version] = 1.0
@@ -47,7 +42,7 @@ projects[colorbox][subdir] = contrib
 projects[colorbox][version] = 2.8
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.5
+projects[ctools][version] = 1.7
 
 projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 2.0-beta1
@@ -70,7 +65,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.3
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
@@ -79,7 +74,7 @@ projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.9
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 3.5
+projects[flag][version] = 3.6
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
@@ -97,7 +92,7 @@ projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.4
+projects[jquery_update][version] = 2.5
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
@@ -118,10 +113,10 @@ projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.9
 
 projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 1.8
+projects[module_filter][version] = 2.0
 
 projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.5
+projects[navbar][version] = 1.6
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
@@ -136,16 +131,16 @@ projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 
 projects[tvi][subdir] = contrib
 projects[tvi][version] = 1.0-beta5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.8
+projects[views][version] = 3.10
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.1
+projects[xmlsitemap][version] = 2.2
 
 ; THEMES
 
@@ -185,8 +180,8 @@ libraries[colorbox][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/col
 libraries[colorbox][directory_name] = colorbox
 
 ; getID3
-libraries[getid3][download][type] = file
-libraries[getid3][download][url] = http://downloads.sourceforge.net/project/getid3/getID3%28%29%201.x/1.8.2/getid3-1.8.2-20101206.zip
+libraries[getid3][download][type] = git
+libraries[getid3][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/getid3.git
 libraries[getid3][directory_name] = getid3
 
 ; MediaElement
