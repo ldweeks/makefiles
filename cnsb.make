@@ -5,12 +5,12 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.32
+projects[drupal][version] = 7.35
 
 ; MODULES
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.1
@@ -41,10 +41,10 @@ projects[computed_field][subdir] = contrib
 projects[computed_field][version] = 1.0
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.3
+projects[context][version] = 3.6
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.7
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = 1.10
@@ -62,7 +62,7 @@ projects[dropdown_checkboxes][subdir] = contrib
 projects[dropdown_checkboxes][version] = 1.0-rc1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 
 projects[entityconnect][subdir] = contrib
 projects[entityconnect][version] = 1.0-rc1
@@ -142,7 +142,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.4
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.12
+projects[mollom][version] = 2.13
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
@@ -207,7 +207,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.8
+projects[views][version] = 3.10
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.2
@@ -216,7 +216,7 @@ projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.21
+projects[webform][version] = 3.23
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
