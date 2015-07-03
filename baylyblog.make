@@ -120,7 +120,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
 
 projects[google_analytics_counter][subdir] = contrib
-projects[google_analytics_counter][version] = 2.1
+projects[google_analytics_counter][version] = 3.0
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.0-beta1
@@ -180,6 +180,9 @@ projects[mollom][version] = 2.14
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0
+
+projects[multiselect][subdir] = contrib
+projects[multiselect][version] = 1.11
 
 projects[navbar][subdir] = contrib
 projects[navbar][version] = 1.6
