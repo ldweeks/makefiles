@@ -5,12 +5,14 @@ api = 2
 
 ; CORE
 projects[drupal][type] = core
-projects[drupal][version] = 7.32
+projects[drupal][download][type] = get
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.38.1.tar.gz
+; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 
 ; MODULES
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
@@ -24,13 +26,13 @@ projects[bcsh_custom][download][type] = git
 projects[bcsh_custom][download][url] = git://cnf.repositoryhosting.com/cnf/bcsh_custom.git
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.7
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
@@ -53,6 +55,9 @@ projects[google_analytics][version] = 1.4
 projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
 
+projects[honeypot][subdir] = contrib
+projects[honeypot][version] = 1.18
+
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
 
@@ -63,7 +68,7 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.2
+projects[link][version] = 1.3
 
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.1
@@ -78,10 +83,10 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta3
 
 projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 2.0-alpha2
+projects[module_filter][version] = 2.0
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.3
+projects[mollom][version] = 2.4
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -114,22 +119,22 @@ projects[tagclouds][subdir] = contrib
 projects[tagclouds][version] = 1.7
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.8
+projects[views][version] = 3.11
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.2
+projects[views_bulk_operations][version] = 3.3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.21
+projects[webform][version] = 3.24
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0
+projects[xmlsitemap][version] = 2.2
 
 ; THEMES
 
