@@ -86,7 +86,7 @@ projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.4
+projects[mollom][version] = 2.14
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
