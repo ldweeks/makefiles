@@ -4,10 +4,8 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.38.1.tar.gz
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.41.1.tar.gz
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
-projects[drupal][patch][] = http://cnf.repositoryhosting.com/git_public/cnf/patches.git/blob_plain/e568173604ca6f46ec9996703b0cf1cf73c781f7:/custom_text_summary-221257-141.patch
-; Issue #221257
 
 ; MODULES
 
@@ -19,7 +17,7 @@ projects[accordion_menu][download][revision] = 2fe1e27
 ; This particular version does *not* require menu_block (though we may install it anyway)
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
@@ -52,7 +50,7 @@ projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.16
 
 projects[comment_notify][subdir] = contrib
-projects[comment_notify][version] = 1.2
+projects[comment_notify][version] = 1.3
 
 projects[content_taxonomy][subdir] = contrib
 projects[content_taxonomy][version] = 1.0-beta1
@@ -61,10 +59,10 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.6
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -93,7 +91,7 @@ projects[feedburner][directory_name] = feedburner
 ; Issue #956872
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.9
+projects[filefield_sources][version] = 1.10
 
 projects[flippy][subdir] = contrib
 projects[flippy][version] = 1.4
@@ -117,19 +115,19 @@ projects[goaway][subdir] = contrib
 projects[goaway][version] = 1.2
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.4
+projects[google_analytics][version] = 2.1
 
 projects[google_analytics_counter][subdir] = contrib
-projects[google_analytics_counter][version] = 3.0
+projects[google_analytics_counter][version] = 3.1
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 3.0-beta1
+projects[google_analytics_reports][version] = 3.0-beta2
 
 projects[googtube][subdir] = contrib
 projects[googtube][version] = 2.1
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.18
+projects[honeypot][version] = 1.21
 
 projects[hide_sticky_promote][type] = module
 projects[hide_sticky_promote][subdir] = contrib
@@ -137,7 +135,7 @@ projects[hide_sticky_promote][download][type] = git
 projects[hide_sticky_promote][download][url] = git://github.com/StudioZut/hide-sticky-promote.git
 
 projects[image_resize_filter][subdir] = contrib
-projects[image_resize_filter][version] = 1.15
+projects[image_resize_filter][version] = 1.16
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
@@ -149,7 +147,7 @@ projects[jquery_ui_multiselect_widget][subdir] = contrib
 projects[jquery_ui_multiselect_widget][version] = 1.13
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.6
+projects[jquery_update][version] = 2.7
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
@@ -176,7 +174,7 @@ projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.9
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.14
+projects[mollom][version] = 2.15
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0
@@ -197,7 +195,7 @@ projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.2
+projects[pathauto][version] = 1.3
 
 projects[print][subdir] = contrib
 projects[print][version] = 1.2
@@ -215,7 +213,7 @@ projects[readmorecontrol][subdir] = contrib
 projects[readmorecontrol][version] = 1.2
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-rc2
+projects[redirect][version] = 1.0-rc3
 
 projects[references][subdir] = contrib
 projects[references][version] = 2.1
@@ -233,13 +231,13 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.15
+projects[search_api][version] = 1.16
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
 
 projects[search_api_solr][subdir] = contrib
-projects[search_api_solr][version] = 1.8
+projects[search_api_solr][version] = 1.9
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
@@ -263,7 +261,7 @@ projects[video_filter][subdir] = contrib
 projects[video_filter][version] = 3.1
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.11
+projects[views][version] = 3.13
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.3
