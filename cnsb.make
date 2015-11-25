@@ -185,9 +185,6 @@ projects[search_api_solr][version] = 1.9
 projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.0
 
-projects[shadowbox][subdir] = contrib
-projects[shadowbox][version] = 4.0-rc1
-
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
 
