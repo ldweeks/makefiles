@@ -60,8 +60,8 @@ projects[webform_civicrm][subdir] = contrib
 projects[webform_civicrm][version] = 4.14
 
 ; options_element is required by webform_civicrm. I don't think it is anymore. Removed.
-; projects[options_element][subdir] = contrib
-; projects[options_element][version] = 1.12
+projects[options_element][subdir] = contrib
+projects[options_element][version] = 1.12
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.6
