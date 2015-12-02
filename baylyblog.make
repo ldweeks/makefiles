@@ -76,7 +76,7 @@ projects[disqus][version] = 1.12
 projects[disqus_migrate][subdir] = contrib
 projects[disqus_migrate][version] = 1.0
 projects[disqus_migrate][patch][2626806] = https://www.drupal.org/files/issues/%5Bpost_comment_status%5D-%5B2626806%5D-%5B1%5D.patch
-projects[disqus_migrate][patch][2626652] = https://www.drupal.org/files/issues/%5Bindividual_comment_status%5D-%5B2626652%5D-%5B3%5D_0.patch
+projects[disqus_migrate][patch][2626652] = https://www.drupal.org/files/issues/%5Bindividual_comment_status%5D-%5B2626652%5D-%5B5%5D.patch
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.6
