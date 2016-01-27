@@ -7,6 +7,7 @@ api = 2
 projects[drupal][type] = core
 projects[drupal][download][type] = get
 projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.41.1.tar.gz
+; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 
 ; MODULES FOR DEVELOPMENT
 
