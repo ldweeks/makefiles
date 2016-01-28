@@ -147,7 +147,7 @@ projects[xmlsitemap][version] = 2.2
 
 ; Drupal Bootstrap theme
 projects[bootstrap][subdir] = contrib
-projects[bootstrap][version] = 3.4
+projects[bootstrap][version] = 3.0
 
 ; Bootstrap sub-theme
 projects[cnb_bootstrap][type] = theme
