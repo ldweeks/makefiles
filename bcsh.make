@@ -6,8 +6,9 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.38.1.tar.gz
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.42.2.zip
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
+; Actually, this repo seems to be more up-to-date: https://github.com/omega8cc/7x
 
 ; MODULES
 
@@ -26,7 +27,7 @@ projects[bcsh_custom][download][type] = git
 projects[bcsh_custom][download][url] = git://cnf.repositoryhosting.com/cnf/bcsh_custom.git
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
@@ -50,13 +51,13 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.4
+projects[google_analytics][version] = 2.1
 
 projects[hide_formats][subdir] = contrib
-projects[hide_formats][version] = 1.1
+projects[hide_formats][version] = 1.2
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.18
+projects[honeypot][version] = 1.21
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
@@ -68,10 +69,10 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.3
+projects[link][version] = 1.4
 
 projects[login_destination][subdir] = contrib
-projects[login_destination][version] = 1.1
+projects[login_destination][version] = 1.4
 
 projects[mailsystem][subdir] = contrib
 projects[mailsystem][version] = 2.34
@@ -86,13 +87,16 @@ projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.14
+projects[mollom][version] = 2.15
+
+projects[node_clone][subdir] = contrib
+projects[node_clone][version] = 1.0
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.2
+projects[pathauto][version] = 1.3
 
 projects[qa_checklist][subdir] = contrib
 projects[qa_checklist][version] = 1.0-rc1
@@ -122,7 +126,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.6
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.11
+projects[views][version] = 3.13
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.3
