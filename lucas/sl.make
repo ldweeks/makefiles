@@ -5,9 +5,12 @@ api = 2
 
 ; CORE
 
+; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.32.1.tar.gz
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.42.2.zip
+; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
+; Actually, this repo seems to be more up-to-date: https://github.com/omega8cc/7x
 
 ; DEV MODULES
 
@@ -16,28 +19,28 @@ projects[hacked][version] = 2.0-beta5
 ; MODULES
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.8
 
 projects[better_formats][subdir] = contrib
-projects[better_formats][version] = 1.0-beta1
+projects[better_formats][version] = 1.0-beta2
 
 projects[ckeditor_swf][subdir] = contrib
-projects[ckeditor_swf][version] = 1.0-beta1
+projects[ckeditor_swf][version] = 1.0
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.9
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.5
 
 ;projects[entitycache][subdir] = contrib
-;projects[entitycache][version] = 1.2
+;projects[entitycache][version] = 1.5
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
@@ -55,7 +58,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.8
+projects[views][version] = 3.13
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2

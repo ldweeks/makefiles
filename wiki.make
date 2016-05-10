@@ -6,7 +6,7 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.34.1.tar.gz
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.43.2.zip
 
 ; MODULES FOR PRODUCTION
 
@@ -17,6 +17,9 @@ projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.16
 ; Issue #2324383: You must use jQuery 1.7 on the administrative pages for CKEditor
 ; configuration to work.
+
+projects[ctools][subdir] = contrib
+projects[ctools][version] = 1.9
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
@@ -34,10 +37,13 @@ projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.4
+projects[jquery_update][version] = 2.7
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
+
+projects[linkit][subdir] = contrib
+projects[linkit][version] = 3.3
 
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
@@ -50,6 +56,12 @@ projects[site_map][version] = 1.2
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
+
+projects[views][subdir] = contrib
+projects[views][version] = 3.13
+
+projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][version] = 3.3
 
 ; THEMES
 
@@ -65,3 +77,8 @@ libraries[ckeditor][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/cke
 libraries[ckeditor][directory_name] = ckeditor
 ; I thought that the latest version of CKEditor I have is buggy. Not sure that's true.
 ; libraries[ckeditor][download][revision] = d3688f078f098daf2ecaed07511f5753d6a3e976
+
+; Epub PHP Classes
+libraries[epub][download][type] = git
+libraries[epub][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/epub.git
+libraries[epub][directory_name] = epub

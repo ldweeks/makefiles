@@ -6,7 +6,8 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.34.1.tar.gz
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.43.2.zip
+; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 
 ; MODULES FOR DEVELOPMENT
 
@@ -28,17 +29,17 @@ projects[qa_checklist][version] = 1.1
 ; MODULES FOR PRODUCTION
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 
 projects[ckeditor][subdir] = contrib
-projects[ckeditor][version] = 1.16
+projects[ckeditor][version] = 1.17
 ; Issue #2324383: You must use jQuery 1.7 on the administrative pages for CKEditor configuration to work.
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.8
+projects[colorbox][version] = 2.10
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.5
+projects[ctools][version] = 1.9
 
 projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 2.0-beta1
@@ -53,7 +54,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.3
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
@@ -65,16 +66,16 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.4
+projects[google_analytics][version] = 2.1
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
 
 projects[imce_filefield][subdir] = contrib
-projects[imce_filefield][version] = 1.0
+projects[imce_filefield][version] = 1.1
 
 projects[imce_plupload][subdir] = contrib
-projects[imce_plupload][version] = 1.2
+projects[imce_plupload][version] = 2.0
 
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.4
@@ -83,43 +84,43 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.3
+projects[link][version] = 1.4
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.4
+projects[metatag][version] = 1.9
 
 projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.9
 
 projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 1.8
+projects[module_filter][version] = 2.0
 
 projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.4
+projects[navbar][version] = 1.7
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.2
+projects[pathauto][version] = 1.3
 
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.7
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-rc1
+projects[redirect][version] = 1.0-rc3
 
 projects[site_map][subdir] = contrib
-projects[site_map][version] = 1.2
+projects[site_map][version] = 1.3
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.8
+projects[views][version] = 3.13
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.1
+projects[xmlsitemap][version] = 2.2
 
 ; THEMES
 

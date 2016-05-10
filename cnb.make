@@ -6,7 +6,8 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.35.1.tar.gz
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.43.2.zip
+; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 
 ; AUDIO
 
@@ -28,30 +29,33 @@ projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc5
 
 projects[bootstrap_carousel][subdir] = contrib
-projects[bootstrap_carousel][version] = 1.0
+projects[bootstrap_carousel][version] = 1.1
+projects[bootstrap_carousel][patch][] = https://www.drupal.org/files/issues/addLinkToSlide-2352989-3.patch
+; Make the image linkable: https://www.drupal.org/node/2352989
+
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
 
 projects[ckeditor][subdir] = contrib
-projects[ckeditor][version] = 1.16
+projects[ckeditor][version] = 1.17
 ; Issue #2324383: You must use jQuery 1.7 on the administrative pages for CKEditor
 ; configuration to work.
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.8
+projects[colorbox][version] = 2.10
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 
 projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 2.0-beta1
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 3.3
+projects[date_ical][version] = 3.8
 
 ; This library is, apparently, downloaded automatically by a make file in date_ical.
 ;libraries[iCalcreator][download][type] = git
@@ -71,10 +75,10 @@ projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.9
+projects[filefield_sources][version] = 1.10
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 3.6
+projects[flag][version] = 3.7
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
@@ -83,31 +87,31 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[gmap][subdir] = contrib
-projects[gmap][version] = 2.9
+projects[gmap][version] = 2.10
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.4
+projects[google_analytics][version] = 2.1
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.5
+projects[jquery_update][version] = 2.7
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.3
+projects[link][version] = 1.4
 
 projects[location][subdir] = contrib
-projects[location][version] = 3.6
+projects[location][version] = 3.7
 
 projects[mediaelement][subdir] = contrib
 projects[mediaelement][version] = 1.2
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.4
+projects[metatag][version] = 1.11
 
 projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.9
@@ -116,16 +120,16 @@ projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 2.0
 
 projects[navbar][subdir] = contrib
-projects[navbar][version] = 1.6
+projects[navbar][version] = 1.7
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.2
+projects[pathauto][version] = 1.3
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-rc1
+projects[redirect][version] = 1.0-rc3
 
 projects[site_map][subdir] = contrib
-projects[site_map][version] = 1.2
+projects[site_map][version] = 1.3
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
@@ -137,7 +141,7 @@ projects[tvi][subdir] = contrib
 projects[tvi][version] = 1.0-beta5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.10
+projects[views][version] = 3.13
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.2
