@@ -4,7 +4,7 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.41.1.tar.gz
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.43.2.tar.gz
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 
 ; MODULES
@@ -126,7 +126,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 2.1
 
 projects[google_analytics_counter][subdir] = contrib
-projects[google_analytics_counter][version] = 3.1
+projects[google_analytics_counter][version] = 3.3
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.0-beta2
@@ -239,7 +239,7 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.16
+projects[search_api][version] = 1.18
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
