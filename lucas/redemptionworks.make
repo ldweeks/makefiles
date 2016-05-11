@@ -4,10 +4,10 @@ core = 7.x
 api = 2
 
 ; CORE
-
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.32.1.tar.gz
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.43.2.zip
+; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 
 ; DEV MODULES
 
@@ -28,7 +28,7 @@ projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.13
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.9
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
@@ -37,13 +37,13 @@ projects[elements][subdir] = contrib
 projects[elements][version] = 1.4
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.5
+projects[entity][version] = 1.7
 
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.4
+projects[google_analytics][version] = 2.2
 
 projects[hide_formats][subdir] = contrib
 projects[hide_formats][version] = 1.1
@@ -118,13 +118,13 @@ projects[video_filter][subdir] = contrib
 projects[video_filter][version] = 3.1
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.8
+projects[views][version] = 3.13
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.2
+projects[views_bulk_operations][version] = 3.3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.21
+projects[webform][version] = 3.24
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
