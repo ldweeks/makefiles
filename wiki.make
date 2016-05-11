@@ -13,6 +13,12 @@ projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.43.2.
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc5
 
+projects[adminimal_admin_menu][subdir] = contrib
+projects[adminimal_admin_menu][version] = 1.7
+
+projects[ccl][subdir] = contrib
+projects[ccl][version] = 1.5
+
 projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.16
 ; Issue #2324383: You must use jQuery 1.7 on the administrative pages for CKEditor
@@ -48,6 +54,9 @@ projects[linkit][version] = 3.3
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
+projects[print][subdir] = contrib
+projects[print][version] = 2.0
+
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
@@ -65,9 +74,11 @@ projects[views_bulk_operations][version] = 3.3
 
 ; THEMES
 
-; Skeleton
-projects[skeletontheme][subdir] = contrib
-projects[skeletontheme][version] = 1.4
+projects[tweme][subdir] = contrib
+projects[tweme][version] = 3.0-beta5
+
+projects[adminimal_theme][subdir] = contrib
+projects[adminimal_theme][version] = 1.24
 
 ; LIBRARIES
 
