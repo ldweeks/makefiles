@@ -8,7 +8,7 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.43.2.zip
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.44.1.zip
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 
 ; DEV MODULES
@@ -57,7 +57,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.13
+projects[views][version] = 3.14
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
