@@ -6,7 +6,7 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.43.2.zip
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.50.1.zip
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 
 ; MODULES FOR DEVELOPMENT
@@ -36,10 +36,10 @@ projects[ckeditor][version] = 1.17
 ; Issue #2324383: You must use jQuery 1.7 on the administrative pages for CKEditor configuration to work.
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.10
+projects[colorbox][version] = 2.12
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.9
+projects[ctools][version] = 1.10
 
 projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 2.0-beta1
@@ -54,7 +54,7 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.3
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.6
+projects[entity][version] = 1.8
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
@@ -66,7 +66,7 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.1
+projects[google_analytics][version] = 2.3
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.9
@@ -117,10 +117,10 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.6
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.13
+projects[views][version] = 3.14
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.2
+projects[xmlsitemap][version] = 2.3
 
 ; THEMES
 
