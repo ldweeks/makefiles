@@ -6,8 +6,9 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.43.2.zip
+projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.54.2.tar.gz
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
+; Link to find out the current version: https://github.com/omega8cc/7x
 
 ; AUDIO
 
@@ -43,10 +44,10 @@ projects[ckeditor][version] = 1.17
 ; configuration to work.
 
 projects[colorbox][subdir] = contrib
-projects[colorbox][version] = 2.10
+projects[colorbox][version] = 2.12
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.9
+projects[ctools][version] = 1.12
 
 projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_breadcrumbs][version] = 2.0-beta1
@@ -55,7 +56,7 @@ projects[date][subdir] = contrib
 projects[date][version] = 2.9
 
 projects[date_ical][subdir] = contrib
-projects[date_ical][version] = 3.8
+projects[date_ical][version] = 3.9
 
 ; This library is, apparently, downloaded automatically by a make file in date_ical.
 ;libraries[iCalcreator][download][type] = git
@@ -63,13 +64,13 @@ projects[date_ical][version] = 3.8
 ;libraries[iCalcreator][directory_name] = iCalcreator
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 3.2
+projects[diff][version] = 3.3
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.3
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.6
+projects[entity][version] = 1.8
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
@@ -78,7 +79,7 @@ projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.10
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 3.7
+projects[flag][version] = 3.9
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
@@ -87,19 +88,19 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[gmap][subdir] = contrib
-projects[gmap][version] = 2.10
+projects[gmap][version] = 2.11
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.1
+projects[google_analytics][version] = 2.3
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.9
+projects[imce][version] = 1.10
 
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.7
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.2
+projects[libraries][version] = 2.3
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.4
@@ -111,7 +112,7 @@ projects[mediaelement][subdir] = contrib
 projects[mediaelement][version] = 1.2
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.11
+projects[metatag][version] = 1.21
 
 projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.9
@@ -135,22 +136,22 @@ projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.6
+projects[token][version] = 1.7
 
 projects[tvi][subdir] = contrib
-projects[tvi][version] = 1.0-beta5
+projects[tvi][version] = 1.0
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.13
+projects[views][version] = 3.15
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.2
+projects[xmlsitemap][version] = 2.3
 
 ; THEMES
 
 ; Drupal Bootstrap theme
 projects[bootstrap][subdir] = contrib
-projects[bootstrap][version] = 3.0
+projects[bootstrap][version] = 3.12
 
 ; Bootstrap sub-theme
 projects[cnb_bootstrap][type] = theme
