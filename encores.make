@@ -6,8 +6,8 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.50.1.zip
-; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.56.1.tar.gz
+; Link for updated Drupal Core can be found here: https://github.com/omega8cc/7x/releases
 
 ; MODULES FOR DEVELOPMENT
 
@@ -87,7 +87,7 @@ projects[link][subdir] = contrib
 projects[link][version] = 1.4
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.9
+projects[metatag][version] = 1.22
 
 projects[metatags_quick][subdir] = contrib
 projects[metatags_quick][version] = 2.9
@@ -111,13 +111,13 @@ projects[site_map][subdir] = contrib
 projects[site_map][version] = 1.3
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.1
+projects[site_verify][version] = 1.2
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.6
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.14
+projects[views][version] = 3.18
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.3
