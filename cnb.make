@@ -31,7 +31,7 @@ projects[admin_menu][version] = 3.0-rc5
 
 projects[bootstrap_carousel][subdir] = contrib
 projects[bootstrap_carousel][version] = 1.2
-projects[bootstrap_carousel][patch][] = https://www.drupal.org/files/issues/addLinkToSlide-2352989-3.patch
+projects[bootstrap_carousel][patch][] = https://www.drupal.org/files/issues/ability_to_add_a_link-2352989-10.patch
 ; Make the image linkable: https://www.drupal.org/node/2352989
 
 
