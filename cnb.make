@@ -29,11 +29,11 @@ projects[views_rss_itunes][version] = 1.0-rc2
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc5
 
+projects[bootstrap_carousel][type] = module
 projects[bootstrap_carousel][subdir] = contrib
-projects[bootstrap_carousel][version] = 1.2
-projects[bootstrap_carousel][patch][] = https://www.drupal.org/files/issues/ability_to_add_a_link-2352989-10.patch
+projects[bootstrap_carousel][download][type] = git
+projects[bootstrap_carousel][download][revision] = 404428f4637d03155fffcbe843baa41ec22954b5
 ; Make the image linkable: https://www.drupal.org/node/2352989
-
 
 projects[calendar][subdir] = contrib
 projects[calendar][version] = 3.5
