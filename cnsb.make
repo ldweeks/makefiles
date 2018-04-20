@@ -6,7 +6,7 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.43.2.zip
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.58.1.tar.gz
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 
 ; MODULES
@@ -18,7 +18,7 @@ projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.3
 
 projects[autocomplete_deluxe][subdir] = contrib
-projects[autocomplete_deluxe][version] = 2.1
+projects[autocomplete_deluxe][version] = 2.3
 
 projects[auto_entitylabel][subdir] = contrib
 projects[auto_entitylabel][version] = 1.3
@@ -64,13 +64,13 @@ projects[dropdown_checkboxes][subdir] = contrib
 projects[dropdown_checkboxes][version] = 1.0-rc1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.6
+projects[entity][version] = 1.9
 
 projects[entityconnect][subdir] = contrib
 projects[entityconnect][version] = 1.0-rc5
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.1
+projects[entityreference][version] = 1.5
 
 projects[facetapi][subdir] = contrib
 projects[facetapi][version] = 1.5
@@ -84,10 +84,11 @@ projects[feedburner][subdir] = contrib
 ; Issue #956872
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.10
+projects[filefield_sources][version] = 1.11
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 2.2
+projects[flag][version] = 3.9
+; Yikes!! Jumped from 2.x to 3.x
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
@@ -99,7 +100,7 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.1
+projects[google_analytics][version] = 2.4
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.x-dev
@@ -141,13 +142,13 @@ projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.6
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.7
+projects[metatag][version] = 1.25
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.15
 
 projects[oauth][subdir] = contrib
-projects[oauth][version] = 3.2
+projects[oauth][version] = 3.4
 
 projects[page_title][subdir] = contrib
 projects[page_title][version] = 2.7
@@ -186,7 +187,7 @@ projects[seo_checklist][subdir] = contrib
 projects[seo_checklist][version] = 4.0
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.1
+projects[site_verify][version] = 1.2
 
 projects[soundmanager2][type] = module
 projects[soundmanager2][subdir] = contrib
@@ -206,7 +207,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.6
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.13
+projects[views][version] = 3.20
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.3
@@ -215,7 +216,7 @@ projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.24
+projects[webform][version] = 3.27
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -224,7 +225,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.2
+projects[xmlsitemap][version] = 2.3
 
 ; THEMES
 
