@@ -6,7 +6,7 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.54.2.tar.gz
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.58.1.tar.gz
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 ; Link to find out the current version: https://github.com/omega8cc/7x
 
@@ -30,7 +30,7 @@ projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc5
 
 projects[bootstrap_carousel][subdir] = contrib
-projects[bootstrap_carousel][version] = 1.1
+projects[bootstrap_carousel][version] = 1.2
 projects[bootstrap_carousel][patch][] = https://www.drupal.org/files/issues/addLinkToSlide-2352989-3.patch
 ; Make the image linkable: https://www.drupal.org/node/2352989
 
@@ -70,13 +70,13 @@ projects[email][subdir] = contrib
 projects[email][version] = 1.3
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.8
+projects[entity][version] = 1.9
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.10
+projects[filefield_sources][version] = 1.11
 
 projects[flag][subdir] = contrib
 projects[flag][version] = 3.9
@@ -133,7 +133,7 @@ projects[site_map][subdir] = contrib
 projects[site_map][version] = 1.3
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.1
+projects[site_verify][version] = 1.2
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.7
@@ -142,7 +142,7 @@ projects[tvi][subdir] = contrib
 projects[tvi][version] = 1.0
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.15
+projects[views][version] = 3.20
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.3
