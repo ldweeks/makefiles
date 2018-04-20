@@ -249,7 +249,7 @@ libraries[chosen][directory_name] = chosen
 
 ; ddcl - Dropdown Check List
 libraries[ddcl][download][type] = file
-libraries[ddcl][download][url] = http://dropdown-check-list.googlecode.com/files/dropdown-check-list.1.3.zip
+libraries[ddcl][download][url] = https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dropdown-check-list/dropdown-check-list.1.3.zip
 libraries[ddcl][directory_name] = ddcl
 
 ; jplayer
@@ -281,9 +281,8 @@ libraries[superfish][directory_name] = superfish
 
 ; Solr PHP Client
 libraries[SolrPhpClient][download][type] = file
-libraries[SolrPhpClient][download][url] = http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.tgz
+libraries[SolrPhpClient][download][url] = https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/solr-php-client/SolrPhpClient.r60.2011-05-04.zip
 libraries[SolrPhpClient][directory_name] = SolrPhpClient
-libraries[SolrPhpClient][download][sha1] = 211b6ad55eafa172778f9d9672a23ea07248fbd6
 
 ; SoundManager2
 libraries[soundmanager2][download][type] = git
