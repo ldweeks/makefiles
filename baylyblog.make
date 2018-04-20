@@ -4,7 +4,7 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://files.aegir.cc/core/drupal-7.54.2.tar.gz
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.58.1.tar.gz
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 ; Link to find out the current version: https://github.com/omega8cc/7x
 
@@ -80,7 +80,7 @@ projects[disqus_migrate][patch][2626806] = https://www.drupal.org/files/issues/%
 projects[disqus_migrate][patch][2626652] = https://www.drupal.org/files/issues/%5Bindividual_comment_status%5D-%5B2626652%5D-%5B5%5D.patch
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.8
+projects[entity][version] = 1.9
 
 projects[extlink][subdir] = contrib
 projects[extlink][version] = 1.18
@@ -100,7 +100,7 @@ projects[feedburner][directory_name] = feedburner
 ; Issue #956872
 
 projects[filefield_sources][subdir] = contrib
-projects[filefield_sources][version] = 1.10
+projects[filefield_sources][version] = 1.11
 
 projects[flippy][subdir] = contrib
 projects[flippy][version] = 1.4
@@ -225,7 +225,7 @@ projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc3
 
 projects[references][subdir] = contrib
-projects[references][version] = 2.1
+projects[references][version] = 2.2
 
 projects[reftagger][subdir] = contrib
 projects[reftagger][version] = 1.1
@@ -249,7 +249,7 @@ projects[search_api_solr][subdir] = contrib
 projects[search_api_solr][version] = 1.12
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.1
+projects[site_verify][version] = 1.2
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
@@ -270,7 +270,7 @@ projects[video_filter][subdir] = contrib
 projects[video_filter][version] = 3.4
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.15
+projects[views][version] = 3.20
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.4
