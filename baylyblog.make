@@ -364,4 +364,4 @@ libraries[SolrPhpClient][directory_name] = SolrPhpClient
 ; baylyblog.com
 projects[baylyblog][type] = profile
 projects[baylyblog][download][type] = git
-projects[baylyblog][download][url] = ssh://git@cnf.repositoryhosting.com/cnf/baylyblog.git
+projects[baylyblog][download][url] = git://cnf.repositoryhosting.com/cnf/baylyblog.git
