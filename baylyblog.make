@@ -4,7 +4,7 @@ api = 2
 ; CORE
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.58.1.tar.gz
+projects[drupal][download][url] = https://github.com/omega8cc/7x/archive/7.77.1.tar.gz
 ; Link for updated Drupal Core can be found here: https://omega8.cc/how-to-add-custom-platform-properly-140
 ; Link to find out the current version: https://github.com/omega8cc/7x
 
@@ -48,7 +48,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.1
 
 projects[ckeditor][subdir] = contrib
-projects[ckeditor][version] = 1.17
+projects[ckeditor][version] = 1.19
 
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.3
@@ -57,7 +57,7 @@ projects[content_taxonomy][subdir] = contrib
 projects[content_taxonomy][version] = 1.0-beta1
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.7
+projects[context][version] = 3.10
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.12
