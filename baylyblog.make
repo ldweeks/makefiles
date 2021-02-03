@@ -18,7 +18,7 @@ projects[accordion_menu][download][revision] = 2fe1e27
 ; This particular version does *not* require menu_block (though we may install it anyway)
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc5
+projects[admin_menu][version] = 3.0-rc6
 
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
@@ -39,7 +39,7 @@ projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.2
 
 projects[breakpoints][subdir] = contrib
-projects[breakpoints][version] = 1.4
+projects[breakpoints][version] = 1.6
 
 projects[cdn][subdir] = contrib
 projects[cdn][version] = 2.9
@@ -60,10 +60,10 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.10
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.12
+projects[ctools][version] = 1.19
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.9
+projects[date][version] = 2.10
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.2
@@ -83,13 +83,13 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.9
 
 projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.18
+projects[extlink][version] = 1.21
 
 projects[facetapi][subdir] = contrib
-projects[facetapi][version] = 1.5
+projects[facetapi][version] = 1.6
 
 projects[features][subdir] = contrib
-projects[features][version] = 2.10
+projects[features][version] = 2.13
 
 projects[feedburner][type] = module
 projects[feedburner][subdir] = contrib
@@ -103,10 +103,10 @@ projects[filefield_sources][subdir] = contrib
 projects[filefield_sources][version] = 1.11
 
 projects[flippy][subdir] = contrib
-projects[flippy][version] = 1.4
+projects[flippy][version] = 1.5
 
 projects[footnotes][subdir] = contrib
-projects[footnotes][version] = 2.5
+projects[footnotes][version] = 2.6
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
@@ -118,13 +118,13 @@ projects[ga_stats][subdir] = contrib
 projects[ga_stats][version] = 1.0-beta2
 
 projects[globalredirect][subdir] = contrib
-projects[globalredirect][version] = 1.5
+projects[globalredirect][version] = 1.6
 
 projects[goaway][subdir] = contrib
 projects[goaway][version] = 1.2
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 2.3
+projects[google_analytics][version] = 2.6
 
 projects[google_analytics_counter][subdir] = contrib
 projects[google_analytics_counter][version] = 3.3
@@ -147,7 +147,7 @@ projects[image_resize_filter][subdir] = contrib
 projects[image_resize_filter][version] = 1.16
 
 projects[imce][subdir] = contrib
-projects[imce][version] = 1.10
+projects[imce][version] = 1.11
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
@@ -159,10 +159,10 @@ projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.7
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.3
+projects[libraries][version] = 2.5
 
 projects[link][subdir] = contrib
-projects[link][version] = 1.4
+projects[link][version] = 1.7
 
 projects[login_destination][subdir] = contrib
 projects[login_destination][version] = 1.4
@@ -171,7 +171,7 @@ projects[markdown][subdir] = contrib
 projects[markdown][version] = 1.2
 
 projects[mailsystem][subdir] = contrib
-projects[mailsystem][version] = 2.34
+projects[mailsystem][version] = 2.35
 
 projects[mandrill][subdir] = contrib
 projects[mandrill][version] = 1.6
@@ -180,22 +180,22 @@ projects[mediaelement][subdir] = contrib
 projects[mediaelement][version] = 1.2
 
 projects[metatags_quick][subdir] = contrib
-projects[metatags_quick][version] = 2.9
+projects[metatags_quick][version] = 2.10
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.15
 
 projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 2.0
+projects[module_filter][version] = 2.2
 
 projects[multiselect][subdir] = contrib
-projects[multiselect][version] = 1.12
+projects[multiselect][version] = 1.13
 
 projects[navbar][subdir] = contrib
 projects[navbar][version] = 1.7
 
 projects[nodequeue][subdir] = contrib
-projects[nodequeue][version] = 2.1
+projects[nodequeue][version] = 2.3
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.4
@@ -210,13 +210,13 @@ projects[print][subdir] = contrib
 projects[print][version] = 1.2
 
 projects[profile2][subdir] = contrib
-projects[profile2][version] = 1.3
+projects[profile2][version] = 1.7
 
 projects[publish_button][subdir] = contrib
 projects[publish_button][version] = 1.1
 
 projects[quicktabs][subdir] = contrib
-projects[quicktabs][version] = 3.6
+projects[quicktabs][version] = 3.8
 
 projects[readmorecontrol][subdir] = contrib
 projects[readmorecontrol][version] = 1.2
@@ -234,19 +234,19 @@ projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.9
+projects[rules][version] = 2.12
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = 1.21
+projects[search_api][version] = 1.27
 
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta2
 
 projects[search_api_solr][subdir] = contrib
-projects[search_api_solr][version] = 1.12
+projects[search_api_solr][version] = 1.15
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.2
@@ -261,7 +261,7 @@ projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9
 
 projects[tagclouds][subdir] = contrib
-projects[tagclouds][version] = 1.11
+projects[tagclouds][version] = 1.12
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.7
@@ -270,19 +270,19 @@ projects[video_filter][subdir] = contrib
 projects[video_filter][version] = 3.4
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.20
+projects[views][version] = 3.24
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.4
+projects[views_bulk_operations][version] = 3.6
 
 projects[views_rss][subdir] = contrib
 projects[views_rss][version] = 2.0-rc4
 
 projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 3.8
+projects[views_slideshow][version] = 3.10
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.27
+projects[webform][version] = 3.30
 
 projects[workbench][subdir] = contrib
 projects[workbench][version] = 1.2
@@ -294,7 +294,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.3
+projects[xmlsitemap][version] = 2.6
 
 ; THEMES
 
