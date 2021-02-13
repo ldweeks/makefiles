@@ -58,7 +58,7 @@ projects[date_popup_authored][subdir] = contrib
 projects[date_popup_authored][version] = 1.2
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 3.14
+projects[diff][version] = 3.4
 
 projects[dropdown_checkboxes][subdir] = contrib
 projects[dropdown_checkboxes][version] = 1.0-rc1
